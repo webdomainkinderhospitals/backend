@@ -46,6 +46,10 @@ model Location {
   email     String  @default("")
   mapUrl    String  @default("")
   imageUrl  String  @default("")
+  since     String  @default("") // e.g. "Since 2011" / "International HQ"
+  website   String  @default("")
+  websiteLabel String @default("")
+  international Boolean @default(false)
   sortOrder Int     @default(0)
   published Boolean @default(true)
 }
@@ -80,6 +84,7 @@ model NewsPost {
   excerpt     String   @default("")
   body        String   @default("")
   imageUrl    String   @default("")
+  author      String   @default("")
   publishedAt DateTime @default(now())
   published   Boolean  @default(true)
 }
@@ -88,6 +93,7 @@ model Procedure {
   id          Int     @id @default(autoincrement())
   name        String
   description String  @default("")
+  icon        String  @default("")
   imageUrl    String  @default("")
   sortOrder   Int     @default(0)
   published   Boolean @default(true)

@@ -18,7 +18,7 @@ const COLLECTIONS = {
   locations: {
     model: 'location',
     orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }],
-    fields: ['name', 'city', 'country', 'address', 'phone', 'email', 'mapUrl', 'imageUrl', 'sortOrder', 'published'],
+    fields: ['name', 'city', 'country', 'address', 'phone', 'email', 'mapUrl', 'imageUrl', 'since', 'website', 'websiteLabel', 'international', 'sortOrder', 'published'],
     required: ['name'],
   },
   doctors: {
@@ -36,13 +36,13 @@ const COLLECTIONS = {
   news: {
     model: 'newsPost',
     orderBy: [{ publishedAt: 'desc' }],
-    fields: ['title', 'slug', 'category', 'excerpt', 'body', 'imageUrl', 'publishedAt', 'published'],
+    fields: ['title', 'slug', 'category', 'excerpt', 'body', 'imageUrl', 'author', 'publishedAt', 'published'],
     required: ['title'],
   },
   procedures: {
     model: 'procedure',
     orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }],
-    fields: ['name', 'description', 'imageUrl', 'sortOrder', 'published'],
+    fields: ['name', 'description', 'icon', 'imageUrl', 'sortOrder', 'published'],
     required: ['name'],
   },
 };
@@ -52,7 +52,7 @@ function pick(body, fields) {
   for (const f of fields) {
     if (body[f] === undefined) continue;
     if (f === 'sortOrder' || f === 'rating') data[f] = parseInt(body[f], 10) || 0;
-    else if (f === 'published') data[f] = Boolean(body[f]);
+    else if (f === 'published' || f === 'international') data[f] = Boolean(body[f]);
     else if (f === 'publishedAt') data[f] = new Date(body[f]);
     else data[f] = String(body[f]);
   }
