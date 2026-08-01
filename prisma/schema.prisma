@@ -1,0 +1,105 @@
+// Kinder Hospitals content database.
+// Works on Neon today; moving to GCP Cloud SQL for PostgreSQL later is only a
+// DATABASE_URL change — no schema or code changes needed.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model AdminUser {
+  id           Int      @id @default(autoincrement())
+  email        String   @unique
+  passwordHash String
+  name         String
+  role         String   @default("admin") // admin | editor
+  createdAt    DateTime @default(now())
+}
+
+// Free-form site-wide settings (site name, phones, hero text, stats JSON…)
+model Setting {
+  key   String @id
+  value Json
+}
+
+model Speciality {
+  id          Int     @id @default(autoincrement())
+  name        String
+  description String  @default("")
+  icon        String  @default("") // emoji or icon name
+  imageUrl    String  @default("")
+  sortOrder   Int     @default(0)
+  published   Boolean @default(true)
+}
+
+model Location {
+  id        Int     @id @default(autoincrement())
+  name      String
+  city      String  @default("")
+  country   String  @default("India")
+  address   String  @default("")
+  phone     String  @default("")
+  email     String  @default("")
+  mapUrl    String  @default("")
+  imageUrl  String  @default("")
+  sortOrder Int     @default(0)
+  published Boolean @default(true)
+}
+
+model Doctor {
+  id          Int     @id @default(autoincrement())
+  name        String
+  designation String  @default("")
+  speciality  String  @default("")
+  location    String  @default("")
+  bio         String  @default("")
+  imageUrl    String  @default("")
+  sortOrder   Int     @default(0)
+  published   Boolean @default(true)
+}
+
+model Testimonial {
+  id          Int     @id @default(autoincrement())
+  patientName String
+  relation    String  @default("") // e.g. "Mother of twins, Kochi"
+  quote       String
+  rating      Int     @default(5)
+  imageUrl    String  @default("")
+  published   Boolean @default(true)
+}
+
+model NewsPost {
+  id          Int      @id @default(autoincrement())
+  title       String
+  slug        String   @unique
+  category    String   @default("News") // News | Event | Camp
+  excerpt     String   @default("")
+  body        String   @default("")
+  imageUrl    String   @default("")
+  publishedAt DateTime @default(now())
+  published   Boolean  @default(true)
+}
+
+model Procedure {
+  id          Int     @id @default(autoincrement())
+  name        String
+  description String  @default("")
+  imageUrl    String  @default("")
+  sortOrder   Int     @default(0)
+  published   Boolean @default(true)
+}
+
+// Every uploaded image (stored in Google Cloud Storage, or local disk in dev)
+model Media {
+  id        Int      @id @default(autoincrement())
+  fileName  String
+  url       String
+  mimeType  String   @default("")
+  sizeBytes Int      @default(0)
+  folder    String   @default("general") // hero | doctors | locations | news | general…
+  createdAt DateTime @default(now())
+}
