@@ -78,7 +78,10 @@ async function main() {
     await prisma.location.createMany({
       data: [
         {
-          name: 'Cherthala', city: 'Cherthala', country: 'India',
+          name: 'Cherthala', slug: 'cherthala',
+          tagline: "The flagship — where the Kinder promise began.",
+          description: "Kinder Hospital Cherthala opened in 2011 as the first NABH-accredited women & children hospital in the Alappuzha district. Over a decade later, it remains our flagship — a complete women's and children's hospital with round-the-clock emergency care, a Level III NICU, painless delivery, and a full fertility unit, all delivered with the kindness our name stands for.",
+          highlights: "NABH accredited since 2011\n24/7 emergency, lab & pharmacy\nLevel III NICU for newborn intensive care\nPainless delivery & modern birthing suites\nFertility & IVF unit\n13,000+ safe deliveries and counting", city: 'Cherthala', country: 'India',
           address: 'The flagship — first NABH-accredited women & children hospital in Alappuzha. Maruthorvattom Temple Road, near NH 66.',
           phone: '+91 478 2830000', email: 'contactus@kinderhospital.in',
           mapUrl: 'https://kinderhospital.in',
@@ -87,7 +90,10 @@ async function main() {
           websiteLabel: 'Visit kinderhospital.in →', international: false, sortOrder: 1,
         },
         {
-          name: 'Kochi', city: 'Kochi', country: 'India',
+          name: 'Kochi', slug: 'kochi',
+          tagline: "A 125-bed multispeciality hospital in the heart of Edappally.",
+          description: "Kinder Multispeciality Hospital Kochi brings 25 specialities under one roof — from obstetrics, fertility and neonatology to general medicine, surgery, ENT and dermatology. With 125 beds, senior consultants, advanced laparoscopic surgery and a Level III NICU, it is our largest centre in Kerala, serving families across Ernakulam since 2018.",
+          highlights: "125 beds · 25+ specialities\nSenior consultants across every department\nLevel III NICU & paediatric ICU\nAdvanced laparoscopic & keyhole surgery\n24/7 emergency & ambulance\nFull-service lab, imaging & pharmacy", city: 'Kochi', country: 'India',
           address: 'A 125-bed multispeciality with 25 specialities. Kadavil Castle, Pukkattupady Road, Toll Junction, Edappally — Kochi 682024.',
           phone: '+91 484 405 4000', email: 'contactus@kinderhospital.in',
           mapUrl: 'https://www.kinderkochi.com',
@@ -96,7 +102,10 @@ async function main() {
           websiteLabel: 'Visit kinderkochi.com →', international: false, sortOrder: 2,
         },
         {
-          name: 'Bengaluru', city: 'Bengaluru', country: 'India',
+          name: 'Bengaluru', slug: 'bengaluru',
+          tagline: "Whitefield's premier women's hospital & fertility centre.",
+          description: "Opened in 2022, Kinder Women & Children Hospital Bengaluru serves Whitefield, Hoodi and Krishnarajapura with 17 specialities focused on women's health and fertility. From IVF and high-risk pregnancy care to painless delivery and well-woman clinics, the same trusted Kinder protocols now care for families across east Bengaluru.",
+          highlights: "Dedicated fertility & IVF centre\n17 specialities for women & children\nHigh-risk pregnancy & fetal medicine\nPainless delivery & birthing suites\nWell-woman health check programmes", city: 'Bengaluru', country: 'India',
           address: "Whitefield's premier women's hospital & fertility centre. 17 specialities. Doddanekundi, Hoodi Village, Krishnarajapura.",
           phone: '+91 80 2888 8880', email: 'contactus@kinderhospital.in',
           mapUrl: 'https://kinderhospitals.com',
@@ -105,7 +114,10 @@ async function main() {
           websiteLabel: 'Visit kinderhospitals.com →', international: false, sortOrder: 3,
         },
         {
-          name: 'Alappuzha', city: 'Alappuzha', country: 'India',
+          name: 'Alappuzha', slug: 'alappuzha',
+          tagline: "Continuing the Cherthala legacy in Alappuzha town.",
+          description: "Kinder Women's & Children's Clinic Alappuzha is our newest Indian centre, opened in 2023. It brings Kinder's antenatal care, gynaecology consultations, paediatric clinics and diagnostics closer to families in Alappuzha town — backed by the full facilities of our flagship hospital in nearby Cherthala.",
+          highlights: "Women's & children's OPD clinics\nAntenatal & postnatal care\nPaediatric & vaccination clinic\nLab, scans & pharmacy\nSeamless referral to Kinder Cherthala", city: 'Alappuzha', country: 'India',
           address: "Our newest Indian centre — Kinder Women's & Children's Clinic, Alappuzha. Continuing the Cherthala legacy.",
           phone: '+91 478 2830000', email: 'contactus@kinderhospital.in',
           mapUrl: 'https://kinderhospital.in/kinder_alleppey',
@@ -114,7 +126,10 @@ async function main() {
           websiteLabel: 'Visit Alappuzha →', international: false, sortOrder: 4,
         },
         {
-          name: 'Singapore', city: 'Singapore', country: 'Singapore',
+          name: 'Singapore', slug: 'singapore',
+          tagline: "Where the Kinder story began — at The Paragon, Orchard Road.",
+          description: "Kinder Clinic Singapore is the international home of the Kinder Medical Group and one of Singapore's most established paediatric practices. Located at The Paragon on Orchard Road, our specialists provide paediatric consultations and child health services to international standards — the same standards that guide every Kinder hospital in India.",
+          highlights: "Established paediatric specialist group\nThe Paragon, 290 Orchard Road #07-02\nInternational clinical standards\nGroup headquarters & clinical governance", city: 'Singapore', country: 'Singapore',
           address: 'Kinder Clinic at The Paragon, 290 Orchard Road, Unit #07-02 — where the Kinder story began.',
           phone: '', email: '',
           mapUrl: 'https://www.kinderclinic.com.sg',

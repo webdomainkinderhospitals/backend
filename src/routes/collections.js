@@ -18,7 +18,7 @@ const COLLECTIONS = {
   locations: {
     model: 'location',
     orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }],
-    fields: ['name', 'city', 'country', 'address', 'phone', 'email', 'mapUrl', 'imageUrl', 'since', 'website', 'websiteLabel', 'international', 'sortOrder', 'published'],
+    fields: ['name', 'city', 'country', 'address', 'phone', 'email', 'mapUrl', 'imageUrl', 'since', 'slug', 'tagline', 'description', 'heroImageUrl', 'highlights', 'website', 'websiteLabel', 'international', 'sortOrder', 'published'],
     required: ['name'],
   },
   doctors: {

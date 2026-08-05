@@ -47,6 +47,11 @@ model Location {
   mapUrl    String  @default("")
   imageUrl  String  @default("")
   since     String  @default("") // e.g. "Since 2011" / "International HQ"
+  slug      String  @default("") // URL of its page on the corporate site, e.g. "kochi"
+  tagline   String  @default("")
+  description String @default("")
+  heroImageUrl String @default("")
+  highlights String @default("") // one highlight per line
   website   String  @default("")
   websiteLabel String @default("")
   international Boolean @default(false)
