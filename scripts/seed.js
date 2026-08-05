@@ -194,19 +194,19 @@ async function main() {
     await prisma.testimonial.createMany({
       data: [
         {
-          patientName: 'Swami Chakra Reddy', relation: 'Bengaluru · IVF',
+          patientName: 'Swami Chakra Reddy', relation: 'Bengaluru · IVF', location: 'Bengaluru',
           quote: 'We visited Kinder for IVF and pregnancy treatment, and we received excellent care throughout our journey. Special thanks to Dr. Nidhi Jhawar for her guidance — we conceived with healthy twin heartbeats.',
           rating: 5,
           imageUrl: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80',
         },
         {
-          patientName: 'Srikkanth Iyer', relation: 'Bengaluru · Obstetrics',
+          patientName: 'Srikkanth Iyer', relation: 'Bengaluru · Obstetrics', location: 'Bengaluru',
           quote: 'Honestly, the best maternity hospital in Bangalore — cost, care, labour room, everything. Dr. Sreeja Rani is just too good. Out of words to describe her expertise. 10/10.',
           rating: 5,
           imageUrl: 'https://images.unsplash.com/photo-1666214280557-f1b5022eb634?auto=format&fit=crop&w=800&q=80',
         },
         {
-          patientName: 'Reeja Stephen', relation: 'Cherthala · Maternity',
+          patientName: 'Reeja Stephen', relation: 'Cherthala · Maternity', location: 'Cherthala',
           quote: 'Best hospital in Cherthala for women & child care. Thanks to Dr. Neena, Dr. Vennila, and all the nurses for providing the best service. Heartfelt thanks to staff Mrs. Annamma Chechi for helping us throughout this journey.',
           rating: 5,
           imageUrl: 'https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?auto=format&fit=crop&w=800&q=80',
