@@ -32,6 +32,7 @@ model Speciality {
   description String  @default("")
   icon        String  @default("") // emoji or icon name
   imageUrl    String  @default("")
+  location    String  @default("") // "" = all centres, else a Location name
   sortOrder   Int     @default(0)
   published   Boolean @default(true)
 }
@@ -78,6 +79,7 @@ model Testimonial {
   quote       String
   rating      Int     @default(5)
   imageUrl    String  @default("")
+  location    String  @default("") // "" = all centres, else a Location name
   published   Boolean @default(true)
 }
 
@@ -90,6 +92,7 @@ model NewsPost {
   body        String   @default("")
   imageUrl    String   @default("")
   author      String   @default("")
+  location    String   @default("") // "" = all centres, else a Location name
   publishedAt DateTime @default(now())
   published   Boolean  @default(true)
 }
@@ -100,6 +103,7 @@ model Procedure {
   description String  @default("")
   icon        String  @default("")
   imageUrl    String  @default("")
+  location    String  @default("") // "" = all centres, else a Location name
   sortOrder   Int     @default(0)
   published   Boolean @default(true)
 }

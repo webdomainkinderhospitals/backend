@@ -12,7 +12,7 @@ const COLLECTIONS = {
   specialities: {
     model: 'speciality',
     orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }],
-    fields: ['name', 'description', 'icon', 'imageUrl', 'sortOrder', 'published'],
+    fields: ['name', 'description', 'icon', 'imageUrl', 'location', 'sortOrder', 'published'],
     required: ['name'],
   },
   locations: {
@@ -30,19 +30,19 @@ const COLLECTIONS = {
   testimonials: {
     model: 'testimonial',
     orderBy: [{ id: 'desc' }],
-    fields: ['patientName', 'relation', 'quote', 'rating', 'imageUrl', 'published'],
+    fields: ['patientName', 'relation', 'quote', 'rating', 'imageUrl', 'location', 'published'],
     required: ['patientName', 'quote'],
   },
   news: {
     model: 'newsPost',
     orderBy: [{ publishedAt: 'desc' }],
-    fields: ['title', 'slug', 'category', 'excerpt', 'body', 'imageUrl', 'author', 'publishedAt', 'published'],
+    fields: ['title', 'slug', 'category', 'excerpt', 'body', 'imageUrl', 'author', 'location', 'publishedAt', 'published'],
     required: ['title'],
   },
   procedures: {
     model: 'procedure',
     orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }],
-    fields: ['name', 'description', 'icon', 'imageUrl', 'sortOrder', 'published'],
+    fields: ['name', 'description', 'icon', 'imageUrl', 'location', 'sortOrder', 'published'],
     required: ['name'],
   },
 };
