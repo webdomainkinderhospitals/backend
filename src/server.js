@@ -37,4 +37,11 @@ app.use((err, req, res, next) => {
 });
 
 const port = process.env.PORT || 8080;
-app.listen(port, () => console.log(`Kinder Hospitals API listening on :${port}`));
+app.listen(port, () => {
+  console.log(`Kinder Hospitals API listening on :${port}`);
+  // File existing specialities under their corporate service groups and add
+  // any missing catalogue services. Idempotent; never blocks startup.
+  require('./lib/bootstrapSpecialities')
+    .bootstrapSpecialities()
+    .catch((e) => console.error('Speciality bootstrap failed:', e.message));
+});

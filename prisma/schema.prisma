@@ -29,6 +29,7 @@ model Setting {
 model Speciality {
   id          Int     @id @default(autoincrement())
   name        String
+  category    String  @default("") // corporate services page group, e.g. "Maternity & Pregnancy"
   description String  @default("")
   icon        String  @default("") // emoji or icon name
   imageUrl    String  @default("")
