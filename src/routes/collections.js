@@ -12,7 +12,7 @@ const COLLECTIONS = {
   specialities: {
     model: 'speciality',
     orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }],
-    fields: ['name', 'description', 'icon', 'imageUrl', 'location', 'sortOrder', 'published'],
+    fields: ['name', 'category', 'description', 'icon', 'imageUrl', 'location', 'sortOrder', 'published'],
     required: ['name'],
   },
   locations: {

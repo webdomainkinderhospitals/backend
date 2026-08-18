@@ -17,5 +17,5 @@ COPY scripts ./scripts
 ENV NODE_ENV=production
 EXPOSE 8080
 
-# Apply pending migrations, then start the API
-CMD ["sh", "-c", "npx prisma migrate deploy && node src/server.js"]
+# Sync the schema (additive changes only — no migrations dir), then start the API
+CMD ["sh", "-c", "npx prisma db push --skip-generate && node src/server.js"]
