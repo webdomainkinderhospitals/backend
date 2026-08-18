@@ -14,12 +14,17 @@ const SITE_ASSETS = process.env.SITE_ASSETS_URL || 'https://frontend-lime-six-70
 async function main() {
   const email = (process.env.ADMIN_EMAIL || 'admin@kinderhospitals.com').toLowerCase();
   const password = process.env.ADMIN_PASSWORD || 'ChangeMe123!';
+  const passwordHash = await bcrypt.hash(password, 10);
   await prisma.adminUser.upsert({
     where: { email },
-    update: {},
-    create: { email, name: 'Site Admin', passwordHash: await bcrypt.hash(password, 10) },
+    // An explicitly provided ADMIN_PASSWORD resets the account's password,
+    // so re-running the seed is the recovery path for a forgotten login.
+    update: process.env.ADMIN_PASSWORD ? { passwordHash } : {},
+    create: { email, name: 'Site Admin', passwordHash },
   });
-  console.log(`Admin user ready: ${email}`);
+  console.log(
+    `Admin user ready: ${email}${process.env.ADMIN_PASSWORD ? ' (password set from ADMIN_PASSWORD)' : ''}`
+  );
 
   // SEED_RESET=1 wipes all website content (never admin users or media
   // records) and reloads the canonical site content below.
