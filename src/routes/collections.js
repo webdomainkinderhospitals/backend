@@ -24,7 +24,7 @@ const COLLECTIONS = {
   doctors: {
     model: 'doctor',
     orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }],
-    fields: ['name', 'designation', 'speciality', 'location', 'bio', 'imageUrl', 'sortOrder', 'published'],
+    fields: ['name', 'designation', 'speciality', 'location', 'bio', 'fullBio', 'imageUrl', 'sortOrder', 'published'],
     required: ['name'],
   },
   testimonials: {
