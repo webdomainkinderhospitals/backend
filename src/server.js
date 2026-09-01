@@ -44,4 +44,7 @@ app.listen(port, () => {
   require('./lib/bootstrapSpecialities')
     .bootstrapSpecialities()
     .catch((e) => console.error('Speciality bootstrap failed:', e.message));
+  require('./lib/bootstrapAranmula')
+    .bootstrapAranmula()
+    .catch((e) => console.error('Aranmula bootstrap failed:', e.message));
 });
