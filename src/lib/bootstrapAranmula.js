@@ -100,6 +100,20 @@ const SPECIALITIES = [
   'Radiology & Diagnostics',
 ];
 
+const FLAG_V3 = 'bootstrap.aranmula.v3';
+
+// The Aranmula medical team as published on kinderaranmula.com.
+// Photos are not seeded — upload each doctor's real portrait via the admin
+// (Services & Doctors → edit doctor → upload photo); a branded placeholder
+// shows until then.
+const DOCTORS = [
+  { name: 'Dr. Aswathi A. S', designation: 'MBBS, MS (Obstetrics & Gynaecology)', speciality: 'Obstetrics & Gynaecology' },
+  { name: 'Dr. Milena Kamal', designation: 'MBBS, MS (Obstetrics & Gynaecology) — Neonatology and Paediatrics', speciality: 'Obstetrics & Gynaecology' },
+  { name: 'Dr. Sethulakshmi S', designation: 'MBBS, DNB, MNAMS · Diploma in Cosmetic Gynaecology · Fellowship in Laparoscopy & NDVH', speciality: 'Gynaecology' },
+  { name: 'Dr. Jeswin Mary James', designation: 'MBBS, DCH, DNB (Paediatrics)', speciality: 'Paediatrics' },
+  { name: 'Dr. Ganga M P', designation: 'MBBS, DGO', speciality: 'Obstetrics & Gynaecology' },
+];
+
 const norm = (s) => String(s || '').trim().toLowerCase();
 
 async function ensureSpecialities() {
@@ -149,6 +163,24 @@ async function bootstrapAranmula() {
       console.log('Refreshed Kinder Aranmula content (v2)');
     }
     await prisma.setting.create({ data: { key: FLAG_V2, value: 'done' } });
+  }
+
+  // v3 — the published Aranmula doctor roster. Created once; never touches
+  // doctors that already exist (by name) or later admin edits/deletions.
+  if (!(await prisma.setting.findUnique({ where: { key: FLAG_V3 } }))) {
+    const existing = await prisma.doctor.findMany();
+    const have = new Set(existing.map((d) => norm(d.name)));
+    let sort = existing.reduce((m, d) => Math.max(m, d.sortOrder || 0), 0);
+    let created = 0;
+    for (const doc of DOCTORS) {
+      if (have.has(norm(doc.name))) continue;
+      await prisma.doctor.create({
+        data: { ...doc, location: 'Aranmula', sortOrder: ++sort, published: true },
+      });
+      created++;
+    }
+    if (created) console.log(`Bootstrapped ${created} Aranmula doctors`);
+    await prisma.setting.create({ data: { key: FLAG_V3, value: 'done' } });
   }
 }
 
