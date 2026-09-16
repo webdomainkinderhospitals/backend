@@ -2,12 +2,13 @@
 // The Next.js site calls this every 60s (ISR), so one query batch is plenty.
 const express = require('express');
 const prisma = require('../lib/prisma');
+const { publicRecord } = require('../lib/contentValidation');
 
 const router = express.Router();
 
 router.get('/', async (req, res, next) => {
   try {
-    const [settingRows, specialities, locations, doctors, testimonials, news, procedures] =
+    const [settingRows, specialities, locations, doctors, testimonials, news, procedures, pages] =
       await prisma.$transaction([
         prisma.setting.findMany(),
         prisma.speciality.findMany({ where: { published: true }, orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }] }),
@@ -16,13 +17,14 @@ router.get('/', async (req, res, next) => {
         prisma.testimonial.findMany({ where: { published: true }, orderBy: { id: 'desc' } }),
         prisma.newsPost.findMany({ where: { published: true }, orderBy: { publishedAt: 'desc' }, take: 12 }),
         prisma.procedure.findMany({ where: { published: true }, orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }] }),
+        prisma.contentPage.findMany({ where: { published: true }, orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }] }),
       ]);
 
     const settings = {};
     for (const row of settingRows) settings[row.key] = row.value;
 
     res.set('Cache-Control', 'public, max-age=60'); // let Cloudflare cache it too
-    res.json({ settings, specialities, locations, doctors, testimonials, news, procedures });
+    res.json({ settings, specialities: specialities.map(publicRecord), locations, doctors: doctors.map(publicRecord), testimonials, news, procedures, pages: pages.map(publicRecord) });
   } catch (e) {
     next(e);
   }

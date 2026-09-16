@@ -1,0 +1,1577 @@
+{
+  "version": "website-content-2026-09",
+  "sourceArchive": "websitecontent (1).zip",
+  "unavailable": [
+    {
+      "source": "About Us.zip/Chairman's Message.docx",
+      "reason": "File is empty (0 bytes). Chairman profile includes a message; not substituted silently."
+    }
+  ],
+  "sources": [
+    "About Us.zip/Overview.docx",
+    "About Us.zip/Team Profile/Anto Twinkle.docx",
+    "About Us.zip/Team Profile/Basanta Kumar Dash.docx",
+    "About Us.zip/Team Profile/DR VK PRADEEPKUMAR.docx",
+    "About Us.zip/Team Profile/RENJITH KRISHNAN.docx",
+    "About Us.zip/Mission, Vision & Value.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/ANAESTHESIOLOGY/DR MILI MOHANDAS.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/ANAESTHESIOLOGY/DR MURALI KRISHNAN U.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/DERMATOLOGY/DR BERNY.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/FETAL MEDICINE/DR ANITHA JOSEPH.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/FETAL MEDICINE/DR VENNILA.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/GENERAL MEDICINE/DR ARUN G NAIR.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/GENERAL SURGERY/DR EDISAL RAPHAEL.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/GENERAL SURGERY/DR JOHN MATHEW.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/NEONATOLOGY & PAEDIATRICS/DR ANANTHEN K S.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/NEONATOLOGY & PAEDIATRICS/DR RAHUL KH.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/NEONATOLOGY & PAEDIATRICS/Dr Vidya.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/NEONATOLOGY & PAEDIATRICS/DR VIJITHA.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/OBSTETRICS & GYNECOLOGY/DR JEEVAN RAJ CN.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/OBSTETRICS & GYNECOLOGY/DR KEVIN ANTONY GEORGE.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/OBSTETRICS & GYNECOLOGY/DR NEENA ANANTHEN.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/OBSTETRICS & GYNECOLOGY/DR SUDHA SAJEEVAN.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/OBSTETRICS & GYNECOLOGY/DR SUSAN ABRAHAM.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/OBSTETRICS & GYNECOLOGY/DR THANKACHY ROY.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/PATHOLOGY/DR AKHIL RAMESH.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/RADIODIGANOSIS/DR PADMA SHANTHAPPAN.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/REPRODUCTIVE MEDICINE/DR ABHISHEK RADHAKRISHNAN.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/REPRODUCTIVE MEDICINE/DR RESHMY.docx",
+    "DOCTORS PROFILE.zip/DOCTORS PROFILE/REPRODUCTIVE MEDICINE/DR SHILPA GOVIND.docx",
+    "Specialities.zip/NEONATOLOGY & PAEDIATRICS.docx",
+    "Specialities.zip/OBSTETRICS & GYNAECOLOGY.docx",
+    "Specialities.zip/OBSTETRICS.docx",
+    "Specialities.zip/PATHOLOGY.docx",
+    "Specialities.zip/PEDIATRIC CARDIOLOGY.docx",
+    "Specialities.zip/PEDIATRIC ENDOCRINOLOGY.docx",
+    "Specialities.zip/PEDIATRIC NEUROLOGY.docx",
+    "Specialities.zip/PEDIATRIC SURGERY.docx",
+    "Specialities.zip/RADIODIAGNOSIS.docx",
+    "Specialities.zip/ANESTHESIOLOGY.docx",
+    "Specialities.zip/ART.docx",
+    "Specialities.zip/DERMATOLOGY.docx",
+    "Specialities.zip/FETAL MEDICINE.docx",
+    "Specialities.zip/GENERAL MEDICINE.docx",
+    "Specialities.zip/GENERAL SURGERY.docx",
+    "Facilities.zip/DAYCARE.docx",
+    "Facilities.zip/EMERGENCY DEPARTMENT.docx",
+    "Facilities.zip/IVF LAB.docx",
+    "Facilities.zip/IVF.docx",
+    "Facilities.zip/KINDER DINE.docx",
+    "Facilities.zip/KINDER HOME.docx",
+    "Facilities.zip/KINKART.docx",
+    "Facilities.zip/LABOR ROOM.docx",
+    "Facilities.zip/LABORATORIES.docx",
+    "Facilities.zip/NICU.docx",
+    "Facilities.zip/OPERATION THEATRE.docx",
+    "Facilities.zip/PHARMACY.docx",
+    "Facilities.zip/RADIOLOGY.docx",
+    "Facilities.zip/ROOMS.docx",
+    "Facilities.zip/SICU.docx",
+    "Facilities.zip/AMBULANCE.docx",
+    "Facilities.zip/BLOOD STORAGE.docx",
+    "Kinder alleppey.zip/Doctors/Obstetrics & Gynecology/DR JEEVAN RAJ CN.docx",
+    "Kinder alleppey.zip/Doctors/Obstetrics & Gynecology/DR SUSAN ABRAHAM.docx",
+    "Kinder alleppey.zip/Doctors/Obstetrics & Gynecology/DR THANKACHY ROY.docx",
+    "Kinder alleppey.zip/Doctors/Obstetrics & Gynecology/Dr. A. R. Vijayalakshmy Y. Das.docx",
+    "Kinder alleppey.zip/Doctors/Paediatrics/DR NISHA CHACKO.docx",
+    "Kinder alleppey.zip/Doctors/Radiodiagnosis/DR PADMA SHANTHAPPAN.docx",
+    "Kinder alleppey.zip/Doctors/Radiodiagnosis/DR RESHMY.docx",
+    "Kinder alleppey.zip/Doctors/Radiodiagnosis/DR SHILPA GOVIND.docx",
+    "Kinder alleppey.zip/ALLEPPEY INTRO.docx",
+    "Kinder alleppey.zip/Specialities/ART.docx",
+    "Kinder alleppey.zip/Specialities/NEONATOLOGY & PAEDIATRICS.docx",
+    "Kinder alleppey.zip/Specialities/OBSTETRICS & GYNAECOLOGY.docx",
+    "Kinder alleppey.zip/Specialities/RADIODIAGNOSIS.docx",
+    "Kinder alleppey.zip/Facilities/LABORATORIES.docx",
+    "Kinder alleppey.zip/Facilities/PHARMACY.docx",
+    "Kinder alleppey.zip/Facilities/RADIOLOGY.docx",
+    "Packages.zip/Intro.docx",
+    "Packages.zip/Jananimithram.docx",
+    "Packages.zip/Kinder MOM.docx",
+    "Packages.zip/Shristi.docx",
+    "INSURANCE.zip/ALDUN.docx",
+    "INSURANCE.zip/HEALTH INSURANCE.docx",
+    "ACADEMICS.zip/IVF FELLOWSHIP.docx",
+    "Health Check Up Package.zip/Health Check Up Package.docx",
+    "ANC Class booking Intro.docx",
+    "Online Consultation.docx",
+    "Lets celebrate pregnancy.docx",
+    "Home.zip/Patient flow.docx",
+    "Home.zip/Tagline.docx",
+    "Home.zip/HEALTH CHECK UP PACKAGES INTRO.docx",
+    "Home.zip/Kinder Bangalore.docx",
+    "Home.zip/Milestones.docx",
+    "Health Check Up Package.zip/Womens health Check-ups package details.xlsx"
+  ],
+  "records": [
+    {
+      "collection": "pages",
+      "data": {
+        "title": "About Kinder Hospitals",
+        "slug": "about-us-about-kinder-hospitals",
+        "category": "About Us",
+        "location": "",
+        "excerpt": "Welcome to Kinder Hospital, where exceptional care for women and children is at the forefront, with a special focus on pregnancy and childbirth.",
+        "body": "Welcome to Kinder Hospital, where exceptional care for women and children is at the forefront, with a special focus on pregnancy and childbirth. Our compassionate team is dedicated to providing personalized attention and the highest quality medical services.\n\nWe understand that pregnancy is a profound journey filled with hopes and dreams. Our state-of-the-art facilities and experienced obstetricians ensure you and your little one receive the best possible care from conception to delivery and beyond.\n\nOur comprehensive approach offers a wide range of services tailored to every mother and child's unique needs, from routine prenatal care to high-risk pregnancy management and advanced neonatal care.\n\nAt Kinder Hospital, we create a nurturing environment where you feel empowered and confident throughout your pregnancy and childbirth experience. We foster open communication, address your concerns, and provide the resources you need to make informed decisions.",
+        "sourceKey": "website-2026-page-5e83c7aa6bb2734a",
+        "sourceFiles": "About Us.zip/Overview.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 0
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Mr. Anto Twinkle",
+        "slug": "leadership-mr-anto-twinkle",
+        "category": "Leadership",
+        "location": "",
+        "excerpt": "Mr.",
+        "body": "Mr. Anto Twinkle\n\nMr. Anto Twinkle is a distinguished professional in the field of hospital management, with over 12 years of comprehensive experience. Holding a Master of Hospital Administration (MHA) and a Fellowship in Healthcare Management, he has cultivated a sturdy career characterized by exceptional leadership and operational excellence.\n\nThroughout his career, he has been associated with several prestigious healthcare institutions, including:\n\nAravinda Eye Care System, Aravinda Hospital, Jubilee Mission Medical College, Chitra Multi-Speciality Hospital\n\nIn his various roles, he has consistently demonstrated an ability to enhance healthcare operations and lead teams with efficacy. His tenure at the Cherthala Unit stands out as a notable achievement, where he skilfully managed and optimized unit operations, ensuring smooth and efficient service delivery.\n\nHis expertise encompasses:\n\n- Hospital Administration :Streamlining processes and improving operational efficiencies.\n\n- Team Leadership : Inspiring and guiding teams to achieve their best performance.\n\n- Operational Management : Overseeing and refining hospital operations for optimal functionality.\n\nHis unique blend of clinical insight and management skills has not only contributed to the success of the institutions he has worked with but also advanced the quality of healthcare services provided. Mr. Anto Twinkle continues to be a valuable asset to the healthcare sector, driving improvements and setting benchmarks in hospital management.",
+        "sourceKey": "website-2026-page-ea9d0614c982ae84",
+        "sourceFiles": "About Us.zip/Team Profile/Anto Twinkle.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 1
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Mr. Basanta Kumar Dash",
+        "slug": "leadership-mr-basanta-kumar-dash",
+        "category": "Leadership",
+        "location": "",
+        "excerpt": "Mr.",
+        "body": "MR. BASANTA KUMAR DASH\n\nGroup Financial Controller – Kinder Hospitals\n\nMr. Basanta Kumar Dash has more than 12 years of handsome experience in the Healthcare Industry currently operating as a Group Financial Controller at Kinder Group of Hospitals, India. As an established finance leader, Mr. Basanta Kumar has extensive and rich global experience including shareholder value creation, Project Management, and corporate governance, business partnering, treasury and funding, investor relations, cost management, taxation, financial accounting, and reporting. Mr. Basanta has wide-ranging experience in Financial Management and Internal Controls that significantly enhances the enterprise value",
+        "sourceKey": "website-2026-page-cbfb1ce67a52134d",
+        "sourceFiles": "About Us.zip/Team Profile/Basanta Kumar Dash.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 2
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Dr. V K Pradeep Kumar",
+        "slug": "leadership-dr-v-k-pradeep-kumar",
+        "category": "Leadership",
+        "location": "",
+        "excerpt": "Dr Vethody Kumaran Pradeep Kumar has over 37 glorious years of Paediatric and Neonatology practice in countries like India, Ireland and Singapore.",
+        "body": "Dr V K Pradeep Kumar\n\nChairman – Kindorama Healthcare Pvt Ltd, India\n\nDr Vethody Kumaran Pradeep Kumar has over 37 glorious years of Paediatric and Neonatology practice in countries like India, Ireland and Singapore. He is the Director and Chairman of Kindorama medical Group. He has participated in several pioneering publications and research in Neonatology, Paediatrics and Obstetrics across the globe throughout his four-decade-long career. Serving as a Chairman for Kindorama Medical Group for more than a decade now, he is responsible for Kinder’s long term strategic goals for our healthcare business in India.\n\nDr Pradeepkumar V K\n\nAt Kinder medical Group, we believe in serving both the international and national communities by providing personalized attentive care. Our state-of-the-art medical facilities and world-class medical techniques help us to offer the very best care for our patients. We are known here as not only with the finest healthcare systems, but also here with a vision to be an institution recognized with exceptional patient care rendering efficient and reliable health services to women and children.\n\nWe would want to see a world where everybody is in good shape and prepared for every responsibility. Driven by our passion for health and instinct for innovation, we aim to bring inspiration to mothers-to-be and get the right care on time. Our team is here to care for you, to assist you, to bring you solutions for every single healthcare problem you may have.\n\nOur aim is to ensure no women should be deprived of care because of their socio-economic status. We believe that prevention is always preferable to cure and hence would want to build long-term relationships to ensure that you and your loved ones are healthy for a lifetime.",
+        "sourceKey": "website-2026-page-c7ed114f3f489a44",
+        "sourceFiles": "About Us.zip/Team Profile/DR VK PRADEEPKUMAR.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 3
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Mr. Renjith Krishnan",
+        "slug": "leadership-mr-renjith-krishnan",
+        "category": "Leadership",
+        "location": "",
+        "excerpt": "Mr.",
+        "body": "Mr. Renjith Krishnan\n\nCEO – KINDER HOSPITALS GROUP\n\nMr. Renjith Krishnan has over 15 years of experience in Hospital Management and healthcare business operations. As the CEO of Kinder Hospital Group, Mr. Renjith Krishnan aims at maintaining a growing and profitable business according to the prescribed standards. His deep analysis and understanding of systems, processes and creating strategic business units in healthcare operations is a harbinger of positive changes. With his wide expertise in dynamic operations and hospital administration, Kinder Group of Hospitals is able to meet the desired quality services in India and maintain a profitable influx.",
+        "sourceKey": "website-2026-page-4a3f9ce97948babb",
+        "sourceFiles": "About Us.zip/Team Profile/RENJITH KRISHNAN.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 4
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Mission, Vision & Values",
+        "slug": "about-us-mission-vision-values",
+        "category": "About Us",
+        "location": "",
+        "excerpt": "To make available high quality, personalized care with specialized and comprehensive range of services, in a cost-effective health care facility in India at par with international standards.",
+        "body": "Mission\n\nTo make available high quality, personalized care with specialized and comprehensive range of services, in a cost-effective health care facility in India at par with international standards.\n\nVision\n\nTo be an institution recognized with exceptional patient care rendering efficient and reliable health services to women and children.\n\nValues\n\nHonesty\n\nIntegrity\n\nCommitment\n\nEthical\n\nTransparency",
+        "sourceKey": "website-2026-page-4de88c9f000d68c9",
+        "sourceFiles": "About Us.zip/Mission, Vision & Value.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 5
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Mili Mohandas",
+        "designation": "MBBS, DNB. Anaesthesia",
+        "speciality": "Anaesthesiology",
+        "location": "Cherthala",
+        "bio": "Dr Mili Mohandas is our Consultant Anaesthesiologist with experience in providing high quality care to obstetric patients requiring anaesthesia including General Anaesthesia and Regional Anaesthesia based on the circumstances.",
+        "fullBio": "MBBS, DNB. Anaesthesia\n\nDr Mili Mohandas is our Consultant Anaesthesiologist with experience in providing high quality care to obstetric patients requiring anaesthesia including General Anaesthesia and Regional Anaesthesia based on the circumstances. She is skilled in both General and Regional Anaesthetic Techniques. She graduated her MBBS from Government Medical College, Kottayam and DNB in Anaesthesia from General Hospital Trivandrum. She is also capable of providing Critical Care Services.\n\nAREA OF EXPERTISE\n\nAnaesthesia Administration\n\nPost Operative and Pain Management Care\n\nLabor Analgesia Techniques\n\nCritical Care Management\n\nAREA OF INTEREST\n\nObstetrics Anaesthesia\n\nCritical Care Management",
+        "sourceKey": "website-2026-doctor-dr-mili-mohandas",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/ANAESTHESIOLOGY/DR MILI MOHANDAS.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 6
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Muralikrishnan",
+        "designation": "MBBS, DA, DNB",
+        "speciality": "Anaesthesiology",
+        "location": "Cherthala",
+        "bio": "Dr Muralikrishnan is a veteran in pain medicine and critical care, he is also our senior consultant with more than 36 years of experience.",
+        "fullBio": "MBBS, DA, DNB\n\nDr Muralikrishnan is a veteran in pain medicine and critical care, he is also our senior consultant with more than 36 years of experience. He was a mentor to a lot of aspiring doctors with his 23 years of teaching experience and retired as Professor and Head of the Department, from government medical college Kottayam. He graduated his MBBS from Government T D Medical College Alappuzha, Diploma in Anaesthesia from AFMC, Pune and DNB from National Board of Examination, New Delhi. He has done Basic Life Support (BLS) and Advanced Cardiac Life Support (ACLS) conducted by American Heart Association (AHA).\n\nHis experience in government sector such as Government Medical College Kottayam, Government Medical College Thrissur, Government Medical College Alappuzha and Government Medical College Calicut makes him proficient in his career.\n\nAREA OF EXPERTISE\n\nPain and Critical Care\n\nExpert in handling High Risk Anaesthesia Cases across multiple specialities including Emergency Cases\n\nObstetric Anaesthesia\n\nLabor Analgesia Techniques\n\nPaediatric Anaesthesia\n\nDifficult Airway Management\n\nAREA OF INTEREST\n\nPain And Critical Care Management\n\nObstetrics Anaesthesia",
+        "sourceKey": "website-2026-doctor-dr-muralikrishnan",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/ANAESTHESIOLOGY/DR MURALI KRISHNAN U.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 7
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Berny Jose",
+        "designation": "MBBS, DDVL",
+        "speciality": "Dermatology",
+        "location": "Cherthala",
+        "bio": "Dr Berny Jose is an excellent dermatologist with over 15 years of experience, proficient in LASER treatment and Cosmetology.",
+        "fullBio": "MBBS, DDVL\n\nDr Berny Jose is an excellent dermatologist with over 15 years of experience, proficient in LASER treatment and Cosmetology. Having done thousands of interventional dermatology procedures, Dr Berny’s special interests include cosmetic dermatology and medical correlation of dermatological diseases.\n\nShe graduated from Father Muller Medical College, Mangalore, underwent Post Graduate training from the same institute in 2009.She has done an observership in Dermatology from PGI Chandigarh and a laser fellowship in Bangalore from National Skin Hair Institute.\n\nShe has worked in major hospitals in Bangalore, including Sri Sai Ram and Rajashekar hospitals. In Kochi, she has worked as consultant dermatologist at Indira Gandhi hospital, then at Specialist's hospital for 6 years and further as senior consultant dermatologist at Renai Medicity hospital for over 6 years. Currently she is heading the department at Kinder Women’s Hospital and Fertility Centre, Cherthala since September 2023.\n\nShe has presented papers at the national dermatology conference in Chandigarh and Bangalore and attended various National and state level conferences. Presented a paper titled ‘Eczema herpeticum’ at ISPD 2007 at Thrissur. Presented poster titled ‘Pemphigus vulgaris in pregnancy’ at National conference DERMACON 2008 at Chandigarh. Presented paper titled ‘Livedoid reticularis responding to dapsone’ at CUTICON KT 2008 at Mangalore. Presented paper titled: ‘Safety and Efficacy of 30% – 40% glycolic acid on Indian patients’ at DERMACON 2009.\n\nAREA OF EXPERTISE\n\nCosmetic Dermatology (especially Lasers)\n\nInterventional dermatologic procedures like electrocautery, chemical peel etc\n\nMedical correlation of dermatological diseases.\n\nMEMBERSHIPS\n\nIADVL\n\nCDS\n\nShe was part of the organizing committee for the National Dermacon in Kochi",
+        "sourceKey": "website-2026-doctor-dr-berny-jose",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/DERMATOLOGY/DR BERNY.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 8
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Anitha Joseph",
+        "designation": "MBBS, MD, DNB (OBGYN) · FELLOWSHIP IN FETOMATERNAL MEDICINE",
+        "speciality": "Fetal Medicine",
+        "location": "Cherthala",
+        "bio": "Dr Anitha Joseph is a visiting consultant in the Department of Fetal Medicine, associated with the Department of Obstetrics & Gynaecology.",
+        "fullBio": "MBBS, MD, DNB (OBGYN)\n\nFELLOWSHIP IN FETOMATERNAL MEDICINE\n\nDr Anitha Joseph is a visiting consultant in the Department of Fetal Medicine, associated with the Department of Obstetrics & Gynaecology. She has done her MBBS and MD (OBGYN) from JIPMER and then obtained additional training with a FELLOWSHIP IN FETOMATERNAL MEDICINE from CIMAR, Edappal.\n\nAREA OF EXPERTISE\n\n*All advanced fetal scans such as NT scan (11-14 weeks scan), TIFFA Scan, growth and Doppler scans, fetal ECHO and fetal Neurosonogram\n\n* All fetal interventions such as amniocentesis, chorionic villus sampling, amnioreduction, fetal reduction, fetal blood sampling and intrauterine transfusion.\n\n* ⁠Monitoring FGR\n\n* ⁠Expert in evaluating Twin & Triplet Pregnancies\n\n- Management of High-Risk Pregnancies\n\nAREAS OF INTEREST\n\nMultiple pregnancy\n\nFetal interventions",
+        "sourceKey": "website-2026-doctor-dr-anitha-joseph",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/FETAL MEDICINE/DR ANITHA JOSEPH.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 9
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Vennila .M",
+        "designation": "MBBS, MD, FFM",
+        "speciality": "Fetal Medicine",
+        "location": "Cherthala",
+        "bio": "Dr Vennila.",
+        "fullBio": "MBBS, MD, FFM\n\nDr Vennila. M is a visiting fetal medicine consultant in our kinder women's hospital. She is a dedicated professional who has more than 10 years of experience in the field and performs all advanced fetal scans and fetal interventions with high ethical standards.\n\nShe graduated her\n\nMBBS from PSG Institute of Medical Science and Research and MD from Annamalai University. She furthered her career with a FELLOWSHIP IN FETAL MEDICINE from Mediscan, Chennai under the world-renowned expert in fetal medicine Dr Suresh Seshadri and a POST DOCTORAL FELLOWSHIP IN FETAL MEDICINE from The Tamilnadu Dr. M. G. R Medical University\n\nAREA OF EXPERTISE\n\nAll advanced fetal scans such as NT, TIFFA, Fetal growth and dopplers, fetal ECHO and Multiple pregnancy.\n\nAll fetal interventions such as amniocentesis, chronic villous sampling, amnio reduction, fetal reduction, fetal blood sampling, intrauterine transfusion and radio frequency ablation.\n\nManagement of high-risk pregnancy.",
+        "sourceKey": "website-2026-doctor-dr-vennila-m",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/FETAL MEDICINE/DR VENNILA.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 10
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Arun G Nair",
+        "designation": "MBBS, DNB",
+        "speciality": "General Medicine",
+        "location": "Cherthala",
+        "bio": "Dr Arun is our Consultant General Physician acclaimed for his profound knowledge and expertise in comprehensive management of acute and chronic diseases in adults.",
+        "fullBio": "MBBS, DNB\n\nDr Arun is our Consultant General Physician acclaimed for his profound knowledge and expertise in comprehensive management of acute and chronic diseases in adults. He has over 10 years’ experience in the General Medicine field and is an expert in managing various Critical care & General Medicine cases. Dr Arun Passed MBBS from Government Medical College Surat in 2009, Completed training in DNB in General Medicine from Lisie Hospital Kochi in 2014 and Completed Certificate course in Diabetes from Public Health Foundation of India. He has worked in many super speciality hospitals namely Lisie Hospital Kochi, KVM super speciality hospital Cherthala, Dr. Muthus Multi-speciality hospital Coimbatore and St. Sebastian Visitation Hospital, Arthunkal.\n\nAREA OF EXPERTISE\n\nHe is an expert in critical care procedures namely\n\nEndotracheal intubation\n\nCentral venous catheterisation\n\nBone marrow aspiration\n\nLumbar puncture, etc\n\nHas experience in managing various Critical care & General Medicine cases.\n\nArea Of Interest:\n\nDiabetics Mellitus\n\nSystemic Hypertension\n\nCommunicable Diseases\n\nCritical care management",
+        "sourceKey": "website-2026-doctor-dr-arun-g-nair",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/GENERAL MEDICINE/DR ARUN G NAIR.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 11
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Edisal Raphael",
+        "designation": "MBBS, MS, FMAS Life member",
+        "speciality": "General Surgery",
+        "location": "Cherthala",
+        "bio": "Dr Edisal Raphael is a visiting surgeon in the department of general surgery who has an invaluable knowledge and skills in surgeries across multiple specialities.",
+        "fullBio": "MBBS, MS, FMAS Life member\n\nDr Edisal Raphael is a visiting surgeon in the department of general surgery who has an invaluable knowledge and skills in surgeries across multiple specialities. He graduated his MBBS from Amrita Institute of Medical Sciences and MS in General Surgery from Amala Institute of Medical Sciences, Thrissur. He completed his Senior Residency in General Surgery in Aster DM Healthcare, Wayand, and was a Resident in Gastro surgery in Rajagiri Hospital Kochi. Dr Edisal has wide array of expertise and experience. His experiences include, Svast.Inc, Uzbekistan, St. Sebastian's visitation Hospital, Arthunkal and Irinjalakuda co – operative Hospital.\n\nAREA OF EXPERTISE\n\nAll general and advance surgeries\n\nLaparoscopic surgeries\n\nEndoscopy",
+        "sourceKey": "website-2026-doctor-dr-edisal-raphael",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/GENERAL SURGERY/DR EDISAL RAPHAEL.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 12
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. P John Mathew",
+        "designation": "MBBS, MS, FMAS, FIAGES",
+        "speciality": "General Surgery",
+        "location": "Cherthala",
+        "bio": "Dr John Mathew is a dedicated surgeon who performs all the advanced surgical procedure and laparoscopic surgeries with excellence.",
+        "fullBio": "MBBS, MS, FMAS, FIAGES\n\nDr John Mathew is a dedicated surgeon who performs all the advanced surgical procedure and laparoscopic surgeries with excellence. He graduated his MBBS from Tver State Medical Academy, Russia, MS in General Surgery from Mahatma Gandhi Medical College and Research Institute, and Diploma in Advanced Laparoscopic Surgery from ILS, Coimbatore. He furthered his expertise by doing a Fellowship in Minimal Access Surgery, FMAS and Fellowship of Indian Association of Gastrointestinal Endo Surgeons, FIAGES. He Completed a wide array of trainings such as Upper GI Endoscopy Training at CEMAST, Mumbai, GEN 11 Training in Advanced Lap Gyn Procedures at Eva Hospital, Ahmedabad, Lap. Bariatric & Metabolic Surgery Training at CEMAST, Mumbai, and Lap. Bariatric training from EISE Chennai. He has certified with Fellowship Training in Lap Endo Gynaec Surgery, GEM Hospital Coimbatore and Fellowship Training in Bariatric Surgery from GEM Hospital Coimbatore. Dr John also Completed the Basic Life Support (BLS) and Advanced Cardiac Life Support (ACLS) conducted by American Heart Association (AHA).\n\nAREAS OF EXPERTISE\n\nGeneral surgery\n\nAll advanced Laparoscopic Surgeries\n\nBariatric surgery\n\nLap gyn procedures",
+        "sourceKey": "website-2026-doctor-dr-p-john-mathew",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/GENERAL SURGERY/DR JOHN MATHEW.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 13
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Ananthen K S",
+        "designation": "",
+        "speciality": "Neonatology & Paediatrics",
+        "location": "Cherthala",
+        "bio": "Dr.",
+        "fullBio": "Dr. Ananthen Killikulangara Sadanandan completed his M.B.B.S in 1998 from government Medical College, Thrissur, D.C.H in 2002, and M.D (Paediatrics) in 2003 from Government Medical College, Alappuzha. He completed Fellowship in Paediatric Cardiology from Amrita Institute of Medical Sciences, Kochi in 2004. He worked in the Department of Neonatology at MOSC Medical College, Kolenchery, Kerala from 2005-2007. He achieved Postgraduate Diploma in Medical Law & Ethics (PGDMLE) from National Law School of India University, Bangalore. He underwent advanced training in Neonatology from Australia. He worked for 5 years in some of the best neonatal centres in Australia, including Monash Medical centre Melbourne, Royal Hospital for Women Sydney, and Liverpool Hospital Sydney. During his overseas work, he was exposed to the latest and advanced neonatal care, care of extremely premature babies’ resuscitation, stabilization, and ongoing care. He was also part of the famous Neonatal and Paediatric emergency transport team- NETS, Westmead, Sydney. He has performed almost a hundred retrievals of sick infants and children by Road, Rotor wing, and Fixed-wing transport. His other interests include teaching and research activities. He was a Conjoint Lecturer at the University of New South Wales, Sydney. He has 3 publications in his name and has delivered many presentations in India and abroad. Presently he is working as Chief Consultant and Head of the Department of Paediatric and Neonatology at Kinder Women’s Hospital & Fertility Centre, Cherthala\n\nAREA OF INTEREST\n\nNeonatology\n\nHigh Risk Preterm\n\nTeaching & Research Activities",
+        "sourceKey": "website-2026-doctor-dr-ananthen-k-s",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/NEONATOLOGY & PAEDIATRICS/DR ANANTHEN K S.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 14
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Rahul Kh",
+        "designation": "MBBS, DNB · Fellowship in Neonatology",
+        "speciality": "Neonatology & Paediatrics",
+        "location": "Cherthala",
+        "bio": "Dr Rahul is our Consultant Paediatrician and Neonatologist with a special interest in management of high risk Preterm.",
+        "fullBio": "MBBS, DNB\n\nFellowship in Neonatology\n\nDr Rahul is our Consultant Paediatrician and Neonatologist with a special interest in management of high risk Preterm. Dr Rahul joins the team with extensive knowledge and skills. He graduated his MBBS from Bidar Institute of Medical Science, Bidar, DNB paediatrics from St. Isabels Hospital Chennai and he holds an IAP Fellowship in Neonatology.\n\nAREA OF INTEREST:\n\nHigh Risk Preterm\n\nGeneral Paediatrics\n\nDevelopmental follow ups\n\nNutrition",
+        "sourceKey": "website-2026-doctor-dr-rahul-kh",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/NEONATOLOGY & PAEDIATRICS/DR RAHUL KH.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 15
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Vidya Prasad",
+        "designation": "",
+        "speciality": "Neonatology & Paediatrics",
+        "location": "Cherthala",
+        "bio": "Dr.",
+        "fullBio": "Dr. Vidya Prasad is a highly skilled paediatrician and neonatologist currently serving as an Assistant Consultant in the Department of Paediatrics and Neonatology at Kinder Women's Hospital and Fertility Centre Pvt. Ltd. Her extensive training and experience make her a valuable asset to the medical community, especially in the fields of paediatrics and neonatology.\n\nDr. Vidya began her medical journey at SUT Academy of Medical Sciences in Trivandrum, where she earned her MBBS degree. She then pursued her Diploma in Child Health (DCH) at Dr. V. M. Government Medical College in Solapur, Maharashtra. Her dedication to paediatric medicine led her to complete a Diplomate of National Board (DNB) in Paediatrics at Masonic Medical Centre for Children in Coimbatore, Tamil Nadu.\n\nIn 2022, she further advanced her expertise by completing the Indian Academy of Paediatrics (IAP) Fellowship in Neonatology at Ernakulam Medical Centre in Cochin. Prior to joining Kinder Women's Hospital and Fertility Centre, she gained valuable experience as an Assistant Paediatrician at Masonic Medical Centre for Children in Coimbatore.\n\nDr. Vidya is commitment to providing exceptional care and her comprehensive background in paediatrics and neonatology underscore her dedication to the health and well-being of her young patients.",
+        "sourceKey": "website-2026-doctor-dr-vidya-prasad",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/NEONATOLOGY & PAEDIATRICS/Dr Vidya.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 16
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Vijitha A S",
+        "designation": "MBBS, MD(Paediatrics)",
+        "speciality": "Neonatology & Paediatrics",
+        "location": "Cherthala",
+        "bio": "Dr Vijitha is our Consultant Paediatrician at the Department of Paediatrics with an excellence in comprehensive management of diseases, disorders and other medical conditions in neonates and children.",
+        "fullBio": "MBBS, MD(Paediatrics)\n\nDr Vijitha is our Consultant Paediatrician at the Department of Paediatrics with an excellence in comprehensive management of diseases, disorders and other medical conditions in neonates and children. She completed MBBS from Sree Gokulam Medical College & Research Foundation, Trivandrum and MD in Paediatrics from Sri Siddhartha Academy of Health & Education University, Tumkur Karnataka. Her expertise in patient care makes her an asset to our Kinder Hospital.\n\nAREA OF INTEREST\n\nGeneral Paediatrics\n\nInfectious Diseases\n\nNeonatology",
+        "sourceKey": "website-2026-doctor-dr-vijitha-a-s",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/NEONATOLOGY & PAEDIATRICS/DR VIJITHA.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 17
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Jeevan Raj C N",
+        "designation": "MBBS, DGO",
+        "speciality": "Obstetrics & Gynaecology",
+        "location": "Cherthala, Alappuzha",
+        "bio": "Dr Jeevan Raj is a veteran gynaecologist in the department of Obstetrics and Gynaecology who has an experience of 35 years.",
+        "fullBio": "MBBS, DGO\n\nDr Jeevan Raj is a veteran gynaecologist in the department of Obstetrics and Gynaecology who has an experience of 35 years. He is an adept professional in all the advanced gynaecological laparoscopic surgeries. Dr Jeevan graduated his MBBS from JJM Medical College, Mysore University and also holds a Diploma in Obstetrics and Gynaecology from JJM Medical College, Kuvempu university and has attended Advanced Laparoscopy and Hysteroscopy training program from Kochi Gynaecological Endoscopic Training Centre.\n\nAREA OF EXPERTISE\n\nLaparoscopic Hysterectomy\n\nLaparoscopic Myomectomy\n\nLaparoscopic Ovarian Cystectomy\n\nHysteroscopic Surgeries\n\nEctopic Surgeries\n\nAbdominal Hysterectomy\n\nVaginal Hysterectomy\n\nVault Prolapse Repair\n\nAREA OF INTEREST\n\nGynaec Laparoscopic Surgeries",
+        "sourceKey": "website-2026-doctor-dr-jeevan-raj-c-n",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/OBSTETRICS & GYNECOLOGY/DR JEEVAN RAJ CN.docx\nKinder alleppey.zip/Doctors/Obstetrics & Gynecology/DR JEEVAN RAJ CN.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 18
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Kevin Antony George",
+        "designation": "MBBS, DNB, FMAS, DMAS · FELLOWSHIP IN ART",
+        "speciality": "Obstetrics & Gynaecology",
+        "location": "Cherthala",
+        "bio": "A dedicated Gynaecologist and Obstetrician with a passion for providing exceptional maternal care with extensive knowledge, expertise, and leadership skills.",
+        "fullBio": "MBBS, DNB, FMAS, DMAS\n\nFELLOWSHIP IN ART\n\nA dedicated Gynaecologist and Obstetrician with a passion for providing exceptional maternal care with extensive knowledge, expertise, and leadership skills. Dr Kevin done his MBBS graduation from Government Medical College, Kottayam and DNB from Lilavati hospital and research centre, Mumbai. He furthered his expertise by doing Fellowship in Minimal Access Surgery (FMAS), Diploma in Minimal Access Surgery (DMAS), Basic Robotic Training Course and also holds a Fellowship in ART\n\nAREAS OF EXPERTISE\n\nNormal Delivery, Instrumental Delivery, Caesarean Section\n\nHigh Risk Obstetrics\n\nAdvanced Laparoscopic Surgeries and Robotic Surgeries\n\nAREAS OF INTEREST\n\nHigh Risk Obstetrics\n\nAdvanced Laparoscopic Surgeries and Robotic Surgeries",
+        "sourceKey": "website-2026-doctor-dr-kevin-antony-george",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/OBSTETRICS & GYNECOLOGY/DR KEVIN ANTONY GEORGE.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 19
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Neena Ananthen",
+        "designation": "MBBS, DGO (OBG& GYN), DNB, FMAS",
+        "speciality": "Obstetrics & Gynaecology",
+        "location": "Cherthala",
+        "bio": "Dr Neena Ananthen is an esteemed Obstetrician and gynaecologist who is a skilled professional in laparoscopic gynaecologic surgeries.",
+        "fullBio": "MBBS, DGO (OBG& GYN), DNB, FMAS\n\nDr Neena Ananthen is an esteemed Obstetrician and gynaecologist who is a skilled professional in laparoscopic gynaecologic surgeries. She graduated MBBS from Government medical college, Thrissur. Completed her DGO from Government medical college, Kottayam and DNB from National Board of Examinations, New Delhi. She holds a wide array of certifications such as Fellowship in minimal access surgery, FMAS and certification in obstetrics ultrasound from Bangalore fetal medicine foundation. She has also furthered her expertise by observationship in Department of O&G, Methodist Hospital, Omaha, Nebraska, USA and Department of Urogynaecology, Mayo clinic, Minnesota, USA. She has also made presentation in various state, national, and international conferences. And has also been an operating faculty at live surgical workshops.\n\nAREA OF EXPERTISE\n\nShe Has Over 14 Years of Experience In Department Of Obstetrics And Gynaecology.\n\nManagement Of High-Risk Pregnancy\n\nNormal Delivery, Instrumental Delivery, Caesarean Sections.\n\nLaparoscopic Gynaecological Surgeries Like Hysterectomy, Myomectomy, Cystectomy, Laparoscopic Recanalization\n\nVaginal Surgeries Like Site Specific Repair of Prolapse and Stress Urinary Incontinence\n\nGynaecologic Ultrasound\n\nAREAS OF INTEREST\n\nLaparoscopic gynaecologic surgeries\n\nVaginal Surgeries\n\nHigh risk pregnancy\n\nGynaecologic ultrasound",
+        "sourceKey": "website-2026-doctor-dr-neena-ananthen",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/OBSTETRICS & GYNECOLOGY/DR NEENA ANANTHEN.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 20
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Sudha Sajeevan",
+        "designation": "MBBS DGO (OBG & GYN)",
+        "speciality": "Obstetrics & Gynaecology",
+        "location": "Cherthala",
+        "bio": "An Obstetrician / Gynaecologist with more 32 years of experience.",
+        "fullBio": "MBBS DGO (OBG & GYN)\n\nAn Obstetrician / Gynaecologist with more 32 years of experience. Dr Sudha Sajeevan is an expert in management of high-risk pregnancies at KINDER Hospital and Fertility Centre, Cherthala. A highly respected professional in the medical fraternity, she has worked in government sector for decades. She graduated MBBS from Government Medical College, Kottayam. And completed her DGO from AFMC, Pune. We kinder team is proud to have such an experienced and talented doctor on board. Her area of special interest is obstetrics.\n\nAREA OF EXPERTISE\n\nNormal delivery\n\nCaesarean section\n\nInstrumental delivery\n\nGynaecology evaluation and treatment\n\nAREAS OF INTEREST: Obstetrics",
+        "sourceKey": "website-2026-doctor-dr-sudha-sajeevan",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/OBSTETRICS & GYNECOLOGY/DR SUDHA SAJEEVAN.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 21
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Susan Abraham",
+        "designation": "MBBS, MD, FMAS, MRCOG (UK)",
+        "speciality": "Obstetrics & Gynaecology",
+        "location": "Cherthala, Alappuzha",
+        "bio": "Dr Susan Abraham is a highly qualified and experienced Consultant in Obstetrics & Gynaecology with more than 25 years of experience.",
+        "fullBio": "MBBS, MD, FMAS, MRCOG (UK)\n\nDr Susan Abraham is a highly qualified and experienced Consultant in Obstetrics & Gynaecology with more than 25 years of experience. She has graduated MBBS from T D Medical College, Alappuzha and has done her Post Graduation in Gynaecology from Government Medical College, MIRAJ and has undergone specialized training in various areas of obstetrics and gynaecology. Dr Susan has worked in various institutions under different capacities and this has helped her enrich her career in the department of Obstetrics and Gynaecology. She has cleared MRCOG (UK). She has 8years of experience in government sector ,3 years of experience at St Stephens Delhi and 8 years of experience at Badr Al samaa Group of Hospital Muscat. This makes her proficient in handling complicated cases and providing the best care to her patients.\n\nAREA OF EXPERTISE\n\nNormal delivery\n\nCaesarean section\n\nInstrumental delivery\n\nGynaecology evaluation and treatment",
+        "sourceKey": "website-2026-doctor-dr-susan-abraham",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/OBSTETRICS & GYNECOLOGY/DR SUSAN ABRAHAM.docx\nKinder alleppey.zip/Doctors/Obstetrics & Gynecology/DR SUSAN ABRAHAM.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 22
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Thankachy Roy",
+        "designation": "MBBS DGO (OBG & GYN)",
+        "speciality": "Obstetrics & Gynaecology",
+        "location": "Cherthala, Alappuzha",
+        "bio": "As an Obstetrics and Gynaecology Consultant at Kinder Women’s Hospital, Dr Thankachy brings her extensive experience and clinical acumen to provide the best possible care to her patients.",
+        "fullBio": "MBBS DGO (OBG & GYN)\n\nAs an Obstetrics and Gynaecology Consultant at Kinder Women’s Hospital, Dr Thankachy brings her extensive experience and clinical acumen to provide the best possible care to her patients. She is committed to delivering evidence-based, personalized, and compassionate care to women at all stages of their lives, from adolescence to menopause. Dr Thankachy completed her MBBS and DGO from Govt Medical Collage Trivandrum. She has 19 years of experience at W&C Hospital Alappuzha, 2 years of experience at Peerumedu Govt Thaluk Hospital and her service entry was at Public Health Centre, Thanneermukkam. Her dedication, expertise, and caring nature with more than 25 years of experience in the field of Obstetrics and Gynaecology at Govt sector makes her a valuable addition to the Kinder Women’s Hospital.\n\nAREA OF EXPERTISE\n\nNormal Delivery\n\nCaesarean Section\n\nInstrumental Delivery\n\nGynaecology Evaluation and Treatment",
+        "sourceKey": "website-2026-doctor-dr-thankachy-roy",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/OBSTETRICS & GYNECOLOGY/DR THANKACHY ROY.docx\nKinder alleppey.zip/Doctors/Obstetrics & Gynecology/DR THANKACHY ROY.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 23
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Akhil Ramesh",
+        "designation": "MBBS, MD",
+        "speciality": "Pathology",
+        "location": "Cherthala",
+        "bio": "Dr Akhil Ramesh is our pathologist who plays a crucial role in identifying the nature and extent of illnesses through laboratory analysis, often working closely with other healthcare providers to determine the best course of treatment for patients.",
+        "fullBio": "MBBS, MD\n\nDr Akhil Ramesh is our pathologist who plays a crucial role in identifying the nature and extent of illnesses through laboratory analysis, often working closely with other healthcare providers to determine the best course of treatment for patients. He graduated his MBBS from Government Medical College, Kochi and done his MD in Pathology from Amala Institute of Medical Science. He is proficient in his field with over 8 years of experience and also worked as a medical officer in blood bank.\n\nAREA OF EXPERTISE\n\nCytopathology\n\nHaematology\n\nHistopathology\n\nAREA OF INTEREST\n\nOnco pathology",
+        "sourceKey": "website-2026-doctor-dr-akhil-ramesh",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/PATHOLOGY/DR AKHIL RAMESH.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 24
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Padma Santappan",
+        "designation": "BSC MBBS DMRD",
+        "speciality": "Radiodiagnosis",
+        "location": "Cherthala, Alappuzha",
+        "bio": "DR Padma Santappan is a veteran Radiologist with more than 30 years of experience with a proficiency in all radiological modalities and fetomaternal medicine.",
+        "fullBio": "BSC MBBS DMRD\n\nDR Padma Santappan is a veteran Radiologist with more than 30 years of experience with a proficiency in all radiological modalities and fetomaternal medicine. She has graduated her MBBS from Government Medical College, Alappuzha and also done Diploma in Medical Radio Diagnosis from JJMMC Davangere and trained in feto maternal medicine from Bangalore Fetal Medicine Centre.\n\nAREA OF EXPERTISE\n\nUltrasound sonography of abdomen and pelvis\n\nHigh resolution sonography\n\nTransvaginal sonography\n\nMusculoskeletal scan\n\nInfertility studies (Male & Female)\n\nDoppler scans\n\n4D Scans\n\nPaediatric scans\n\nFetal scans\n\nSono mammogram\n\nAREA S OF INTEREST\n\nHigh resolution sonography\n\nNeonatal Sonography\n\nPaediatric scans\n\nObstetrics Scan Both 2D & 4D\n\nVascular Sonography\n\nMusculoskeletal Sonography",
+        "sourceKey": "website-2026-doctor-dr-padma-santappan",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/RADIODIGANOSIS/DR PADMA SHANTHAPPAN.docx\nKinder alleppey.zip/Doctors/Radiodiagnosis/DR PADMA SHANTHAPPAN.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 25
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Abhishek Radhakrishnan",
+        "designation": "MBBS, MD (OBG & GYN) · FELLOWSHIP IN REPRODUCTIVE MEDICINE",
+        "speciality": "Reproductive Medicine",
+        "location": "Cherthala",
+        "bio": "Dr Abhishek Radhakrishnan is a visiting consultant in reproductive medicine who is making motherhood a reality through advanced infertility treatments.",
+        "fullBio": "MBBS, MD (OBG & GYN)\n\nFELLOWSHIP IN REPRODUCTIVE MEDICINE\n\nDr Abhishek Radhakrishnan is a visiting consultant in reproductive medicine who is making motherhood a reality through advanced infertility treatments. He is an expert who specialises in Obstetrics and Gynaecology, Infertility treatments and Laparoscopic procedures. He graduated his MBBS from Kasturba medical college and hospital, Manipal University, MD in OBG & GYN from Rajah Muthiah medical college and hospital, Annamalai university and he is certified with a FELLOWSHIP IN REPRODUCTIVE MEDICINE from Madras Medical Mission Institute of Reproductive Medicine and also furthered his career with a Honorary fellowship in Guy's and St. Thomas, London, UK\n\nAREA OF EXPERTISE\n\nFertility preservation in males and female\n\nExpertise in male fertility\n\nInfertility treatments and Laparoscopic procedures\n\nGynaecology & Obstetric\n\nInfertility procedures like IVF, IUI and ICSI.\n\nSuccessful in managing Endometriosis and complex adnexal masses\n\nFemale fertility restoration surgeries and fibroid removal, ovarian cyst removal and hysteroscopy procedures\n\nAREAS OF INTEREST\n\nMale Infertility\n\nPCOS\n\nEndometriosis",
+        "sourceKey": "website-2026-doctor-dr-abhishek-radhakrishnan",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/REPRODUCTIVE MEDICINE/DR ABHISHEK RADHAKRISHNAN.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.",
+        "published": false,
+        "sortOrder": 26
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Reshmy J R",
+        "designation": "MBBS, MS (OBG), DGO, DNB (OBG) · MNAMS (FELLOWSHIP IN REPRODUCTIVE MEDICINE)",
+        "speciality": "Reproductive Medicine",
+        "location": "Cherthala, Alappuzha",
+        "bio": "Dr Reshmy J R is a dedicated senior consultant in reproductive medicine with more than 10 years of experience in the field of high-risk obstetrics and Fertility.",
+        "fullBio": "MBBS, MS (OBG), DGO, DNB (OBG)\n\nMNAMS (FELLOWSHIP IN REPRODUCTIVE MEDICINE)\n\nDr Reshmy J R is a dedicated senior consultant in reproductive medicine with more than 10 years of experience in the field of high-risk obstetrics and Fertility. She graduated her MBBS from Government medical college, Trivandrum, MS from MKCG medical college and hospital, Brahmapur and DGO in OBG & GYN from Government medical college, Calicut. She furthered her knowledge by doing both DNB and MNAMS from National board of examinations, New Delhi. She is one of the most successful Reproductive Medicine consultants with a Fellowship in reproductive medicine. She Specialise in multiple IVF failures and recurrent pregnancy losses. Her patients find her very approachable and friendly. She is known as a considerate and empathetic doctor.\n\nAREA OF EXPERTISE\n\nFertility preservation in males and females\n\nManagement of high-risk obstetrics\n\nGynaecology & Obstetrics\n\nInfertility treatments and Laparoscopic procedures\n\nInfertility procedures like IVF, IUI and ICSI.\n\nSuccessful in managing Endometriosis and complex adnexal masses.\n\nFemale fertility restoration surgeries\n\nFibroid removal, ovarian cyst removal and hysteroscopy procedures\n\nAREAS OF INTEREST\n\nInfertility\n\nRecurrent implantation failures\n\nRecurrent pregnancy loss\n\nHigh risk obstetrics\n\nPCOS\n\nEndometriosis\n\nFertility preservations",
+        "sourceKey": "website-2026-doctor-dr-reshmy-j-r",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/REPRODUCTIVE MEDICINE/DR RESHMY.docx\nKinder alleppey.zip/Doctors/Radiodiagnosis/DR RESHMY.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.\nAlleppey folder says Radiodiagnosis; profile and main doctor folder describe Reproductive Medicine. Confirm speciality.",
+        "published": false,
+        "sortOrder": 27
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Shilpa Govind",
+        "designation": "MBBS, MS, FMAS,DNB",
+        "speciality": "Reproductive Medicine",
+        "location": "Cherthala, Alappuzha",
+        "bio": "Dr Shilpa Govind is an invaluable asset in our department of reproductive medicine who is dedicated to excellence in patient care with an expertise in infertility treatments.",
+        "fullBio": "MBBS, MS, FMAS,DNB\n\nDr Shilpa Govind is an invaluable asset in our department of reproductive medicine who is dedicated to excellence in patient care with an expertise in infertility treatments. She graduated her MBBS from Government T D Medical College, Alappuzha, MS from MES Medical College Hospital, Perinthalmanna and DNB in OBG & GYN from National board of examinations, New Delhi. She expertise in career by doing a Fellowship in reproductive medicine from Kinder Women’s Hospital and Fertility Centre, Cherthala and also certified with a Fellowship in Minimal Access Surgery FMAS by The Association of Minimal Access Surgeons of India.\n\nAREA OF EXPERTISE\n\nFertility Preservation in Males and Females\n\nGynaecology & Obstetrics\n\nInfertility Treatments and Laparoscopic Procedures\n\nInfertility Procedures Like IVF, IUI And ICSI\n\nHysteroscopy Procedures and Ovarian Cyst Removal\n\nAREAS OF INTEREST\n\nInfertility\n\nRecurrent pregnancy loss\n\nPCOS\n\nEndometriosis",
+        "sourceKey": "website-2026-doctor-dr-shilpa-govind",
+        "sourceFiles": "DOCTORS PROFILE.zip/DOCTORS PROFILE/REPRODUCTIVE MEDICINE/DR SHILPA GOVIND.docx\nKinder alleppey.zip/Doctors/Radiodiagnosis/DR SHILPA GOVIND.docx",
+        "reviewNotes": "Cherthala inferred from the main profile collection; confirm current hospital assignment before publishing.\nAlleppey folder says Radiodiagnosis; profile and main doctor folder describe Reproductive Medicine. Confirm speciality.",
+        "published": false,
+        "sortOrder": 28
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "Neonatology & Paediatrics",
+        "description": "Neonatology is a subspecialty of paediatrics that focuses on the medical care of newborn infants, especially those who are ill or born prematurely. Neonatologists are specially trained physicians who provide medical care for newborns in neonatal intensive care units (NICUs) and other settings. They are skilled in managing a wide range of conditions that affect newborns, including respiratory distress syndrome, infections, birth defects, and complications of prematurity. Neonatologists work closely with other members of the healthcare team, including neonatal nurses, respiratory therapists, and paediatric surgeons, to provide comprehensive care for newborns and support their families during what can be a challenging time.",
+        "fullDescription": "Neonatology is a subspecialty of paediatrics that focuses on the medical care of newborn infants, especially those who are ill or born prematurely. Neonatologists are specially trained physicians who provide medical care for newborns in neonatal intensive care units (NICUs) and other settings. They are skilled in managing a wide range of conditions that affect newborns, including respiratory distress syndrome, infections, birth defects, and complications of prematurity. Neonatologists work closely with other members of the healthcare team, including neonatal nurses, respiratory therapists, and paediatric surgeons, to provide comprehensive care for newborns and support their families during what can be a challenging time.\n\nOur Neonatology unit is all about care, development, and disease prevention in newborn infants. At Kinder Hospital, your baby is in the expert care of well experienced newborn care specialists or neonatologists. Our unit has advanced technologies that help for a speedy recovery of newborn infants.\n\nOur newborn centre has a modern Level III NICU at Kinder Hospital. It has the most advanced tools and technologies for care and support of your baby. Our team of expert consultants and registered nurses follow international standards of newborn care. This ensures the best care even for the most complicated cases of the newborns. Our Level III NICU is an ultramodern facility to handle your baby’s changing health conditions and provide extra care and support when needed.\n\nThe services that our Neonatology department caters to are:\n\nPreterm care of extremely low birth of babies/High-Risk Newborn care\n\nRespiratory Distress Syndrome\n\nMeconium Aspiration Syndrome\n\nNeonatal Seizures\n\nPerinatal infections\n\nNeonatal Sepsis\n\nNeonatal Hyperbilirubinemia\n\nExchange Transfusion/Phototherapy\n\nHFOV/Invasive/Non-Invasive Ventilations\n\nC-Pap/HFNC\n\nPerinatal Asphyxia /HIE\n\nMetabolic disorders\n\nNeonatal Surgical Emergencies\n\nNeonatal Nutrition\n\nROP Screening\n\nFollow-up of High-Risk Babies\n\nBPD (Bronchopulmonary dysplasia) \\Feeding issues\n\nNEC\n\nFeed Intolerance/GE Reflex\n\nBreast Feeding/Lactation Counselling\n\nBleeding Disorders of Newborn\n\nNeonatal Skin Care\n\nDevelopmentally Supportive Care\n\nPostnatal Care/Neonatal Newborn care/Immunization\n\nPrenatal Counselling",
+        "location": "",
+        "category": "Children's Care",
+        "sourceKey": "website-2026-speciality-neonatology-paediatrics",
+        "sourceFiles": "Specialities.zip/NEONATOLOGY & PAEDIATRICS.docx",
+        "reviewNotes": "Confirm whether this speciality description is group-wide or Cherthala-only.",
+        "published": false,
+        "sortOrder": 29
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "Obstetrics & Gynaecology",
+        "description": "Obstetrics and Gynaecology (OB/GYN) is the medical specialty that focuses on the health of the female reproductive system, including pregnancy, childbirth, and the postpartum period, as well as the diagnosis and treatment of disorders of the female reproductive organs. OB/GYNs provide care for women throughout all stages of life, from adolescence through menopause, and often perform surgeries such as caesarean sections, hysterectomies, and tubal ligations.",
+        "fullDescription": "Obstetrics and Gynaecology (OB/GYN) is the medical specialty that focuses on the health of the female reproductive system, including pregnancy, childbirth, and the postpartum period, as well as the diagnosis and treatment of disorders of the female reproductive organs. OB/GYNs provide care for women throughout all stages of life, from adolescence through menopause, and often perform surgeries such as caesarean sections, hysterectomies, and tubal ligations.\n\nAt Kinder Hospitals, we provide the full range of gynaecological care that a woman could require throughout her life. We pride ourselves on our knowledge of the subject and use the most recent treatments and methods. Our team of experts is very knowledgeable and has years of hard work behind them. Being a Women's Hospital, Kinder women's hospital and fertility centre, Cherthala is considered as one of the best Gynaecologist hospitals in Kerala, offers world-class and comprehensive care for women. They regularly diagnose and treat problems with pain and bleeding, uterine fibroids, urinary incontinence, abnormal pap smears, and assist in managing concerns in early pregnancy. Our diagnoses are the result of careful consideration and collaboration among specialists from various fields who then contribute their unique ideas.\n\nThe Procedures and Services we provide in gynaecology includes:\n\nGeneral Gynaecology\n\nMinimally Invasive Gynaecologic Surgery\n\nPre- Conception Counselling\n\nUro-Gynaecology\n\nPreventive Health check –ups\n\nProblems relating to pregnancy, Fertility, Menstruation & menopause\n\nPCOS (Polycystic ovary syndrome)\n\nEndometriosis and other chronic conditions\n\nPelvic Floor dysfunction\n\nPre-malignant conditions like endometrial dysplasia\n\nCongenital abnormalities (in the female reproductive tract) etc.",
+        "location": "",
+        "category": "Maternity & Pregnancy",
+        "sourceKey": "website-2026-speciality-obstetrics-gynaecology",
+        "sourceFiles": "Specialities.zip/OBSTETRICS & GYNAECOLOGY.docx",
+        "reviewNotes": "Confirm whether this speciality description is group-wide or Cherthala-only.",
+        "published": false,
+        "sortOrder": 30
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "Obstetrics",
+        "description": "At Obstetrics, we care for pregnant women, unborn babies, labour and delivery and the immediate period following childbirth. Our obstetricians provide the best prenatal care for mother and child with healthy labour and safe delivery. They make sure to take care of any difficulties quickly and safely in case they are needed.",
+        "fullDescription": "At Obstetrics, we care for pregnant women, unborn babies, labour and delivery and the immediate period following childbirth. Our obstetricians provide the best prenatal care for mother and child with healthy labour and safe delivery. They make sure to take care of any difficulties quickly and safely in case they are needed.\n\nObstetrics deals with the wellbeing of pregnant women and their babies. Our Obstetrics unit cares for different complications such as\n\nEctopic pregnancy: a condition where the embryo is in a fallopian tube;\n\nFoetal distress caused by compression;\n\nProblems with the placenta or\n\nPre-eclampsia or high blood pressure with damage to kidneys or liver.\n\nAt Kinder Women’s Hospital and Fertility Centre, our obstetricians ensure both mother and baby are safe during all pregnancy stages and childbirth. Our approach is to take care of the\n\nmother and foetus to avoid all complications and treat them on time. Our obstetricians are skilled to make quick decisions during natural childbirth or conduct a caesarean section. They are\n\nadept to all changes during the process of childbirth.",
+        "location": "",
+        "category": "Maternity & Pregnancy",
+        "sourceKey": "website-2026-speciality-obstetrics",
+        "sourceFiles": "Specialities.zip/OBSTETRICS.docx",
+        "reviewNotes": "Confirm whether this speciality description is group-wide or Cherthala-only.",
+        "published": false,
+        "sortOrder": 31
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "Pathology",
+        "description": "The Department of Pathology focuses on diagnosing diseases by examining tissues, organs, and bodily fluids. It plays a critical role in disease diagnosis by analysing samples to identify disease types and stages, helping guide treatment decisions, by performing microscopic examinations of tissue samples and cell samples to detect abnormalities (Histology, haematology and Cytology), also by laboratory testing and autopsy services.",
+        "fullDescription": "The Department of Pathology focuses on diagnosing diseases by examining tissues, organs, and bodily fluids. It plays a critical role in disease diagnosis by analysing samples to identify disease types and stages, helping guide treatment decisions, by performing microscopic examinations of tissue samples and cell samples to detect abnormalities (Histology, haematology and Cytology), also by laboratory testing and autopsy services.\n\nIn our kinder hospital, pathology department diagnose conditions related to women's health, such as cancers (e.g., breast, ovarian) and other gynaecological disorders, guiding appropriate treatment strategies. They also play a crucial role in Prenatal and Perinatal Care by diagnosing conditions through prenatal screenings and analysing placental tissues, which can impact the health of both the mother and the infant. They also examine samples from neonates and children to diagnose congenital conditions, infections, and other health issues, aiding in early and accurate intervention. The department of pathology contribute to research and surveillance of diseases specific to women and children, helping to improve treatment options and patient outcomes.",
+        "location": "",
+        "category": "Allied & Wellness",
+        "sourceKey": "website-2026-speciality-pathology",
+        "sourceFiles": "Specialities.zip/PATHOLOGY.docx",
+        "reviewNotes": "Confirm whether this speciality description is group-wide or Cherthala-only.",
+        "published": false,
+        "sortOrder": 32
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "Pediatric Cardiology",
+        "description": "The Department of Paediatric Cardiology specializes in diagnosing, treating and managing heart conditions in infants and children, which can be critical for preventing complications and can improve the child’s quality of life.",
+        "fullDescription": "The Department of Paediatric Cardiology specializes in diagnosing, treating and managing heart conditions in infants and children, which can be critical for preventing complications and can improve the child’s quality of life.\n\nPaediatric cardiologists are skilled in treating congenital conditions from birth. And can provides expert care for complex and rare cardiovascular conditions.\n\nThey often work with other healthcare professionals, including surgeons, nurses, and developmental specialists, to offer coordinated care and they employs diagnostic tools like echocardiograms, ECGs, and cardiac catheterization to ensure thorough care. Paediatric Cardiology Department plays a vital role in ensuring the heart health of young patients, ultimately supporting their overall development and well-being.",
+        "location": "",
+        "category": "Children's Care",
+        "sourceKey": "website-2026-speciality-pediatric-cardiology",
+        "sourceFiles": "Specialities.zip/PEDIATRIC CARDIOLOGY.docx",
+        "reviewNotes": "Confirm whether this speciality description is group-wide or Cherthala-only.",
+        "published": false,
+        "sortOrder": 33
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "Pediatric Endocrinology",
+        "description": "A paediatric endocrinology department in a hospital specializes in diagnosing and treating hormone-related disorders in children. These can include issues with growth, puberty, diabetes, thyroid disorders, and more.",
+        "fullDescription": "A paediatric endocrinology department in a hospital specializes in diagnosing and treating hormone-related disorders in children. These can include issues with growth, puberty, diabetes, thyroid disorders, and more.\n\nTo provide comprehensive care for children we have a visiting consultant in paediatric endocrinology",
+        "location": "",
+        "category": "Children's Care",
+        "sourceKey": "website-2026-speciality-pediatric-endocrinology",
+        "sourceFiles": "Specialities.zip/PEDIATRIC ENDOCRINOLOGY.docx",
+        "reviewNotes": "Confirm whether this speciality description is group-wide or Cherthala-only.",
+        "published": false,
+        "sortOrder": 34
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "Pediatric Neurology",
+        "description": "The paediatric neurology department in a hospital is dedicated to the diagnosis, treatment, and management of neurological disorders in children, ranging from infancy to adolescence. Neurological disorders can affect the brain, spinal cord, nerves, and muscles, and they can have a significant impact on a child's development and overall well-being. Having a specialized department ensures that children receive appropriate care from healthcare professionals with expertise in paediatric neurology. This often involves a multidisciplinary approach, involving paediatric neurologists, paediatric neurosurgeons, nurses, therapists, and other specialists, to address the complex needs of young patients with neurological conditions.",
+        "fullDescription": "The paediatric neurology department in a hospital is dedicated to the diagnosis, treatment, and management of neurological disorders in children, ranging from infancy to adolescence. Neurological disorders can affect the brain, spinal cord, nerves, and muscles, and they can have a significant impact on a child's development and overall well-being. Having a specialized department ensures that children receive appropriate care from healthcare professionals with expertise in paediatric neurology. This often involves a multidisciplinary approach, involving paediatric neurologists, paediatric neurosurgeons, nurses, therapists, and other specialists, to address the complex needs of young patients with neurological conditions.\n\nIn our KINDER hospitals, we have a visiting consultant in our paediatric neurology department for providing the best services for a child's development and over all well-being.",
+        "location": "",
+        "category": "Children's Care",
+        "sourceKey": "website-2026-speciality-pediatric-neurology",
+        "sourceFiles": "Specialities.zip/PEDIATRIC NEUROLOGY.docx",
+        "reviewNotes": "Confirm whether this speciality description is group-wide or Cherthala-only.",
+        "published": false,
+        "sortOrder": 35
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "Pediatric Surgery",
+        "description": "Paediatric surgery involves surgical procedures performed on infants, children, and adolescents. These surgeries can range from routine procedures like hernia repairs to more complex surgeries such as organ transplants or correction of congenital abnormalities. Paediatric surgeons are specially trained to provide comprehensive care for children, considering their unique physiological and emotional needs.",
+        "fullDescription": "Paediatric surgery involves surgical procedures performed on infants, children, and adolescents. These surgeries can range from routine procedures like hernia repairs to more complex surgeries such as organ transplants or correction of congenital abnormalities. Paediatric surgeons are specially trained to provide comprehensive care for children, considering their unique physiological and emotional needs.\n\nIn KINDER, we perform various paediatric surgery procedures with ultra clean and sterile facilities and at most patient care.",
+        "location": "",
+        "category": "Children's Care",
+        "sourceKey": "website-2026-speciality-pediatric-surgery",
+        "sourceFiles": "Specialities.zip/PEDIATRIC SURGERY.docx",
+        "reviewNotes": "Confirm whether this speciality description is group-wide or Cherthala-only.",
+        "published": false,
+        "sortOrder": 36
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "Radiodiagnosis",
+        "description": "Our radiology department is well recognized for its services and high standards in the community. Highly qualified and skilled doctors, technicians, nurses and other support staff serve the department. The Radiology Department offers a wide spectrum of diagnostic imaging services which include an array of routine as well as specialized investigations.",
+        "fullDescription": "Our radiology department is well recognized for its services and high standards in the community. Highly qualified and skilled doctors, technicians, nurses and other support staff serve the department. The Radiology Department offers a wide spectrum of diagnostic imaging services which include an array of routine as well as specialized investigations.\n\nWith patient comfort and convenience in focus, the radiology department is equipped with state-of-the-art technology, facilities. The department provides diagnostic services to patients as well as to people who come for regular health checkups.\n\nOur Facilities\n\nComputerized Radiography\n\nMobile x-ray equipment\n\nUltrasonography - Obstetrics colour Doppler studies, 4D scans, HRSG, all 2D scans, Neurosonogram, fetal ECHO and all gynaecology scans\n\nSono-Mammography\n\nFetal medicine consultation, counselling and scans\n\nFetal interventions",
+        "location": "",
+        "category": "Allied & Wellness",
+        "sourceKey": "website-2026-speciality-radiodiagnosis",
+        "sourceFiles": "Specialities.zip/RADIODIAGNOSIS.docx",
+        "reviewNotes": "Confirm whether this speciality description is group-wide or Cherthala-only.",
+        "published": false,
+        "sortOrder": 37
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "Anaesthesiology",
+        "description": "The anaesthesiology department in a hospital plays a critical role in ensuring patient comfort and safety during surgical procedures and managing acute or chronic pain conditions.",
+        "fullDescription": "The anaesthesiology department in a hospital plays a critical role in ensuring patient comfort and safety during surgical procedures and managing acute or chronic pain conditions.\n\nIn an obstetrics hospital, the anaesthesiology department specializes in providing pain relief options for labor and delivery, including epidurals and other regional anaesthesia techniques. They also manage pain-related issues during pregnancy and postpartum care.\n\nThe department comprises well-qualified Anaesthesiology and Critical care consultants assisted by a team of experienced Anaesthesia technicians. We provide efficient preoperative assessment, risk stratification and optimisation of patients before surgery. Our operation theatre is well equipped with State-of-The-Art modern facilities, perfect infection control and quality control strategies. We follow internationally accepted protocols for administering safe Anaesthesia. We are well equipped with all the latest medical equipment to manage high risk and difficult cases.\n\nFor post-operative care, we have a well-equipped recovery area and a surgical ICU with a well-trained and dedicated nursing team. We provide extended services to the Emergency room for life-saving interventions. In the Labour suite, we provide pain relief assistance as labour epidural analgesia. We extend our services in all medical and paramedical departments in emergency life-saving situations including difficult IV calculations. In short, the Department of Anaesthesiology and Critical Care provides the backbone support to the hospital.",
+        "location": "",
+        "category": "Allied & Wellness",
+        "sourceKey": "website-2026-speciality-anaesthesiology",
+        "sourceFiles": "Specialities.zip/ANESTHESIOLOGY.docx",
+        "reviewNotes": "Confirm whether this speciality description is group-wide or Cherthala-only.",
+        "published": false,
+        "sortOrder": 38
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "Reproductive Medicine",
+        "description": "Assisted reproductive technology (ART) is the technology used to achieve pregnancy with procedures such as fertility medication, artificial insemination, in vitro fertilization and surrogacy. It is the reproductive technology used primarily for infertility treatments, and",
+        "fullDescription": "Assisted reproductive technology (ART) is the technology used to achieve pregnancy with procedures such as fertility medication, artificial insemination, in vitro fertilization and surrogacy. It is the reproductive technology used primarily for infertility treatments, and\n\nEmbryo Cryopreservation\n\nPercutaneous Epididymal Sperm Aspiration\n\nTesticular Sperm Aspiration\n\nis also known as fertility treatment. The Reproductive Medicine Department in Kinder Women’s Hospital is headed by experienced and qualified Consultants. The department includes qualified and well experienced staff and counsellor. The department adopts highest technology to provide safe and good quality care.\n\nPROCEDURES\n\nIntrauterine Insemination – IUI\n\nIn Vitro Fertilization – IVF\n\nIntracytoplasmic Sperm Injection – ICSI\n\nPercutaneous Epididymal Sperm Aspiration – PESA\n\nTesticular Sperm Aspiration – TESA\n\nTesticular Sperm Extraction – TESE\n\nSelective Salpingography – SSG\n\nHysterosalpingography – HSG\n\nSemen Freezing\n\nArtificial Insemination of Donor Semen\n\nDonated embryo transfer\n\nFrozen embryo transfer\n\nBasic and advanced infertility investigations of infertility couple include:\n\nSemen Analysis\n\nHormonal Assays\n\nFollicular Studies\n\nHydrocupration\n\nMock ET\n\nPipelle Sampling\n\nEndometrial Biopsy\n\nSonosalpingogram\n\nHysterosalpingogram\n\nIVF LAB\n\nIn Vitro Fertilization is a process where eggs are retrieved from a woman's ovaries and then fertilized with sperm outside the body, in a lab. Once fertilized, the embryos are then transferred back into the woman's uterus. IVF is a widely-used assisted reproductive technology for couples struggling with infertility, and it can also be used for gestational surrogacy and fertility preservation. It has helped many couples worldwide to conceive and have children.\n\nIVF labs ar the specialised space where the process of fertilization outside the body is carried out.\n\nIn Kinder IVF labs we maintain a sterile environment equipped with specialized tools and equipments for handling eggs , sperm and embryos. Specific culture media , cryopreservation facilities , advanced embryo transfer equipments and monitoring systems with expertised stffs ang good quality control measures.\n\nPROCEDURES\n\nICSI\n\nEmbryo Vetrification\n\nEmbryo thawing\n\nSingle spermitrification\n\nEmbryo biopsy\n\nEmbryo transfer\n\nANDROLOGY LAB\n\nPROCEDURES\n\nSemen analysis\n\nSemen freezing\n\nDNA Fragmentation\n\nIUI\n\nFertility preservation\n\nFETALMEDICINE PROCEDURES IN IVF\n\nAmniocentesis\n\nChorionic Villus Sampling – CVS\n\nFetal Reduction\n\nIntrauterine blood transfusion",
+        "location": "",
+        "category": "Fertility & Gynaecology",
+        "sourceKey": "website-2026-speciality-reproductive-medicine",
+        "sourceFiles": "Specialities.zip/ART.docx",
+        "reviewNotes": "Confirm whether this speciality description is group-wide or Cherthala-only.",
+        "published": false,
+        "sortOrder": 39
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "Dermatology",
+        "description": "Dermatology is the branch of medicine which deals with skin, hair, nails. It is a speciality with both medical and surgical aspects. Skin diseases adversely affect the quality of life of an individual. As skin and hair problems are visible, their problems pose significant inferiority complex and lack of self-confidence to the affected. Just like how you approach a Nephrologist and Cardiologist for your kidney and heart problems respectively, with equal seriousness, you need to consult a dermatologist as well for your skin and hair problems, rather than going behind home remedies and over the counter medications. Skin deserves its importance as it is the largest organ in the human body.",
+        "fullDescription": "Dermatology is the branch of medicine which deals with skin, hair, nails. It is a speciality with both medical and surgical aspects. Skin diseases adversely affect the quality of life of an individual. As skin and hair problems are visible, their problems pose significant inferiority complex and lack of self-confidence to the affected. Just like how you approach a Nephrologist and Cardiologist for your kidney and heart problems respectively, with equal seriousness, you need to consult a dermatologist as well for your skin and hair problems, rather than going behind home remedies and over the counter medications. Skin deserves its importance as it is the largest organ in the human body.\n\nTreatments are available in Kinder hospital for both common skin ailments as well as rare, complicated or chronic skin conditions\n\nServices\n\nSERVICES/ FACILITIES\n\nSkin consultation- Wood’s lamp and side lab investigations like gram stain, KOH test, Tzanck smear\n\nHair consultation/ Trichology- making use of tracheoscopy, Microneedling for hair fall, PRP for hair fall\n\nPaediatric Dermatology Consultation\n\nGeneral Dermatology Procedures\n\nSkin Biopsy\n\nMolluscum Extraction\n\nMilia Extraction\n\nIntralesional steroid injection for Alopecia Areata and keloids\n\nSoaking and paring for corns and calluses\n\nNail Avulsion\n\nAutoinoculation of warts\n\nXanthelasma removal\n\nCosmetic dermatology procedures\n\nAcne and acne scar treatment\n\nSalicylic peel\n\nComedone extraction\n\nMicrodermabrasion\n\nDermaroller\n\nSubcision\n\nPigmentation and dark spots\n\nGlycolic peel\n\nYellow peel\n\nMesotherapy\n\nMicrodermabrasion\n\nUnder-eye dark circles\n\nGlycolic peel\n\nAnti-ageing and skin rejuvenation\n\nGlycolic peel\n\nYellow peel\n\nMicrodermabrasion\n\nBOTOX\n\nFillers\n\nSkin tags/warts/unwanted skin growths\n\nRadiofrequency ablation\n\nCryosurgery",
+        "location": "",
+        "category": "Allied & Wellness",
+        "sourceKey": "website-2026-speciality-dermatology",
+        "sourceFiles": "Specialities.zip/DERMATOLOGY.docx",
+        "reviewNotes": "Confirm whether this speciality description is group-wide or Cherthala-only.",
+        "published": false,
+        "sortOrder": 40
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "Fetal Medicine",
+        "description": "Fetal medicine, also known as maternal-fetal medicine (MFM), is a specialized branch of obstetrics that focuses on the health of the mother and Fetus during pregnancy. It deals with the diagnosis and management of high-risk pregnancies, particularly those involving medical, surgical, or genetic complications that could affect the health of the Fetus or the mother.",
+        "fullDescription": "Fetal medicine, also known as maternal-fetal medicine (MFM), is a specialized branch of obstetrics that focuses on the health of the mother and Fetus during pregnancy. It deals with the diagnosis and management of high-risk pregnancies, particularly those involving medical, surgical, or genetic complications that could affect the health of the Fetus or the mother.\n\nFetal medicine specialists are trained in various aspects of prenatal diagnosis, fetal imaging and invasive procedures like amniocentesis and chorionic villus sampling (CVS). They work closely with other healthcare professionals, including obstetricians, genetic counsellors, neonatologists, and paediatric specialists, to provide comprehensive care to pregnant women and their babies.\n\nCommon reasons for referral to a fetal medicine specialist include maternal medical conditions (such as diabetes or hypertension), fetal abnormalities detected on ultrasound, multiple pregnancies (twins, triplets, etc.), advanced maternal age, and a history of pregnancy complications or birth defects.\n\nThe goal of fetal medicine is to monitor and manage high-risk pregnancies to optimize outcomes for both the mother and the baby, through advanced prenatal diagnosis, monitoring, and appropriate interventions when necessary.\n\nIn KINDER we have two fetal medicine specialists who are experts in all the advanced fetal scans, counselling and fetal interventions",
+        "location": "",
+        "category": "Maternity & Pregnancy",
+        "sourceKey": "website-2026-speciality-fetal-medicine",
+        "sourceFiles": "Specialities.zip/FETAL MEDICINE.docx",
+        "reviewNotes": "Confirm whether this speciality description is group-wide or Cherthala-only.",
+        "published": false,
+        "sortOrder": 41
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "General Medicine",
+        "description": "The Department of General Medicine in a hospital is typically responsible for diagnosing and treating a wide range of medical conditions that don't require surgical intervention. This department often deals with internal medicine, focusing on diseases affecting internal organs, such as heart disease, diabetes, and infectious diseases. They may also provide preventive care and manage chronic conditions.",
+        "fullDescription": "The Department of General Medicine in a hospital is typically responsible for diagnosing and treating a wide range of medical conditions that don't require surgical intervention. This department often deals with internal medicine, focusing on diseases affecting internal organs, such as heart disease, diabetes, and infectious diseases. They may also provide preventive care and manage chronic conditions.\n\nAt KINDER HOSPITAL we understand you and offer a variety of services to efficiently support you from diagnosis to treatment and prevention. Our physicians are skilled in the management of patients who are ill or suffer from any disease. They are very well supported by a committed team of nurses and paramedical staff here with all these you can be assured that KINDER GENERAL MEDICINE DEPARTMENT will be there to support you at every stage in your life\n\nServices\n\n1.Detailed Initial Assessment\n\n2.Diabetic Education\n\n3.Health Education\n\n4.On site Glucose measurement (Glucometer)\n\n5.Nebulization\n\n6.ECG FACILITIES\n\n7.Expert care to patient with communicable and non-communicable diseases\n\n8.Health checkups\n\n09.Evaluation and treatment for multi system disorder",
+        "location": "",
+        "category": "Allied & Wellness",
+        "sourceKey": "website-2026-speciality-general-medicine",
+        "sourceFiles": "Specialities.zip/GENERAL MEDICINE.docx",
+        "reviewNotes": "Confirm whether this speciality description is group-wide or Cherthala-only.",
+        "published": false,
+        "sortOrder": 42
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "General Surgery",
+        "description": "General surgery is a medical specialty that focuses on surgical procedures involving the abdomen, digestive tract, endocrine system, breast, skin, and soft tissues. Surgeons who specialize in general surgery are trained to perform a wide range of procedures, from appendectomies to hernia repairs to gallbladder removals.",
+        "fullDescription": "General surgery is a medical specialty that focuses on surgical procedures involving the abdomen, digestive tract, endocrine system, breast, skin, and soft tissues. Surgeons who specialize in general surgery are trained to perform a wide range of procedures, from appendectomies to hernia repairs to gallbladder removals.\n\nSERVICES\n\nUltraclean OT with Laminar airflow and Hepa filters.\n\nWell-equipped and modern Surgical Intensive Care unit\n\nPiles & Fistula Clinic\n\n1.All major abdominal surgeries including laparoscopic surgery\n\n2. Surgery for all types of hernia both open and laparoscopic.\n\n3.Surgery for Varicose Veins\n\n4.Endocrine gland Surgeries\n\n5.Laser treatment for Varicose Vein, Piles, Fistula, Fissure and Pilonidal Sinus",
+        "location": "",
+        "category": "Allied & Wellness",
+        "sourceKey": "website-2026-speciality-general-surgery",
+        "sourceFiles": "Specialities.zip/GENERAL SURGERY.docx",
+        "reviewNotes": "Confirm whether this speciality description is group-wide or Cherthala-only.",
+        "published": false,
+        "sortOrder": 43
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Daycare",
+        "slug": "facilities-daycare",
+        "category": "Facilities",
+        "location": "",
+        "excerpt": "Day care in a hospital typically refers to a unit where patients receive medical treatment or minor surgical procedures without requiring an overnight stay.",
+        "body": "DAY CARE\n\nDay care in a hospital typically refers to a unit where patients receive medical treatment or minor surgical procedures without requiring an overnight stay. These procedures include pipelle biopsies, copper t insertion procedures, intravenous therapy, CTG, injections etc…Additionally, patients coming for outpatient consultations can use this place to rest during their waiting period.",
+        "sourceKey": "website-2026-page-485ed2ef778aef3e",
+        "sourceFiles": "Facilities.zip/DAYCARE.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 44
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Emergency Department",
+        "slug": "facilities-emergency-department",
+        "category": "Facilities",
+        "location": "",
+        "excerpt": "Emergency department in our kinder hospital provides immediate relief to and management of the patients arriving at the hospital with acute medical and surgical emergencies related with general, obstetrics and gynaecology and neonatal emergencies etc without any discrimination.",
+        "body": "EMERGENCY DEPARTMENT\n\nEmergency department in our kinder hospital provides immediate relief to and management of the patients arriving at the hospital with acute medical and surgical emergencies related with general, obstetrics and gynaecology and neonatal emergencies etc without any discrimination.\n\nThe emergency department works round the clock 365 days staffed by RMO and speciality on call consultant round the clock.\n\nACTIVITIES\n\n24 Hour functioning fully staffed.\n\nOPD patients advised admission for observation are monitored here\n\nMore spacious facilities for examination and observation of Gynaec facilities\n\nImmunization program- BCG, OPV on Wednesdays, single dose vaccines on all days",
+        "sourceKey": "website-2026-page-91ba7064885b2bab",
+        "sourceFiles": "Facilities.zip/EMERGENCY DEPARTMENT.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 45
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "IVF Lab",
+        "slug": "facilities-ivf-lab",
+        "category": "Facilities",
+        "location": "",
+        "excerpt": "In Vitro Fertilization is a process where eggs are retrieved from a woman's ovaries and then fertilized with sperm outside the body, in a lab.",
+        "body": "IVF LAB\n\nIn Vitro Fertilization is a process where eggs are retrieved from a woman's ovaries and then fertilized with sperm outside the body, in a lab. Once fertilized, the embryos are then transferred back into the woman's uterus. IVF is a widely-used assisted reproductive technology for couples struggling with infertility, and it can also be used for gestational surrogacy and fertility preservation. It has helped many couples worldwide to conceive and have children.\n\nIVF labs are the specialised space where the process of fertilization outside the body is carried out.\n\nIn Kinder IVF labs we maintain a sterile environment equipped with specialized tools and equipment’s for handling eggs, sperm and embryos. Specific culture media, cryopreservation facilities, advanced embryo transfer equipment’s and monitoring systems with expertise staffs and good quality control measures.\n\nPROCEDURES\n\nICSI\n\nEmbryo Vitrification\n\nEmbryo thawing\n\nSingle spermitrification\n\nEmbryo biopsy\n\nEmbryo transfer\n\nANDROLOGY LAB\n\nPROCEDURES\n\nSemen analysis\n\nSemen freezing\n\nDNA Fragmentation\n\nIUI\n\nFertility preservation\n\nFETALMEDICINE PROCEDURES IN IVF\n\nAmniocentesis\n\nChorionic Villus Sampling – CVS\n\nFetal Reduction\n\nIntrauterine blood transfusion",
+        "sourceKey": "website-2026-page-a479b3573055108e",
+        "sourceFiles": "Facilities.zip/IVF LAB.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 46
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "IVF",
+        "slug": "facilities-ivf",
+        "category": "Facilities",
+        "location": "",
+        "excerpt": "with procedures such as fertility medication, artificial insemination, in vitro fertilization and surrogacy.",
+        "body": "IVF\n\nAssisted reproductive technology (ART) is the technology used to achieve pregnancy\n\nwith procedures such as fertility medication, artificial insemination, in vitro fertilization and surrogacy. It is the reproductive technology used primarily for infertility treatments, and\n\nEmbryo Cryopreservation\n\nPercutaneous Epididymal Sperm Aspiration\n\nTesticular Sperm Aspiration\n\nis also known as fertility treatment. The Reproductive Medicine Department in Kinder\n\nWomen’s Hospital is headed by experienced and qualified Consultants. The department\n\nincludes qualified and well experienced staff and counsellor. The department adopts highest technology to provide safe and good quality care.\n\nPROCEDURES\n\nIntrauterine Insemination – IUI\n\nIn Vitro Fertilization – IVF\n\nIntracytoplasmic Sperm Injection – ICSI\n\nPercutaneous Epididymal Sperm Aspiration – PESA\n\nTesticular Sperm Aspiration – TESA\n\nTesticular Sperm Extraction – TESE\n\nSelective Salpingography – SSG\n\nHysterosalpingography – HSG\n\nSemen Freezing\n\nArtificial Insemination of Donor Semen\n\nDonated embryo transfer\n\nFrozen embryo transfer\n\nBasic and advanced infertility investigations of infertility couple include:\n\nSemen Analysis\n\nHormonal Assays\n\nFollicular Studies\n\nHydrocupration\n\nMock ET\n\nPipelle Sampling\n\nEndometrial Biopsy\n\nSonosalpingogram\n\nHysterosalpingogram",
+        "sourceKey": "website-2026-page-deb3c3fdadd8d44b",
+        "sourceFiles": "Facilities.zip/IVF.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 47
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Kinder Dine",
+        "slug": "facilities-kinder-dine",
+        "category": "Facilities",
+        "location": "",
+        "excerpt": "Kinder dine is a charming and vibrant cafeteria that stands out for its delicious food and inviting open-air ambiance.",
+        "body": "KINDER DINE\n\nKinder dine is a charming and vibrant cafeteria that stands out for its delicious food and inviting open-air ambiance. Designed with a focus on affordability and quality, this eatery caters to both patients and visitors with a diverse selection of multi-cuisine dishes.\n\nFeatures:\n\n* Open Cafeteria Design: Enjoy meals in a pleasant and airy environment that enhances the dining experience.\n\n* High-Quality, Low-Budget Food: Offers tasty and nutritious meals at affordable prices, ensuring great value for all patrons.\n\n* Multi-Cuisine Variety: A broad menu featuring an array of cuisines to satisfy diverse tastes and preferences.\n\n* Exceptional Service: Friendly, well-trained staff providing standardized, courteous service that encourages frequent visits.\n\n* Extended Hours: Open from early morning until 9 PM, accommodating guests throughout the day and evening.\n\n* Cleanliness and Quality: Meticulously maintained facilities and food preparation processes ensure a hygienic environment and consistently delicious offerings.\n\nKINDER DINE is committed to delivering an exceptional dining experience, making it a preferred spot for those seeking high-quality food and service in a welcoming setting.",
+        "sourceKey": "website-2026-page-508e2117b2a1df7f",
+        "sourceFiles": "Facilities.zip/KINDER DINE.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 48
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Kinder Home",
+        "slug": "facilities-kinder-home",
+        "category": "Facilities",
+        "location": "",
+        "excerpt": "At Kinder Women's Hospital and Fertility Centre, we serve many patients who travel from afar.",
+        "body": "KINDER HOME FOR EXTERNAL STAY\n\nAt Kinder Women's Hospital and Fertility Centre, we serve many patients who travel from afar. To ease the challenges of long journeys during pregnancy, we have introduced Kinder Home facilities. This external accommodation offers a comfortable stay for patients and their companions requiring an extended stay. The Kinder Home features a bedroom with an attached bathroom, and a kitchen island. It is furnished with a sofa, table, and chair, and the bedroom is equipped with a cabinet and a hot water facility in the bathroom. Additionally, canteen services are available, making it an ideal choice for bedridden patients seeking a restful environment.",
+        "sourceKey": "website-2026-page-8395a493ea0c47ea",
+        "sourceFiles": "Facilities.zip/KINDER HOME.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 49
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Kinkart",
+        "slug": "facilities-kinkart",
+        "category": "Facilities",
+        "location": "",
+        "excerpt": "Kin-kart is your all-in-one destination for mom and baby products.",
+        "body": "KIN-KART\n\nKin-kart is your all-in-one destination for mom and baby products. We offer everything from maternity wear to feeding pillows, breast pumps, and more all under one roof. For newborns, you can find a variety of essentials, including clothing, diapers, net beds for peaceful sleep, baby carriers, and other necessities to meet your needs. Kin-kart provides high-quality, sterilized products that you can use with complete confidence. Our shop features top brands like Ziva, Himalaya, Popees, Pigeon, Morrisons, Vega, and Skinco.",
+        "sourceKey": "website-2026-page-51e0bd15d8c4baa0",
+        "sourceFiles": "Facilities.zip/KINKART.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 50
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Labor Room",
+        "slug": "facilities-labor-room",
+        "category": "Facilities",
+        "location": "",
+        "excerpt": "Kinder labour room for a woman is an ideal place to deliver her baby’s a memorable celebration.",
+        "body": "LABOUR ROOM\n\nKinder labour room for a woman is an ideal place to deliver her baby’s a memorable celebration. It is highly equipped with sterile and extremely conducive environment.\n\nFACILITIES\n\nHighly equipped birthing suite with neonatal resuscitor\n\nCardio Tocograph (C.T.G)\n\nObstetrics intensive care unit with the latest equipment’s\n\nFacility for painless delivery\n\nOne close relative is allowed with the patient during the time of delivery.\n\nExpert staffs with at most patient care\n\nDedicated and experienced doctors with highly ethical standards",
+        "sourceKey": "website-2026-page-707bff0373e4c7cd",
+        "sourceFiles": "Facilities.zip/LABOR ROOM.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 51
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Laboratories",
+        "slug": "facilities-laboratories",
+        "category": "Facilities",
+        "location": "",
+        "excerpt": "The Laboratories Department performs 24/7 services, offer an advanced technology in the laboratory investigations with high-quality service.",
+        "body": "LABORATORIES\n\nThe Laboratories Department performs 24/7 services, offer an advanced technology in the laboratory investigations with high-quality service. Kinder laboratory tests help in the detection, diagnosis, to monitor the effectiveness of treatment, to prevent and control infections. We are following best practices, error-free processes and strict compliance to quality standards.\n\nWe have automated analysers and other equipment that render accurate and precise test results in the shortest time possible. The Laboratory is integrated with the Hospital Information System (HIS) to facilitate an immediate and efficient flow of information to the concerned Department. Special emphasis is being given on daily quality checks i.e. Internal Quality Control as well as External Quality Control Standards.\n\nOUR LABORATORY DEPARTMENTS\n\nImmunology and Immuno chemistry\n\nBiochemistry\n\nHaematology\n\nMicrobiology\n\nSerology and Immuno haematology\n\nClinical pathology\n\nEQUIPPED WITH:\n\nFully automated biochemistry analyser\n\nSemi – automated biochemistry analyser\n\nFully automated immunology analyser\n\nFully automated haematology analyser\n\nBlood gas analyser\n\nElectrolyte analyser\n\nCoagulation analyser",
+        "sourceKey": "website-2026-page-d819ebae0914e26a",
+        "sourceFiles": "Facilities.zip/LABORATORIES.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 52
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "NICU",
+        "slug": "facilities-nicu",
+        "category": "Facilities",
+        "location": "",
+        "excerpt": "The state-of-art level 3 neonatal intensive care unit (NICU) is a highly specialized centre in the Alappuzha district for a critical illness of the tiny ones who are born prematurely.",
+        "body": "NICU\n\nThe state-of-art level 3 neonatal intensive care unit (NICU) is a highly specialized centre in the Alappuzha district for a critical illness of the tiny ones who are born prematurely. The neonatal facility has 15 beds to provide quality healthcare to the new-borns. The department is managed by highly competent and expert team of consultants and nurses to ensure utmost standards of care. They form the backbone of our services.\n\nThe use of advanced technologies provides support for speedy recovery.\n\nNICU indicated infants\n\nExtreme preterm\n\nPre term\n\nLow birth weight\n\nHypoglycaemia\n\nHyperbilurubinia\n\nRespiratory Distress Syndrome\n\nSerum Bilirubin above 20\n\nTransient Tachypnoea of the Newborn\n\nAny infectious diseases\n\nPROCEDURES\n\nINTUBATION\n\nIV CANULATION\n\nCENTRAL LINE\n\nUVC INSERTION\n\nUAC INSERTION\n\nLUMPAR PUNCTURE\n\nBLOOD EXCHANGE\n\nBLOOD TRANSFUSION\n\nNGT INSERTION\n\nCATHETERIZATION\n\nPICK LINE INSERTION\n\nPHOTOTHERAPY\n\nABG\n\nICD\n\nNIBP\n\nIBP\n\nSPO2\n\nLONG LINE INSERTION\n\nTPN\n\nBLOOD EXTRACTION\n\nSURFACTANT THERAPY\n\nFACILITIES\n\nLevel 3, Level 2, Level 1 NICU care.\n\nHigh frequency ventilators and transport incubator with ventilator\n\nOpen care warmers\n\nCardiac monitors\n\nInfusion pumps\n\nSyringe pumps\n\nPhototherapy machines and Bili blanket\n\nTransilluminator\n\nOxygen analyser\n\nABG Machine\n\nCentral suction and oxygen",
+        "sourceKey": "website-2026-page-f3f30b71a377c1eb",
+        "sourceFiles": "Facilities.zip/NICU.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 53
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Operation Theatre",
+        "slug": "facilities-operation-theatre",
+        "category": "Facilities",
+        "location": "",
+        "excerpt": "Kinder Hospital’s Operation Theatre have ultra-modern facilities where high risk obstetric and gynaecologic surgical procedures are executed in a highly sterile and extremely conducive environment.",
+        "body": "OPERATION THEATRE\n\nKinder Hospital’s Operation Theatre have ultra-modern facilities where high risk obstetric and gynaecologic surgical procedures are executed in a highly sterile and extremely conducive environment. Our goals are to provide quality health care of global standard care and concern for the patient.\n\nFacilities\n\nvideo recording integrated for single monitor control by Surgeons and Technicians.\n\nState-of-the-art engineering techniques to maintain the positive pressure within operating rooms along with Hepa filters to reduce infections.\n\nIndividual air handling unit for each Operating Rooms.\n\nStringent Infection Control measures followed under the surveillance of experienced Doctors.\n\nSCOPE\n\nTo give efficient & safe operation facilities for elective and emergency cases for IP and OP patients.\n\nPROCEDURES\n\nLaparoscopic surgeries.\n\nHysteroscopy\n\nLaparoscopy\n\nLap hysterectomy\n\nLap cystectomy\n\nLap assisted vaginal hysterectomy\n\nLap myomectomy\n\nOther surgeries\n\nOBG and GYNAEC surgeries",
+        "sourceKey": "website-2026-page-aca9548c7b992429",
+        "sourceFiles": "Facilities.zip/OPERATION THEATRE.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 54
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Pharmacy",
+        "slug": "facilities-pharmacy",
+        "category": "Facilities",
+        "location": "",
+        "excerpt": "Kinder Hospital Pharmacy operates 24/7, ensuring that high-quality pharmaceutical care is always available to our patients.",
+        "body": "Kinder Pharmacy\n\nKinder Hospital Pharmacy operates 24/7, ensuring that high-quality pharmaceutical care is always available to our patients. Our team of well-trained and coordinated pharmacists is dedicated to delivering exceptional service in the realms of gynaecology, paediatrics, and general medicine.\n\nServices Offered\n\n• Pharmaceutical Care: We provide comprehensive medication management, including the procurement, storage, billing, and dispensing of drugs.\n\n• Patient Education: Our pharmacists offer detailed education on drug usage and regimen to ensure patient safety and compliance.\n\nMedication Dispensing:\n\n• Outpatients: Medications are dispensed based on valid prescriptions provided by our consulting physicians.\n\n• Inpatients: Medicines are dispensed against indents raised by nursing staff through the Hospital Information System (HIS). The pharmacy bill for inpatients is automatically included in the final bill, which is settled at the time of discharge.\n\nCore Responsibilities\n\n• Procurement: We source medicines exclusively from authorized vendors to ensure authenticity and safety.\n\n• Storage: Proper storage practices are followed to maintain the efficacy and safety of drugs.\n\n• Billing: Accurate billing is conducted for all medications dispensed. Payments can be made via cash or card.\n\n• Dispensing: We adhere strictly to protocols for the dispensing of medications to prevent errors and ensure patient safety.\n\n• Formulary Adherence: Only drugs listed in the hospital formulary are procured, stored, and dispensed, ensuring consistency and quality in medication management.\n\nOur commitment at Kinder Hospital Pharmacy is to provide reliable, efficient, and compassionate pharmaceutical care to support the health and well-being of our patients.",
+        "sourceKey": "website-2026-page-f518fe539fcd0300",
+        "sourceFiles": "Facilities.zip/PHARMACY.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 55
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Radiology",
+        "slug": "facilities-radiology",
+        "category": "Facilities",
+        "location": "",
+        "excerpt": "Our radiology department is well recognized for its services and high standards in the community.",
+        "body": "RADIOLOGY\n\nOur radiology department is well recognized for its services and high standards in the community. Highly qualified and skilled doctors, technicians, nurses and other support staff serve the department. The Radiology Department offers a wide spectrum of diagnostic imaging services which include an array of routine as well as specialized investigations.\n\nWith patient comfort and convenience in focus, the radiology department is equipped with state-of-the-art technology, facilities. The department provides diagnostic services to patients as well as to people who come for regular health checkups.\n\nOur Facilities\n\nComputerized Radiography\n\nMobile x-ray equipment\n\nUltrasonography - Obstetrics colour Doppler studies, 4D scans, HRSG, all 2D scans, Neurosensorial, fetal ECHO and all gynaecology scans\n\nSono-Mammography\n\nFetal medicine consultation, counselling and scans\n\nFetal interventions",
+        "sourceKey": "website-2026-page-dfe6fbff486f47b1",
+        "sourceFiles": "Facilities.zip/RADIOLOGY.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 56
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Rooms",
+        "slug": "facilities-rooms",
+        "category": "Facilities",
+        "location": "",
+        "excerpt": "At Kinder Women's Hospital & Fertility Centre, we prioritize delivering exceptional healthcare with a patient-centred approach, ensuring the best possible outcomes through personalized and compassionate treatment.",
+        "body": "ROOMS\n\nAt Kinder Women's Hospital & Fertility Centre, we prioritize delivering exceptional healthcare with a patient-centred approach, ensuring the best possible outcomes through personalized and compassionate treatment. We offer a variety of inpatient room options tailored to meet different needs and preferences.\n\nTriple Sharing Rooms\n\n- Air-conditioned room shared by three patients\n\n- One patient bed and one bystander bed per patient\n\n- Shared telephone\n\n- Shared bathroom\n\n- Hot water facility in bathroom\n\n- Emergency bell\n\n- Chair\n\n- Beauty services\n\nNon-Air-Conditioned Rooms\n\n- Single, non-air-conditioned room\n\n- One patient bed and one bystander bed\n\n- Telephone\n\n- En-suite bathroom\n\n- Hot water facility in bathroom\n\n- Emergency bell\n\n- Chair\n\n- Beauty services\n\n- Television\n\nAir-Conditioned Standard Rooms\n\n- Single, air-conditioned room\n\n- One patient bed and one bystander bed\n\n- Telephone\n\n- En-suite bathroom\n\n- Hot water facility in bathroom\n\n- Emergency bell\n\n- Chair\n\n- Beauty services\n\n- Television\n\nAir-Conditioned Superior Rooms\n\n- Single, air-conditioned room\n\n- One patient bed and one bystander bed\n\n- Telephone\n\n- En-suite bathroom\n\n- Hot water facility in bathroom\n\n- Emergency bell\n\n- Chair\n\n- Beauty services\n\n- Television\n\n- Free Wi-Fi for one device\n\n- Interior cupboard\n\nSemi-Deluxe Rooms\n\n- Single, air-conditioned room\n\n- One patient bed and two bystander beds\n\n- Sofa set\n\n- Telephone\n\n- En-suite bathroom\n\n- Hot water facility in bathroom\n\n- Emergency bell\n\n- Free Wi-Fi for two devices\n\n- Interior cupboards\n\n- Television\n\n- Refrigerator\n\n- Microwave oven\n\n- Chair\n\n- Beauty services\n\nDeluxe Rooms\n\n- Single, air-conditioned room\n\n- One patient bed and two bystander beds\n\n- Sofa set\n\n- Chair\n\n- Telephone\n\n- En-suite bathroom\n\n- Hot water facility in bathroom\n\n- Emergency bell\n\n- Free Wi-Fi for two devices\n\n- Interior cupboards\n\n- Television\n\n- Refrigerator\n\n- Microwave oven\n\n- Beauty services\n\n- Free laundry services\n\n- Complimentary breakfast facility",
+        "sourceKey": "website-2026-page-55a6f0a72978b2dd",
+        "sourceFiles": "Facilities.zip/ROOMS.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 57
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "SICU",
+        "slug": "facilities-sicu",
+        "category": "Facilities",
+        "location": "",
+        "excerpt": "The Surgical Intensive Care Unit is an evidence-based intensive care centre for people who are recovering from surgery and also those who require close observation.",
+        "body": "SICU\n\nThe Surgical Intensive Care Unit is an evidence-based intensive care centre for people who are recovering from surgery and also those who require close observation. Kinder Women’s Hospital’s Surgical ICU is a six bedded department that accepts and manages patients who have undergone a variety of procedures under obstetrics and gynaecology, selected procedures under General and Bariatric surgery. It assists in providing the patients a peaceful postoperative period and shows strict adherence to infection control measures.\n\nSCOPE OF SERVICES\n\n2.0 SCOPE OF SERVICES\n\nAll Gynaec/Obstetric Post Operative patients\n\nAppendicectomy\n\nHernioplasty, Hernia repair\n\nVaricocelectomy\n\nEctopic management\n\nBlood Transfusion for adult\n\nBreast Lump excision\n\nACTIVITIES\n\nPost – operative care of general surgery\n\nPost – operative care of LSCS\n\nPost – operative care of Hysterectomy, myomectomy and salpingectomy\n\nCare of patients with postpartum haemorrhage after LSCS\n\nCare of patients with eclampsia\n\nCare of patients with epidural analgesis\n\nProcedure for removing the epidural catheter\n\nObservation for daycare procedures",
+        "sourceKey": "website-2026-page-db3cc7207bc8d3c1",
+        "sourceFiles": "Facilities.zip/SICU.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 58
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Ambulance",
+        "slug": "facilities-ambulance",
+        "category": "Facilities",
+        "location": "",
+        "excerpt": "Kinder Women's Hospital and Fertility Centre operates a D-level ambulance service that is essential for safeguarding the health and well-being of patients and newborns during transport.",
+        "body": "AMBULANCE SERVICE\n\nKinder Women's Hospital and Fertility Centre operates a D-level ambulance service that is essential for safeguarding the health and well-being of patients and newborns during transport. A \"D-level\" ambulance signifies a high standard of emergency medical care, designed to provide comprehensive support for critically ill or injured individuals.\n\nThe Level D ambulance, focused on neonatal and paediatric care, is a highly specialized vehicle outfitted with advanced medical equipment specifically for infants and young patients. It includes neonatal incubators, ventilators, and monitoring systems. The vehicle is staffed by a team of skilled professionals, including neonatologists or paediatricians and trained paramedics, ensuring continuous, expert care throughout the journey.\n\nThe Kinder PINC ambulance plays a crucial role in transporting premature babies, infants with congenital conditions, and children needing urgent medical intervention to specialized healthcare facilities. It is equipped with staff trained in ACLS (Advanced Cardiovascular Life Support), PALS (Paediatric Advanced Life Support), and NALS (Neonatal Advanced Life Support), ensuring the highest level of care during transport.",
+        "sourceKey": "website-2026-page-d6fee688d2756aef",
+        "sourceFiles": "Facilities.zip/AMBULANCE.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 59
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Blood Storage",
+        "slug": "facilities-blood-storage",
+        "category": "Facilities",
+        "location": "",
+        "excerpt": "Kinder Hospital has an additional blood storage unit to handle extra blood requirements during emergencies.",
+        "body": "Blood Storage\n\nKinder Hospital has an additional blood storage unit to handle extra blood requirements during emergencies. We source both positive and negative blood types from our IMA mother blood bank, which are utilized for our patients after cross-matching as needed. This additional blood supply may be necessary for situations such as heavy bleeding during delivery, gynaecological surgeries like myomectomy and hysterectomy, or intraoperative bleeding. If anaemia correction is required before surgery, additional blood units will be arranged by us. We also provide extra blood for severely anaemic preterm babies and fresh frozen plasma for newborns with bleeding disorders. In short, we take care of all blood arrangements ourselves, so you don't have to worry.",
+        "sourceKey": "website-2026-page-663945291e03b7bd",
+        "sourceFiles": "Facilities.zip/BLOOD STORAGE.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 60
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. A. R. Vijayalakshmy Y. Das",
+        "designation": "",
+        "speciality": "Obstetrics & Gynaecology",
+        "location": "Alappuzha",
+        "bio": "Dr.",
+        "fullBio": "Dr. A. R. Vijayalakshmy Y. Das is an esteemed medical professional specializing in Obstetrics and Gynaecology. She graduated with an MBBS from Government Medical College, Kozhikode, and further advanced her education by earning DGO and MD degrees in Obstetrics and Gynaecology. Dr. Vijayalakshmy Das also holds a fellowship from the Royal College of Obstetricians and Gynaecologists, highlighting her advanced expertise in the field.\n\nWith nearly 37 years of experience, Dr. Vijayalakshmy Das recently served as a Senior Consultant in Obstetrics and Gynaecology at a private hospital in Muscat from March 2023 to March 2024. Prior to this, she was affiliated with the Ministry of Health, Oman, from November 1987 until December 2022.\n\nDr. Vijayalakshmy Das has also been actively involved in professional development, having attended the Oman Society of Obstetrics and Gynaecology (OSOG) Annual Conference at the Crowne Plaza, Muscat. Additionally, she completed a Clinical Fellowship in Minimally Invasive and Pelvic Surgery at Sunrise Institute of Medical Sciences, Kochi, and participated in a Basic Training Course on Ultrasound in Obstetrics and Gynaecology.",
+        "sourceKey": "website-2026-doctor-dr-a-r-vijayalakshmy-y-das",
+        "sourceFiles": "Kinder alleppey.zip/Doctors/Obstetrics & Gynecology/Dr. A. R. Vijayalakshmy Y. Das.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 61
+      }
+    },
+    {
+      "collection": "doctors",
+      "data": {
+        "name": "Dr. Nisha Chacko",
+        "designation": "",
+        "speciality": "Neonatology & Paediatrics",
+        "location": "Alappuzha",
+        "bio": "Dr Nisha Chacko is a dedicated and highly skilled paediatrician whose career is distinguished by a profound commitment to excellence in child healthcare.",
+        "fullBio": "Dr Nisha Chacko is a dedicated and highly skilled paediatrician whose career is distinguished by a profound commitment to excellence in child healthcare. Her professional journey is characterized by a diverse range of experiences in clinical practice and academic roles, reflecting her passion for advancing paediatric care and education.\n\nDr Nisha's educational foundation is rooted in a distinguished academic background. She completed her Bachelor of Medicine, Bachelor of Surgery (MBBS) at Kasturba Medical College, Manipal, a prestigious institution renowned for its rigorous medical training and comprehensive clinical exposure. Building on this solid foundation, she pursued her Master of Doctorate (MD) in Paediatrics from A.J. Institute of Medical Sciences under Rajiv Gandhi University. This advanced training provided her with in-depth expertise in child healthcare and paediatric medicine.\n\nDr Nisha embarked on her professional career as a Senior Resident at Government T.D. Medical College in Alappuzha. This role allowed her to hone her skills in diagnosing and managing a wide array of paediatric conditions. Her commitment to paediatric care was further demonstrated during her tenure as a Consultant at Sahrudaya Hospital, Alappuzha. She returned to Government T.D. Medical College for an additional period as a Senior Resident, where she expanded her clinical expertise and contributed to the training of junior medical staff.\n\nTransitioning into academia, Dr Nisha took on the role of Assistant Professor at Mount Zion Medical College, Adoor. This position allowed her to integrate her clinical practice with teaching and mentoring medical students, shaping the next generation of paediatricians while continuing to provide high-quality patient care.\n\nBefore joining Kinder Hospital, Dr Nisha served as a Consultant at Providence Hospital and Sahrudaya Hospital, both in Alappuzha. In these roles, she continued to offer expert paediatric care and managed complex cases, reinforcing her reputation as a compassionate and highly competent paediatrician.\n\nAt Kinder Hospital, Dr Nisha Chacko remains a vital contributor to the field of paediatrics. She is dedicated to providing exceptional care for children, leveraging her extensive experience to address a wide range of paediatric needs and ensuring the highest standards of patient care. Her approach is characterized by a blend of expertise, dedication, and compassion, making her a valuable member of the healthcare team and a trusted figure in the lives of her young patients.",
+        "sourceKey": "website-2026-doctor-dr-nisha-chacko",
+        "sourceFiles": "Kinder alleppey.zip/Doctors/Paediatrics/DR NISHA CHACKO.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 62
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Kinder Alleppey Clinic",
+        "slug": "alappuzha-hospitals-kinder-alleppey-clinic",
+        "category": "Hospitals",
+        "location": "Alappuzha",
+        "excerpt": "Kinder Women's Hospital and Fertility Centre in Cherthala has successfully treated over 600,000 women and witnessed more than 18,000 childbirths.",
+        "body": "KINDER WOMEN’S AND CHILDREN’S CLINIC\n\nKinder Women's Hospital and Fertility Centre in Cherthala has successfully treated over 600,000 women and witnessed more than 18,000 childbirths. Approximately 35% of women visiting the Cherthala branch travel from beyond Alappuzha town. To make access easier, Kinder Hospitals opened a new branch in Alappuzha near Kidangamparambu Sree Bhuvaneswari Temple on March 11, 2023. Pregnant women who visit the Alappuzha clinic can complete all their tests and check-ups there up to the ninth month, needing only to travel to Cherthala for delivery.\n\nDr V.K. Pradeepkumar, Chairman of Kinder Medical Group, believes that the place of birth should be a joyful environment, which is why Kinder Hospitals celebrate every pregnancy and childbirth. To ensure a tranquil experience, the Alappuzha clinic is situated in a peaceful location away from the town's hustle and bustle, yet remains easily accessible. The clinic offers not only pregnancy-related care but also gynaecological and paediatric consultations and treatments. Furthermore, the Alappuzha clinic maintains the same high - quality treatment standards as the Cherthala facility.",
+        "sourceKey": "website-2026-page-e556cde1366c4403",
+        "sourceFiles": "Kinder alleppey.zip/ALLEPPEY INTRO.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 63
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "Reproductive Medicine",
+        "description": "Assisted reproductive technology (ART) is the technology used to achieve pregnancy with procedures such as fertility medication, artificial insemination, in vitro fertilization and surrogacy. It is the reproductive technology used primarily for infertility treatments, and",
+        "fullDescription": "Assisted reproductive technology (ART) is the technology used to achieve pregnancy with procedures such as fertility medication, artificial insemination, in vitro fertilization and surrogacy. It is the reproductive technology used primarily for infertility treatments, and\n\nEmbryo Cryopreservation\n\nPercutaneous Epididymal Sperm Aspiration\n\nTesticular Sperm Aspiration\n\nis also known as fertility treatment. The Reproductive Medicine Department in Kinder Women’s Hospital is headed by experienced and qualified Consultants. The department includes qualified and well experienced staff and counsellor. The department adopts highest technology to provide safe and good quality care.\n\nPROCEDURES\n\nIntrauterine Insemination – IUI\n\nIn Vitro Fertilization – IVF\n\nIntracytoplasmic Sperm Injection – ICSI\n\nPercutaneous Epididymal Sperm Aspiration – PESA\n\nTesticular Sperm Aspiration – TESA\n\nTesticular Sperm Extraction – TESE\n\nSelective Salpingography – SSG\n\nHysterosalpingography – HSG\n\nSemen Freezing\n\nArtificial Insemination of Donor Semen\n\nDonated embryo transfer\n\nFrozen embryo transfer\n\nBasic and advanced infertility investigations of infertility couple include:\n\nSemen Analysis\n\nHormonal Assays\n\nFollicular Studies\n\nHydrocupration\n\nMock ET\n\nPipelle Sampling\n\nEndometrial Biopsy\n\nSonosalpingogram\n\nHysterosalpingogram\n\nIVF LAB\n\nIn Vitro Fertilization is a process where eggs are retrieved from a woman's ovaries and then fertilized with sperm outside the body, in a lab. Once fertilized, the embryos are then transferred back into the woman's uterus. IVF is a widely-used assisted reproductive technology for couples struggling with infertility, and it can also be used for gestational surrogacy and fertility preservation. It has helped many couples worldwide to conceive and have children.\n\nIVF labs ar the specialised space where the process of fertilization outside the body is carried out.\n\nIn Kinder IVF labs we maintain a sterile environment equipped with specialized tools and equipments for handling eggs , sperm and embryos. Specific culture media , cryopreservation facilities , advanced embryo transfer equipments and monitoring systems with expertised stffs ang good quality control measures.\n\nPROCEDURES\n\nICSI\n\nEmbryo Vetrification\n\nEmbryo thawing\n\nSingle spermitrification\n\nEmbryo biopsy\n\nEmbryo transfer\n\nANDROLOGY LAB\n\nPROCEDURES\n\nSemen analysis\n\nSemen freezing\n\nDNA Fragmentation\n\nIUI\n\nFertility preservation\n\nFETALMEDICINE PROCEDURES IN IVF\n\nAmniocentesis\n\nChorionic Villus Sampling – CVS\n\nFetal Reduction\n\nIntrauterine blood transfusion",
+        "location": "Alappuzha",
+        "category": "Fertility & Gynaecology",
+        "sourceKey": "website-2026-speciality-reproductive-medicine-alappuzha",
+        "sourceFiles": "Kinder alleppey.zip/Specialities/ART.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 64
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "Neonatology & Paediatrics",
+        "description": "Neonatology is a subspecialty of paediatrics that focuses on the medical care of newborn infants, especially those who are ill or born prematurely. Neonatologists are specially trained physicians who provide medical care for newborns in neonatal intensive care units (NICUs) and other settings. They are skilled in managing a wide range of conditions that affect newborns, including respiratory distress syndrome, infections, birth defects, and complications of prematurity. Neonatologists work closely with other members of the healthcare team, including neonatal nurses, respiratory therapists, and paediatric surgeons, to provide comprehensive care for newborns and support their families during what can be a challenging time.",
+        "fullDescription": "Neonatology is a subspecialty of paediatrics that focuses on the medical care of newborn infants, especially those who are ill or born prematurely. Neonatologists are specially trained physicians who provide medical care for newborns in neonatal intensive care units (NICUs) and other settings. They are skilled in managing a wide range of conditions that affect newborns, including respiratory distress syndrome, infections, birth defects, and complications of prematurity. Neonatologists work closely with other members of the healthcare team, including neonatal nurses, respiratory therapists, and paediatric surgeons, to provide comprehensive care for newborns and support their families during what can be a challenging time.\n\nOur Neonatology unit is all about care, development, and disease prevention in newborn infants. At Kinder Hospital, your baby is in the expert care of well experienced newborn care specialists or neonatologists. Our unit has advanced technologies that help for a speedy recovery of newborn infants.\n\nOur newborn centre has a modern Level III NICU at Kinder Hospital. It has the most advanced tools and technologies for care and support of your baby. Our team of expert consultants and registered nurses follow international standards of newborn care. This ensures the best care even for the most complicated cases of the newborns. Our Level III NICU is an ultramodern facility to handle your baby’s changing health conditions and provide extra care and support when needed.\n\nThe services that our Neonatology department caters to are:\n\nPreterm care of extremely low birth of babies/High-Risk Newborn care\n\nRespiratory Distress Syndrome\n\nMeconium Aspiration Syndrome\n\nNeonatal Seizures\n\nPerinatal infections\n\nNeonatal Sepsis\n\nNeonatal Hyperbilirubinemia\n\nExchange Transfusion/Phototherapy\n\nHFOV/Invasive/Non-Invasive Ventilations\n\nC-Pap/HFNC\n\nPerinatal Asphyxia /HIE\n\nMetabolic disorders\n\nNeonatal Surgical Emergencies\n\nNeonatal Nutrition\n\nROP Screening\n\nFollow-up of High-Risk Babies\n\nBPD (Bronchopulmonary dysplasia) \\Feeding issues\n\nNEC\n\nFeed Intolerance/GE Reflex\n\nBreast Feeding/Lactation Counselling\n\nBleeding Disorders of Newborn\n\nNeonatal Skin Care\n\nDevelopmentally Supportive Care\n\nPostnatal Care/Neonatal Newborn care/Immunization\n\nPrenatal Counselling",
+        "location": "Alappuzha",
+        "category": "Children's Care",
+        "sourceKey": "website-2026-speciality-neonatology-paediatrics-alappuzha",
+        "sourceFiles": "Kinder alleppey.zip/Specialities/NEONATOLOGY & PAEDIATRICS.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 65
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "Obstetrics & Gynaecology",
+        "description": "Obstetrics and Gynaecology (OB/GYN) is the medical specialty that focuses on the health of the female reproductive system, including pregnancy, childbirth, and the postpartum period, as well as the diagnosis and treatment of disorders of the female reproductive organs. OB/GYNs provide care for women throughout all stages of life, from adolescence through menopause, and often perform surgeries such as caesarean sections, hysterectomies, and tubal ligations.",
+        "fullDescription": "Obstetrics and Gynaecology (OB/GYN) is the medical specialty that focuses on the health of the female reproductive system, including pregnancy, childbirth, and the postpartum period, as well as the diagnosis and treatment of disorders of the female reproductive organs. OB/GYNs provide care for women throughout all stages of life, from adolescence through menopause, and often perform surgeries such as caesarean sections, hysterectomies, and tubal ligations.\n\nAt Kinder Hospitals, we provide the full range of gynaecological care that a woman could require throughout her life. We pride ourselves on our knowledge of the subject and use the most recent treatments and methods. Our team of experts is very knowledgeable and has years of hard work behind them. Being a Women's Hospital, Kinder women's hospital and fertility centre, Cherthala is considered as one of the best Gynaecologist hospitals in Kerala, offers world-class and comprehensive care for women. They regularly diagnose and treat problems with pain and bleeding, uterine fibroids, urinary incontinence, abnormal pap smears, and assist in managing concerns in early pregnancy. Our diagnoses are the result of careful consideration and collaboration among specialists from various fields who then contribute their unique ideas.\n\nThe Procedures and Services we provide in gynaecology includes:\n\nGeneral Gynaecology\n\nMinimally Invasive Gynaecologic Surgery\n\nPre- Conception Counselling\n\nUro-Gynaecology\n\nPreventive Health check –ups\n\nProblems relating to pregnancy, Fertility, Menstruation & menopause\n\nPCOS (Polycystic ovary syndrome)\n\nEndometriosis and other chronic conditions\n\nPelvic Floor dysfunction\n\nPre-malignant conditions like endometrial dysplasia\n\nCongenital abnormalities (in the female reproductive tract) etc.",
+        "location": "Alappuzha",
+        "category": "Maternity & Pregnancy",
+        "sourceKey": "website-2026-speciality-obstetrics-gynaecology-alappuzha",
+        "sourceFiles": "Kinder alleppey.zip/Specialities/OBSTETRICS & GYNAECOLOGY.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 66
+      }
+    },
+    {
+      "collection": "specialities",
+      "data": {
+        "name": "Radiodiagnosis",
+        "description": "Our radiology department is well recognized for its services and high standards in the community. Highly qualified and skilled doctors, technicians, nurses and other support staff serve the department. The Radiology Department offers a wide spectrum of diagnostic imaging services which include an array of routine as well as specialized investigations.",
+        "fullDescription": "Our radiology department is well recognized for its services and high standards in the community. Highly qualified and skilled doctors, technicians, nurses and other support staff serve the department. The Radiology Department offers a wide spectrum of diagnostic imaging services which include an array of routine as well as specialized investigations.\n\nWith patient comfort and convenience in focus, the radiology department is equipped with state-of-the-art technology, facilities. The department provides diagnostic services to patients as well as to people who come for regular health checkups.\n\nOur Facilities\n\nComputerized Radiography\n\nMobile x-ray equipment\n\nUltrasonography - Obstetrics colour Doppler studies, 4D scans, HRSG, all 2D scans, Neurosonogram, fetal ECHO and all gynaecology scans\n\nSono-Mammography\n\nFetal medicine consultation, counselling and scans\n\nFetal interventions",
+        "location": "Alappuzha",
+        "category": "Allied & Wellness",
+        "sourceKey": "website-2026-speciality-radiodiagnosis-alappuzha",
+        "sourceFiles": "Kinder alleppey.zip/Specialities/RADIODIAGNOSIS.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 67
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Laboratories",
+        "slug": "alappuzha-facilities-laboratories",
+        "category": "Facilities",
+        "location": "Alappuzha",
+        "excerpt": "The Laboratories Department performs 24/7 services, offer an advanced technology in the laboratory investigations with high-quality service.",
+        "body": "LABORATORIES\n\nThe Laboratories Department performs 24/7 services, offer an advanced technology in the laboratory investigations with high-quality service. Kinder laboratory tests help in the detection, diagnosis, to monitor the effectiveness of treatment, to prevent and control infections. We are following best practices, error-free processes and strict compliance to quality standards.\n\nWe have automated analysers and other equipment that render accurate and precise test results in the shortest time possible. The Laboratory is integrated with the Hospital Information System (HIS) to facilitate an immediate and efficient flow of information to the concerned Department. Special emphasis is being given on daily quality checks i.e. Internal Quality Control as well as External Quality Control Standards.\n\nOUR LABORATORY DEPARTMENTS\n\nImmunology and Immuno chemistry\n\nBiochemistry\n\nHaematology\n\nMicrobiology\n\nSerology and Immuno haematology\n\nClinical pathology\n\nEQUIPPED WITH:\n\nFully automated biochemistry analyser\n\nSemi – automated biochemistry analyser\n\nFully automated immunology analyser\n\nFully automated haematology analyser\n\nBlood gas analyser\n\nElectrolyte analyser\n\nCoagulation analyser",
+        "sourceKey": "website-2026-page-38b4ab9b87e07090",
+        "sourceFiles": "Kinder alleppey.zip/Facilities/LABORATORIES.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 68
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Pharmacy",
+        "slug": "alappuzha-facilities-pharmacy",
+        "category": "Facilities",
+        "location": "Alappuzha",
+        "excerpt": "Kinder Hospital Pharmacy operates 24/7, ensuring that high-quality pharmaceutical care is always available to our patients.",
+        "body": "Kinder Pharmacy\n\nKinder Hospital Pharmacy operates 24/7, ensuring that high-quality pharmaceutical care is always available to our patients. Our team of well-trained and coordinated pharmacists is dedicated to delivering exceptional service in the realms of gynaecology, paediatrics, and general medicine.\n\nServices Offered\n\n• Pharmaceutical Care: We provide comprehensive medication management, including the procurement, storage, billing, and dispensing of drugs.\n\n• Patient Education: Our pharmacists offer detailed education on drug usage and regimen to ensure patient safety and compliance.\n\nMedication Dispensing:\n\n• Outpatients: Medications are dispensed based on valid prescriptions provided by our consulting physicians.\n\n• Inpatients: Medicines are dispensed against indents raised by nursing staff through the Hospital Information System (HIS). The pharmacy bill for inpatients is automatically included in the final bill, which is settled at the time of discharge.\n\nCore Responsibilities\n\n• Procurement: We source medicines exclusively from authorized vendors to ensure authenticity and safety.\n\n• Storage: Proper storage practices are followed to maintain the efficacy and safety of drugs.\n\n• Billing: Accurate billing is conducted for all medications dispensed. Payments can be made via cash or card.\n\n• Dispensing: We adhere strictly to protocols for the dispensing of medications to prevent errors and ensure patient safety.\n\n• Formulary Adherence: Only drugs listed in the hospital formulary are procured, stored, and dispensed, ensuring consistency and quality in medication management.\n\nOur commitment at Kinder Hospital Pharmacy is to provide reliable, efficient, and compassionate pharmaceutical care to support the health and well-being of our patients.",
+        "sourceKey": "website-2026-page-df09da5811fdf9fd",
+        "sourceFiles": "Kinder alleppey.zip/Facilities/PHARMACY.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 69
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Radiology",
+        "slug": "alappuzha-facilities-radiology",
+        "category": "Facilities",
+        "location": "Alappuzha",
+        "excerpt": "Our radiology department is well recognized for its services and high standards in the community.",
+        "body": "RADIOLOGY\n\nOur radiology department is well recognized for its services and high standards in the community. Highly qualified and skilled doctors, technicians, nurses and other support staff serve the department. The Radiology Department offers a wide spectrum of diagnostic imaging services which include an array of routine as well as specialized investigations.\n\nWith patient comfort and convenience in focus, the radiology department is equipped with state-of-the-art technology, facilities. The department provides diagnostic services to patients as well as to people who come for regular health checkups.\n\nOur Facilities\n\nComputerized Radiography\n\nMobile x-ray equipment\n\nUltrasonography - Obstetrics colour Doppler studies, 4D scans, HRSG, all 2D scans, Neurosensorial, fetal ECHO and all gynaecology scans\n\nSono-Mammography\n\nFetal medicine consultation, counselling and scans\n\nFetal interventions",
+        "sourceKey": "website-2026-page-c40e37723c8163ca",
+        "sourceFiles": "Kinder alleppey.zip/Facilities/RADIOLOGY.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 70
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Maternity Packages",
+        "slug": "packages-maternity-packages",
+        "category": "Packages",
+        "location": "",
+        "excerpt": "Kinder is pleased to present two exclusive packages designed for expectant mothers.",
+        "body": "PACKAGES\n\nKinder is pleased to present two exclusive packages designed for expectant mothers. These packages aim to encourage normal deliveries within our state. Pregnancy is a precious period for families, filled with joy and new connections as you await the arrival of your baby. During this time, choosing the right doctor and hospital is crucial for a smooth pregnancy and delivery.\n\nWe offer a comprehensive range of services and facilities to support both you and your newborn. To help prospective parents accurately estimate the costs of delivering at Kinder Women's Hospital, we are introducing the following Obstetric Packages.",
+        "sourceKey": "website-2026-page-581f943650d531e3",
+        "sourceFiles": "Packages.zip/Intro.docx",
+        "reviewNotes": "Confirm current pricing, eligibility, exclusions and terms before publishing.",
+        "published": false,
+        "sortOrder": 71
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Jananimithram Delivery Package",
+        "slug": "packages-jananimithram-delivery-package",
+        "category": "Packages",
+        "location": "",
+        "excerpt": "This Package is effective from the 8* Week of Pregnancy.",
+        "body": "\"JANANIMITHRAM\" - DELIVERY PACKAGE\n\nThis Package is effective from the 8* Week of Pregnancy. The Package consists of OPD Consultations, Scanning, Lab investigations and medicines *.\n\nOur Package cost is INR RS.29,950/- *(Rupees Twenty nine Thousand nine hundred and fifty only). The package is exclusive of the food expenses of the patient and the bystanders. The packages are designed to be as comprehensive as possible, although special circumstances may incur additional charges and there is no value added services under this package.\n\nTerms and Conditions:-\n\n* Package is designed only for normal delivery. Previous LSCS patient are not eligible.\n\nallowed.\n\n* This package is not applicable for those patients having insurance/reimbursement facility, if any demand arises in future will be liable to pay actual cost of entire period.\n\n* Eligible only for Four share/Triple share A/c. room, room change is not allowed in this package (Room features: - 4 or 3 patients in a room, curtain partition, common bath room).\n\n* Length of stay for normal delivery is calculated for 3 days. Above will be chargeable as normal.\n\n* Package is applicable for the mother only and the baby care shall be charged in addition to the package.\n\n* Package also includes Delivery charges, Accommodation charges, Doctors' visits, Nursing charges, investigations, medicines and consumables used during the admission for delivery as per defined criteria.\n\nPackage is prepared on an estimate basis and subject to any further tests/ procedures/ consultations other than mentioned in the package - Patients are bound to remit the amount for the same in addition to the package amount paid/payable.\n\n* Patients are requested to bring the JM Brochure/JM Cards to avail the package on each visit.\n\n* Painless Delivery Option and Assisted Vaginal deliveries- Vacuum or Forceps shall be charged extra.\n\n* The package is prepared on an approximate basis and in no event refund shall be entertained, excluded when pregnancy terminated due to clinical reasons.",
+        "sourceKey": "website-2026-page-25e49ff6649738c8",
+        "sourceFiles": "Packages.zip/Jananimithram.docx",
+        "reviewNotes": "Confirm current pricing, eligibility, exclusions and terms before publishing.",
+        "published": false,
+        "sortOrder": 72
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Kinder Mom Delivery Package",
+        "slug": "packages-kinder-mom-delivery-package",
+        "category": "Packages",
+        "location": "",
+        "excerpt": "The kinder mom Package is effective from the 4th to 6* month of Pregnancy.",
+        "body": "Kinder mom - Delivery package\n\nThe kinder mom Package is effective from the 4th to 6* month of Pregnancy. The Package consists of OPD Consultations, Scanning, Lab investigations and medicines *.\n\nOur Package cost will very as per the room category at the time of admission. The package is exclusive of the food expenses of the patient and the bystanders. The packages are designed to be as comprehensive as possible, although special circumstances may incur additional.\n\nTerms and Conditions:-\n\n* Package is designed only for normal delivery. Previous LSCS patient are not eligible.\n\n* Patient can select this package 4 to 6 months of pregnancy. Other options are not allowed.\n\n* This package is not applicable for those patients having insurance/reimbursement facility, if any demand arises in future will be liable to pay actual cost of entire period.\n\n* Length of stay for normal delivery is calculated for 3 days. Above will be chargeable as normal.\n\n* Package is applicable for the mother only and the baby care shall be charged in addition to the package.\n\n* Package also includes Delivery charges, Accommodation charges, Doctors' visits, Nursing charges, investigations, medicines and consumables used during the admission for delivery as per defined criteria.\n\n* Package is prepared on an estimate basis and subject to any further tests/ procedures/ consultations other than mentioned in the package - Patients are bound to remit the amount for the same in addition to the package amount paid/payable.\n\n* Patients are requested to bring the JM Brochure/JM Cards to avail the package on each visit.\n\n* Painless Delivery Option and Assisted Vaginal deliveries- Vacuum or Forceps shall be charged extra.\n\n* The package is prepared on an approximate basis and in no event refund shall be entertained, excluded when pregnancy terminated due to clinical reasons.",
+        "sourceKey": "website-2026-page-af2c39cc9d45470c",
+        "sourceFiles": "Packages.zip/Kinder MOM.docx",
+        "reviewNotes": "Confirm current pricing, eligibility, exclusions and terms before publishing.",
+        "published": false,
+        "sortOrder": 73
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Shrishti Fertility Package",
+        "slug": "packages-shrishti-fertility-package",
+        "category": "Packages",
+        "location": "",
+        "excerpt": "Shrishti is a specialized treatment package offered by Kinder ART.",
+        "body": "Shrishti\n\nShrishti is a specialized treatment package offered by Kinder ART. For many couples, having a child is a cherished dream, but the high cost of infertility treatment is a common barrier. we believe that financial constraints should not prevent anyone from receiving the care they need. That's why Kinder women hospital introduced Shrishti package for needy people. Its cost-effective infertility treatment package. We provide 50% discount to IVF treatment.\n\nThis package includes free patient registration, consultation, and the initial scan. Additionally, it provides:\n\n- mock ET, pickup, ICSI, embryo transfer, and embryo vitrification are also including our special package.",
+        "sourceKey": "website-2026-page-730c1b3e42b0caff",
+        "sourceFiles": "Packages.zip/Shristi.docx",
+        "reviewNotes": "Confirm current pricing, eligibility, exclusions and terms before publishing.",
+        "published": false,
+        "sortOrder": 74
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "ALDUN",
+        "slug": "insurance-aldun",
+        "category": "Insurance",
+        "location": "",
+        "excerpt": "ALDUN is a new-age digital healthcare service which makes your hospitalization experience more convenient.",
+        "body": "ALDUN\n\nALDUN is a new-age digital healthcare service which makes your hospitalization experience more convenient. ALDUN works based on a RAC policy in which they make your Reimbursement As Cashless. ALDUN simplifies the hassle of filing a reimbursement of insurances by doing all the documentations works and paying your hospital bills through out your hospitalization. All your hospitalization bills under 2.5 lakhs can be payed through them and patient can repay the money once the reimbursement amount is credited to their respective bank account. ALDUN accepts all the private health insurance except international health insurances*.\n\n*Terms and conditions applicable",
+        "sourceKey": "website-2026-page-42c9d7bac4777be7",
+        "sourceFiles": "INSURANCE.zip/ALDUN.docx",
+        "reviewNotes": "Confirm current pricing, eligibility, exclusions and terms before publishing.",
+        "published": false,
+        "sortOrder": 75
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Health Insurance",
+        "slug": "insurance-health-insurance",
+        "category": "Insurance",
+        "location": "",
+        "excerpt": "Health insurance is crucial for making healthcare more accessible, affordable, and comprehensive for patients.",
+        "body": "HEALTH INSURANCES\n\nHealth insurance is crucial for making healthcare more accessible, affordable, and comprehensive for patients. It helps cover the costs of medical treatments and procedures, easing the financial burden on patients. This coverage extends to hospital stays, surgeries, medications, and other essential healthcare services. Additionally, insurance often grants patients access to a broader network of healthcare providers and facilities, including specialized treatments that might otherwise be cost-prohibitive. At Kinder Hospitals, we offer a wide range of health insurance options and cashless reimbursement services.",
+        "sourceKey": "website-2026-page-a711c35d381575a2",
+        "sourceFiles": "INSURANCE.zip/HEALTH INSURANCE.docx",
+        "reviewNotes": "Confirm current pricing, eligibility, exclusions and terms before publishing.",
+        "published": false,
+        "sortOrder": 76
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "IVF Fellowship",
+        "slug": "academics-ivf-fellowship",
+        "category": "Academics",
+        "location": "",
+        "excerpt": "The IVF fellowship program is conducted over a period of one year, separated into three-month segments.",
+        "body": "IVF FELLOWSHIP\n\nThe IVF fellowship program is conducted over a period of one year, separated into three-month segments. This program offers a unique opportunity for fellows to receive specialized training and hands-on experience in all aspects of IVF, including diagnosis, treatment, and management of infertility cases. Through a structured curriculum and mentorship from leading experts in the field, fellows gain the necessary skills to excel in the rapidly evolving field of reproductive medicine. The IVF Fellowship Program offers a transformative learning experience, equipping fellows with the skills, knowledge, and expertise required to excel in the field of IVF. Join our program to embark on a rewarding journey of professional growth, contribute to advancements in reproductive medicine, and make a lasting impact on the lives of individuals and families struggling with infertility\n\nReproductive Medicine Fellowship program offers students specialized expertise, clinical experience, research opportunities, mentorship, networking, teaching experience, and enhanced career prospects. It provides a solid foundation for a successful and fulfilling career in reproductive medicine. Upon successful completion of the IVF fellowship program, fellows may receive a certificate of completion from the program or the institution. This certificate signifies that the fellow has met the necessary requirements and demonstrated the competencies expected of an IVF specialist",
+        "sourceKey": "website-2026-page-e9623845162ecebd",
+        "sourceFiles": "ACADEMICS.zip/IVF FELLOWSHIP.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 77
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Health Check Up Package",
+        "slug": "packages-health-check-up-package",
+        "category": "Packages",
+        "location": "",
+        "excerpt": "At Kinder Women's Hospital and Fertility Centre, our goal is to provide advanced medical care to every woman in our community without financial barriers.",
+        "body": "HEALTH CHECK UP PACKAGES\n\nAt Kinder Women's Hospital and Fertility Centre, our goal is to provide advanced medical care to every woman in our community without financial barriers. We believe that prevention is preferable to treatment, which is why we've introduced a comprehensive health check-up package for women. These packages encompass all necessary tests for the early detection of gynaecological conditions, offered in a cost-effective manner. By focusing on women's health, we are committed to supporting and enhancing our community.",
+        "sourceKey": "website-2026-page-37d028afbe6b499f",
+        "sourceFiles": "Health Check Up Package.zip/Health Check Up Package.docx",
+        "reviewNotes": "Confirm current pricing, eligibility, exclusions and terms before publishing.",
+        "published": false,
+        "sortOrder": 78
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Antenatal Classes",
+        "slug": "patient-services-antenatal-classes",
+        "category": "Patient Services",
+        "location": "",
+        "excerpt": "At Kinder Hospital, we believe in celebrating every pregnancy from the very beginning.",
+        "body": "ANC Classes\n\nAt Kinder Hospital, we believe in celebrating every pregnancy from the very beginning. Pregnancy is a unique journey filled with excitement, joy, anxiety, and numerous questions. Since each pregnancy is different, every expectant mother has her own set of concerns. To address these, we have introduced a comprehensive ante-natal class program for our moms-to-be.\n\nOur ANC classes take place on the second Saturday of every month and include a range of informative sessions: gynaecology, nutrition, anaesthesia, stem cell awareness, NICU awareness, and breastfeeding. Each session features a dedicated Q&A segment where experts address the questions and concerns of expectant mothers and their companions.\n\nThe ANC classes are followed by a hospital tour, allowing pregnant women to explore and become familiar with the inpatient rooms, labor rooms, operating theatres, and ICUs.\n\nAfter the tour, we celebrate with a baby shower ceremony that includes a sash presentation and engaging activities. At Kinder Hospital, we ensure that every mom-to-be finds the programs both enjoyable and informative.",
+        "sourceKey": "website-2026-page-f26dcdff77c93e59",
+        "sourceFiles": "ANC Class booking Intro.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 79
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Online Consultation",
+        "slug": "patient-services-online-consultation",
+        "category": "Patient Services",
+        "location": "",
+        "excerpt": "At Kinder Women’s Hospital and Fertility Centre, we offer online consultations to provide swift medical advice for urgent but non-emergency issues, especially for patients who are abroad or face long-distance travel.",
+        "body": "Online consultation\n\nAt Kinder Women’s Hospital and Fertility Centre, we offer online consultations to provide swift medical advice for urgent but non-emergency issues, especially for patients who are abroad or face long-distance travel. This service also extends access to specialized medical expertise for individuals in remote or underserved areas where such care may not be readily available.",
+        "sourceKey": "website-2026-page-907492c29da26001",
+        "sourceFiles": "Online Consultation.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 80
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Celebrating Pregnancy",
+        "slug": "patient-services-celebrating-pregnancy",
+        "category": "Patient Services",
+        "location": "",
+        "excerpt": "The journey begins long before the baby’s arrival, during those tender months when expectant parents dream of the future.",
+        "body": "The journey begins long before the baby’s arrival, during those tender months when expectant parents dream of the future. As they walk into the hospital, anticipation mingles with excitement. At the time of admission, a special moment is created as the parents place their fingerprints on a card, a gesture that might seem simple at first but is rich with meaning. This card, carefully tucked away, holds the promise of a beautiful surprise that will later become a cherished keepsake.\n\nThen, the day comes when the most anticipated moment arrives—the birth of the baby. The hospital transforms into a haven of joy and expectation. This is the moment everyone has been waiting for, the arrival of the newest member of the family.\n\nThe news of the baby’s birth is delivered with great care. An announcement rings out, a declaration of the baby’s gender—a boy or a girl—followed by a birthday song that fills the room with warmth and affection. This song, sung with all the love in the world, is the first gift to the new life that has just begun.\n\nA cradle awaits, decorated in soft hues of pink or blue, depending on the baby’s gender. The baby is then placed inside, wrapped snugly, ready to meet their family for the first time.\n\nAs the family gathers around the cradle, their eyes filled with wonder and love, a nurse steps forward with a special gift—a card. But this is no ordinary card. On it are the baby’s tiny footprints, each one a unique imprint of the life that has just begun. Alongside the footprints are the fingerprints of the parents, taken at the time of admission, now presented in a way that symbolizes the unbreakable bond between parent and child. This card, a work of art, captures the very essence of this new life and the love that surrounds it.\n\nBut the celebration doesn’t stop there. Every detail of the day has been meticulously planned to honor this new beginning. The room is adorned with balloons that sway gently in the air, creating a festive atmosphere. Gifts, carefully chosen and wrapped with love, are presented to the baby. Each gift is a token of the future, a small symbol of the hopes and dreams that the family holds for their newest member.\n\nFinally, the time comes for the family to take their baby home. But even this moment is made special by Kinder. The car that will carry the baby from the hospital to their home is decorated with ribbons and balloons, transforming it into a mobile celebration of the new life inside. It’s not just transportation—it’s a journey, a passage from one world to another, from the hospital’s care to the loving embrace of home.\n\nAs the car prepares to depart, a final gift is presented to the family—a tender tree sapling. This small, living gift symbolizes the future that lies ahead. As the sapling grows into a strong and sturdy tree, so too will the baby grow, nurtured by love and care. The tree will stand as a living testament to this day, a reminder of the life that began and the family that will nurture it.\n\nWith the baby safely in the car, the family drives home, carrying with them not just their precious child, but also the memories of a day filled with love, joy, and celebration. This day, meticulously crafted and lovingly executed, will be remembered forever, a perfect beginning to a life full of promise.\n\nLet’s Celebrate Your Pregnancy!\n\nThis is a joyous time, filled with anticipation and excitement as you prepare to welcome a new life into the world. Kinder Hospital celebrate every stage of your pregnancy as a joyful moment rather than viewing it solely as a medical condition. We support and accompany you to the transformation and growth journey, nurturing both you and your baby every step of the way.Our celebrations include\n\n1.SPANDANAM\n\nSpandanam,a musical competition exclusively for pregnant womens,was a lively event organised by Kinder Cherthala.Over a hundred expectant mothers from across Kerala participated,showcasing their talents and captivating the audience with their rhythmic performance.\n\nMom-to-be ceremony\n\nCongratulations on your new bundle of joy! Mom-to-be celebration is held to mark the inventing birth of your baby. The festivities include a crowning ceremony, sharing sweets to the expectant mom, hospital rounds and other fun filled activities.\n\nAntenatal Classes\n\nAntenatal classes, also known as prenatal classes, are an essential part of preparing for childbirth and parenthood.\n\nThe classes equip parents with the knowledge, skills, and confidence needed for a positive childbirth experience and the early stages of parenting. Our session covers Obstetrician Classes ,Anaesthesia, Dietitian, Lactation, NICU etc…\n\nCAKE MIXING\n\nThe incredible success of the “Mom Mix”, hosted by Kinder Kochi. The event marked the worlds largest cake mixing ceremony for expecting mothers and received an overwhelming response with 68 enthusiastic couples participating the programme was a resounding hit enjoyed by all.\n\nKINDER THARATAZHAK\n\nKinder Birth is the epicentre of women’s power. We at kinder hospitals relish each and every moment “Pregnancy Happiness” of expecting mothers.” Kinder Tharatazhak - Pregnant Women Fashion Show Contest, concept was designed for the expectant mothers for a rejoiced pregnancy phase with a memorable ramp walk on Mother’s Day every year.",
+        "sourceKey": "website-2026-page-62c4e2069d3510d2",
+        "sourceFiles": "Lets celebrate pregnancy.docx",
+        "reviewNotes": "Confirm applicable hospital or hospitals before publishing.",
+        "published": false,
+        "sortOrder": 81
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Patient Flow",
+        "slug": "home-patient-flow",
+        "category": "Home",
+        "location": "",
+        "excerpt": "Treated women.",
+        "body": "Treated women\n\nBirth\n\nIVF\n\nGynaec Surgeries\n\nBranches\n\n6 Lakhs +\n\n13000+\n\n1500+\n\n4500+\n\n4",
+        "sourceKey": "website-2026-page-f4c1d8107906014f",
+        "sourceFiles": "Home.zip/Patient flow.docx",
+        "reviewNotes": "Source gives 13,000+ births, while Alleppey introduction gives more than 18,000. Confirm reporting period and values.",
+        "published": false,
+        "sortOrder": 82
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Tagline",
+        "slug": "home-tagline",
+        "category": "Home",
+        "location": "",
+        "excerpt": "Welcoming every new beginning with compassionate care.",
+        "body": "Welcoming every new beginning with compassionate care\n\nYour partners in Women’s Health and Children’s Wellness\n\nNurturing Every stage: Expert care for women and children\n\nWhere women and children health come first\n\nDedicated to your health, “From Parenthood to Childhood”\n\nPremier care for Women’s and Children’s Health – Where Expertise Meets Compassion\n\nLeading care for women and children where expertise and empathy unite.",
+        "sourceKey": "website-2026-page-fcc95bc6f09b352e",
+        "sourceFiles": "Home.zip/Tagline.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 83
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Health Check-Up Packages Introduction",
+        "slug": "home-health-check-up-packages-introduction",
+        "category": "Home",
+        "location": "",
+        "excerpt": "At Kinder Women's Hospital and Fertility Centre, our goal is to provide advanced medical care to every woman in our community without financial barriers.",
+        "body": "HEALTH CHECK UP PACKAGES\n\nAt Kinder Women's Hospital and Fertility Centre, our goal is to provide advanced medical care to every woman in our community without financial barriers. We believe that prevention is preferable to treatment, which is why we've introduced a comprehensive health check-up package for women. These packages encompass all necessary tests for the early detection of gynaecological conditions, offered in a cost-effective manner. By focusing on women's health, we are committed to supporting and enhancing our community.",
+        "sourceKey": "website-2026-page-29643bd3a6634816",
+        "sourceFiles": "Home.zip/HEALTH CHECK UP PACKAGES INTRO.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 84
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Kinder Bangalore",
+        "slug": "home-kinder-bangalore",
+        "category": "Home",
+        "location": "",
+        "excerpt": "Kinder Women’s Hospital and Fertility Centre is an international venture with expertise from Singapore and India converging to provide superlative care to women and children’s healthcare.",
+        "body": "KINDER BANGALORE\n\nKinder Women’s Hospital and Fertility Centre is an international venture with expertise from Singapore and India converging to provide superlative care to women and children’s healthcare.\n\nKinder is already well known in Kerala and we have now come up with our latest state-of-the-art facility at Mahadevapura, Graphite India Road, Bengaluru\n\nThe facility envisaged being a trend-setter in comprehensive women healthcare providing affordable quality services at par with international standards. The research arm comprises high-profile specialties with outstanding international reputations, enabling new technologies to be delivered to our patients.\n\nOur complete care with the finest technology and talent has created hopes and new possibilities for women and children.\n\nWe see a world where everybody is in good shape and prepared for every responsibility. Driven by our passion for health and instinct for innovation, we aim to bring inspiration to mothers-to-be and get the right care on time.\n\nAt Kinder, we believe that a mom is also along with her child and in this regard, our Obstetrics department ensures that the way to your parenthood is a beautiful and memorable journey. Our team of doctors, nurses, dieticians, yoga therapists and health educators together are always there to meet your needs and assist throughout your pregnancy.",
+        "sourceKey": "website-2026-page-10599f9e0057a46e",
+        "sourceFiles": "Home.zip/Kinder Bangalore.docx",
+        "reviewNotes": "",
+        "published": false,
+        "sortOrder": 85
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Milestones",
+        "slug": "home-milestones",
+        "category": "Home",
+        "location": "",
+        "excerpt": "1st Comprehensive private women and child hospital in Alappuzha.",
+        "body": "1st Comprehensive private women and child hospital in Alappuzha\n\n1st Hospital with Artificial Reproductive facility in Alappuzha\n\n1st Centre with Level III NICU Facility in Alappuzha\n\n1st NABH and Nursing Excellence accredited Hospital in Alappuzha\n\n1st ART Certified IVF Hospital in Alappuzha\n\n1st Centre of Kinder Medical Group in India",
+        "sourceKey": "website-2026-page-91a3fcf020d784ec",
+        "sourceFiles": "Home.zip/Milestones.docx",
+        "reviewNotes": "Confirm accreditation and first-in-region claims before publishing.",
+        "published": false,
+        "sortOrder": 86
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Platinum Plus Package",
+        "slug": "platinum-plus-package",
+        "category": "Packages",
+        "location": "",
+        "excerpt": "PLATINUM PLUS PACKAGE Rs 5700/-",
+        "body": "PLATINUM PLUS PACKAGE Rs 5700/-\n\nIncluded tests and consultations\n\n- COMPLETE BLOOD COUNT\n- ESR\n- HbA1C\n- SUGAR FASTING/ PPBS\n- LIVER FUNCTION TEST\n- LIPID PROFILE\n- UREA-KFT\n- CREATNIN-KFT\n- URIC ACID\n- URINE ROUTINE TEST\n- PAP SMEAR\n- TFT/TSH\n- USG-SONOMAMMOGRAM\n- USG-ABDOMENAL PELVIS\n- ECG\n- CHEST XRAY\n- GYNECOLOGIST CONSULTATION\n- DIETITION CONSULTATION\n- DERMATOLOGIST CONSULTATION",
+        "sourceKey": "website-2026-package-platinum-plus-package",
+        "sourceFiles": "Health Check Up Package.zip/Womens health Check-ups package details.xlsx — Sheet1 column 3, rows 2–21",
+        "reviewNotes": "Confirm current price and applicable hospital before publishing. Test names and prices preserved from supplied spreadsheet.",
+        "published": false,
+        "sortOrder": 87
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Platinum Package",
+        "slug": "platinum-package",
+        "category": "Packages",
+        "location": "",
+        "excerpt": "PLATINUM PACKAGE Rs 3150/-",
+        "body": "PLATINUM PACKAGE Rs 3150/-\n\nIncluded tests and consultations\n\n- COMPLETE BLOOD COUNT\n- ESR\n- HbA1C\n- SUGAR FASTING/ PPBS\n- LIVER FUNCTION TEST\n- LIPID PROFILE\n- UREA-KFT\n- CREATNIN-KFT\n- URIC ACID\n- URINE ROUTINE TEST\n- PAP SMEAR\n- TFT/TSH\n- ECG\n- CHEST XRAY\n- GYNECOLOGIST CONSULTATION\n- DIETITION CONSULTATION\n- DERMATOLOGIST CONSULTATION",
+        "sourceKey": "website-2026-package-platinum-package",
+        "sourceFiles": "Health Check Up Package.zip/Womens health Check-ups package details.xlsx — Sheet1 column 6, rows 2–19",
+        "reviewNotes": "Confirm current price and applicable hospital before publishing. Test names and prices preserved from supplied spreadsheet.",
+        "published": false,
+        "sortOrder": 88
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Golden Plus  Package",
+        "slug": "golden-plus-package",
+        "category": "Packages",
+        "location": "",
+        "excerpt": "GOLDEN PLUS  PACKAGE Rs 4350",
+        "body": "GOLDEN PLUS  PACKAGE Rs 4350\n\nIncluded tests and consultations\n\n- COMPLETE BLOOD COUNT\n- RBS\n- LIVER FUNCTION TEST\n- TOTAL CHOLESTEROL\n- CREATNIN-KFT\n- URINE ROUTINE TEST\n- PAP SMEAR\n- TSH\n- USG-SONOMAMMOGRAM\n- USG-ABDOMENAL PELVIS\n- ECG\n- GYNECOLOGIST CONSULTATION\n- DIETITION CONSULTATION\n- DERMATOLOGIST CONSULTATION",
+        "sourceKey": "website-2026-package-golden-plus-package",
+        "sourceFiles": "Health Check Up Package.zip/Womens health Check-ups package details.xlsx — Sheet1 column 9, rows 2–16",
+        "reviewNotes": "Confirm current price and applicable hospital before publishing. Test names and prices preserved from supplied spreadsheet.",
+        "published": false,
+        "sortOrder": 89
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Golden Package",
+        "slug": "golden-package",
+        "category": "Packages",
+        "location": "",
+        "excerpt": "GOLDEN PACKAGE  Rs 2150",
+        "body": "GOLDEN PACKAGE  Rs 2150\n\nIncluded tests and consultations\n\n- COMPLETE BLOOD COUNT\n- RBS\n- LIVER FUNCTION TEST\n- TOTAL CHOLESTEROL\n- CREATNIN-KFT\n- URINE ROUTINE TEST\n- PAP SMEAR\n- TSH\n- ECG\n- GYNECOLOGIST CONSULTATION\n- DIETITION CONSULTATION\n- DERMATOLOGIST CONSULTATION",
+        "sourceKey": "website-2026-package-golden-package",
+        "sourceFiles": "Health Check Up Package.zip/Womens health Check-ups package details.xlsx — Sheet1 column 12, rows 2–14",
+        "reviewNotes": "Confirm current price and applicable hospital before publishing. Test names and prices preserved from supplied spreadsheet.",
+        "published": false,
+        "sortOrder": 90
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Silver Plus Package",
+        "slug": "silver-plus-package",
+        "category": "Packages",
+        "location": "",
+        "excerpt": "SILVER PLUS PACKAGE RS 2450/-",
+        "body": "SILVER PLUS PACKAGE RS 2450/-\n\nIncluded tests and consultations\n\n- COMPLETE BLOOD COUNT\n- RBS\n- LIVER FUNCTION TEST\n- CREATNIN-KFT\n- PAP SMEAR\n- TSH\n- USG-ABDOMENAL PELVIS\n- GYNECOLOGIST CONSULTATION\n- DIETITION CONSULTATION\n- DERMATOLOGIST CONSULTATION",
+        "sourceKey": "website-2026-package-silver-plus-package",
+        "sourceFiles": "Health Check Up Package.zip/Womens health Check-ups package details.xlsx — Sheet1 column 9, rows 19–29",
+        "reviewNotes": "Confirm current price and applicable hospital before publishing. Test names and prices preserved from supplied spreadsheet.",
+        "published": false,
+        "sortOrder": 91
+      }
+    },
+    {
+      "collection": "pages",
+      "data": {
+        "title": "Silver Package",
+        "slug": "silver-package",
+        "category": "Packages",
+        "location": "",
+        "excerpt": "SILVER PACKAGE RS 1550/-",
+        "body": "SILVER PACKAGE RS 1550/-\n\nIncluded tests and consultations\n\n- COMPLETE BLOOD COUNT\n- RBS\n- LIVER FUNCTION TEST\n- CREATNIN-KFT\n- PAP SMEAR\n- TSH\n- GYNECOLOGIST CONSULTATION\n- DIETITION CONSULTATION\n- DERMATOLOGIST CONSULTATION",
+        "sourceKey": "website-2026-package-silver-package",
+        "sourceFiles": "Health Check Up Package.zip/Womens health Check-ups package details.xlsx — Sheet1 column 12, rows 19–28",
+        "reviewNotes": "Confirm current price and applicable hospital before publishing. Test names and prices preserved from supplied spreadsheet.",
+        "published": false,
+        "sortOrder": 92
+      }
+    }
+  ]
+}

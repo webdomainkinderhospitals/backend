@@ -13,6 +13,7 @@ RUN npx prisma generate
 
 COPY src ./src
 COPY scripts ./scripts
+COPY content ./content
 
 ENV NODE_ENV=production
 EXPOSE 8080
