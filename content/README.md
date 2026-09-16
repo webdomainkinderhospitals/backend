@@ -4,7 +4,7 @@ The supplied archive is mapped to 25 deduplicated doctor profiles, 19 specialiti
 
 ## Deployment
 
-1. Deploy this backend before the admin and frontend changes. The existing Docker startup uses `prisma db push` for additive schema changes and the image now includes `content/`. Existing records are preserved.
+1. Deploy this backend before the admin and frontend changes. Docker startup first applies `scripts/content-schema.sql`, then runs `prisma db push --skip-generate` and starts the API. This explicitly adds the nullable source keys and unique indexes before Prisma sync, avoiding its unique-index warning on existing tables. The SQL runs transactionally, is repeatable, and preserves existing records. Duplicate non-null source keys cause a failure and rollback; do not bypass this with `--accept-data-loss`. The image includes `content/`.
 2. For a non-Docker existing database, run `npx prisma db execute --file scripts/content-schema.sql --schema prisma/schema.prisma`, then `npm run prisma:generate`. This additive SQL is repeatable and does not require an existing Prisma migration baseline.
 3. Open admin → Content Library → Source review and import details. Click **Import new drafts**. Alternatively, `node scripts/import-website-content.js` previews changes; add `--apply` to import.
 4. Review doctors and specialities in **Services & Doctors**. Review other pages in **Content Library**, filtered by section. Resolve and clear review notes, confirm hospital assignments, then publish each approved record.

@@ -18,5 +18,6 @@ COPY content ./content
 ENV NODE_ENV=production
 EXPOSE 8080
 
-# Sync the schema (additive changes only — no migrations dir), then start the API
-CMD ["sh", "-c", "npx prisma db push --skip-generate && node src/server.js"]
+# Apply explicit content additions before schema sync, then start the API.
+# Keep Prisma safety checks enabled for all other schema changes.
+CMD ["sh", "-c", "npx prisma db execute --file scripts/content-schema.sql --schema prisma/schema.prisma && npx prisma db push --skip-generate && node src/server.js"]
