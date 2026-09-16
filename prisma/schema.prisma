@@ -27,6 +27,10 @@ model Setting {
 }
 
 model Speciality {
+  sourceKey String? @unique
+  sourceFiles String @default("")
+  reviewNotes String @default("")
+  fullDescription String @default("")
   id          Int     @id @default(autoincrement())
   name        String
   category    String  @default("") // corporate services page group, e.g. "Maternity & Pregnancy"
@@ -62,6 +66,9 @@ model Location {
 }
 
 model Doctor {
+  sourceKey String? @unique
+  sourceFiles String @default("")
+  reviewNotes String @default("")
   id          Int     @id @default(autoincrement())
   name        String
   designation String  @default("")
@@ -119,4 +126,20 @@ model Media {
   sizeBytes Int      @default(0)
   folder    String   @default("general") // hero | doctors | locations | news | general…
   createdAt DateTime @default(now())
+}
+
+model ContentPage {
+  id Int @id @default(autoincrement())
+  sourceKey String? @unique
+  sourceFiles String @default("")
+  reviewNotes String @default("")
+  title String
+  slug String @unique
+  category String @default("About Us")
+  excerpt String @default("")
+  body String @default("")
+  location String @default("")
+  imageUrl String @default("")
+  sortOrder Int @default(0)
+  published Boolean @default(false)
 }

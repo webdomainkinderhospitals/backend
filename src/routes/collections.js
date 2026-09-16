@@ -7,12 +7,19 @@ const prisma = require('../lib/prisma');
 const { requireAuth } = require('../middleware/auth');
 
 const router = express.Router();
+const { publicRecord, validatePublication } = require('../lib/contentValidation');
 
 const COLLECTIONS = {
+  pages: {
+    model: 'contentPage',
+    orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }],
+    fields: ['title', 'slug', 'category', 'excerpt', 'body', 'location', 'imageUrl', 'sortOrder', 'published', 'reviewNotes'],
+    required: ['title', 'slug'],
+  },
   specialities: {
     model: 'speciality',
     orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }],
-    fields: ['name', 'category', 'description', 'icon', 'imageUrl', 'location', 'sortOrder', 'published'],
+    fields: ['name', 'reviewNotes', 'fullDescription', 'category', 'description', 'icon', 'imageUrl', 'location', 'sortOrder', 'published'],
     required: ['name'],
   },
   locations: {
@@ -24,7 +31,7 @@ const COLLECTIONS = {
   doctors: {
     model: 'doctor',
     orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }],
-    fields: ['name', 'designation', 'speciality', 'location', 'bio', 'fullBio', 'imageUrl', 'sortOrder', 'published'],
+    fields: ['name', 'reviewNotes', 'designation', 'speciality', 'location', 'bio', 'fullBio', 'imageUrl', 'sortOrder', 'published'],
     required: ['name'],
   },
   testimonials: {
@@ -68,7 +75,8 @@ for (const [name, cfg] of Object.entries(COLLECTIONS)) {
 
   router.get(`/${name}`, async (req, res, next) => {
     try {
-      res.json(await db().findMany({ where: { published: true }, orderBy: cfg.orderBy }));
+      const rows = await db().findMany({ where: { published: true }, orderBy: cfg.orderBy });
+      res.json(rows.map(publicRecord));
     } catch (e) { next(e); }
   });
 
@@ -84,6 +92,7 @@ for (const [name, cfg] of Object.entries(COLLECTIONS)) {
         if (!req.body?.[f]) return res.status(400).json({ error: `"${f}" is required` });
       }
       const data = pick(req.body, cfg.fields);
+      await validatePublication(name, data);
       if (name === 'news' && !data.slug) data.slug = slugify(data.title) + '-' + Date.now();
       res.status(201).json(await db().create({ data }));
     } catch (e) { next(e); }
@@ -92,7 +101,13 @@ for (const [name, cfg] of Object.entries(COLLECTIONS)) {
   router.put(`/${name}/:id`, requireAuth, async (req, res, next) => {
     try {
       const id = parseInt(req.params.id, 10);
-      res.json(await db().update({ where: { id }, data: pick(req.body, cfg.fields) }));
+      const data = pick(req.body, cfg.fields);
+      if (['pages', 'doctors', 'specialities'].includes(name)) {
+        const current = await db().findUnique({ where: { id } });
+        if (!current) return res.status(404).json({ error: 'Record not found' });
+        await validatePublication(name, { ...current, ...data });
+      }
+      res.json(await db().update({ where: { id }, data }));
     } catch (e) { next(e); }
   });
 
