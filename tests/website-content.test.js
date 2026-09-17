@@ -1,6 +1,6 @@
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
-const pack = require('../content/website-content.json');
+const pack = require('../src/lib/contentPack');
 const { previewImport, importContent } = require('../src/lib/websiteImport');
 const { publicRecord, validatePublication } = require('../src/lib/contentValidation');
 
@@ -20,20 +20,20 @@ function database() {
 }
 
 test('supplied content covers every source, with unique keys and draft defaults', () => {
-  assert.equal(pack.records.length, 93);
-  assert.equal(new Set(pack.records.map((r) => r.data.sourceKey)).size, 93);
-  assert.equal(new Set(pack.records.filter((r) => r.collection === 'pages').map((r) => r.data.slug)).size, 49);
+  assert.equal(pack.records.length, 97);
+  assert.equal(new Set(pack.records.map((r) => r.data.sourceKey)).size, 97);
+  assert.equal(new Set(pack.records.filter((r) => r.collection === 'pages').map((r) => r.data.slug)).size, 53);
   assert(pack.records.every((r) => r.data.published === false));
   for (const source of pack.sources) assert(pack.records.some((r) => r.data.sourceFiles.includes(source)), source);
   assert.match(pack.unavailable[0].source, /Chairman/);
 });
 test('import is repeatable and preserves editorial changes', async () => {
   const db = database();
-  assert.equal((await importContent(db)).created, 93);
+  assert.equal((await importContent(db)).created, 97);
   db.doctor.rows[0].fullBio = 'Edited by hospital staff';
   const again = await importContent(db);
   assert.equal(again.created, 0);
-  assert.equal(again.preserved, 93);
+  assert.equal(again.preserved, 97);
   assert.equal(db.doctor.rows[0].fullBio, 'Edited by hospital staff');
   assert((await previewImport(db)).items.every((r) => r.action === 'preserve'));
 });
@@ -85,4 +85,25 @@ test('import and admin collection endpoints require authentication', async () =>
       assert.equal(response.status, 401, `${method} ${path}`);
     }
   } finally { await new Promise((resolve) => server.close(resolve)); }
+});
+
+
+test('Kochi documents import as four editable drafts without internal notes in public copy', async () => {
+  const pages = pack.records.filter((r) => r.data.category === 'Kochi Care');
+  assert.equal(pages.length, 4);
+  for (const { data } of pages) {
+    assert.equal(data.location, 'Kochi');
+    assert.equal(data.published, false);
+    assert(data.reviewNotes.length > 0);
+    assert.match(data.body, /## Frequently Asked Questions/);
+    assert.doesNotMatch(data.body, /\[phone\]|Keyword research|Technical Notes|Structured for FAQPage|Opening paragraph/);
+  }
+  const db = database();
+  await importContent(db);
+  const page = db.contentPage.rows.find((r) => r.category === 'Kochi Care');
+  page.body = 'Hospital-reviewed content'; page.published = true;
+  const repeat = await importContent(db);
+  assert.equal(repeat.created, 0);
+  assert.equal(page.body, 'Hospital-reviewed content');
+  assert.equal(page.published, true);
 });

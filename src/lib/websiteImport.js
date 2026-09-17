@@ -1,4 +1,4 @@
-const pack = require('../../content/website-content.json');
+const pack = require('./contentPack');
 const models = { doctors: 'doctor', specialities: 'speciality', pages: 'contentPage' };
 
 // Match a source key first, then a name and exact hospital assignment. Never
