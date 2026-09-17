@@ -25,3 +25,12 @@ The importer matches source keys first, then an existing page slug or exact case
 ## Verification
 
 Run `node --test tests/website-content.test.js`. Tests cover source coverage, six package prices and inclusion counts, shared doctors, idempotency, preservation of edits, review validation, public metadata stripping and unauthenticated access. Database import semantics also need a staging PostgreSQL check; the unit test database is an in-memory adapter.
+
+
+## Kochi care documents — 17 September 2026
+
+Four new pages cover General & Laparoscopic Surgery, Obstetrics & Gynaecology, Premium Birthing Centre and Water Birthing Suite. They are grouped under `Kochi Care`, assigned to `Kochi`, and imported as editable hidden drafts. Total import pack: 97 records (25 doctors, 19 specialities, 53 pages). Existing content is preserved on repeat import.
+
+Deploy the backend, open Admin → Content Library, import the four new drafts, then choose Kochi Care and Review & publish. The frontend links published pages from the Kochi hospital page and `/information`. No database schema change is needed.
+
+Patient-facing headings, lists and FAQs are retained. Keyword research, metadata recommendations and development notes are retained privately in `kochi-source-notes.json`, not sent to public endpoints. Source meta descriptions populate editable page excerpts. Requested source URLs are recorded in that private file; published pages use the existing `/information/:slug` routing. Phone placeholders and the unconfirmed “It costs nothing to ask” sentence are removed. Review notes identify clinical/service claims requiring hospital confirmation. No unverified clinician profiles or facility photographs are created.
