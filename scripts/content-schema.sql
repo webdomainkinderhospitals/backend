@@ -10,6 +10,9 @@ BEGIN
     ALTER TABLE "Doctor" ADD COLUMN IF NOT EXISTS "reviewNotes" TEXT NOT NULL DEFAULT '';
     CREATE UNIQUE INDEX IF NOT EXISTS "Doctor_sourceKey_key" ON "Doctor"("sourceKey");
   END IF;
+  IF to_regclass('"Location"') IS NOT NULL THEN
+    ALTER TABLE "Location" ADD COLUMN IF NOT EXISTS "bookingUrl" TEXT NOT NULL DEFAULT '';
+  END IF;
   IF to_regclass('"Speciality"') IS NOT NULL THEN
     ALTER TABLE "Speciality" ADD COLUMN IF NOT EXISTS "sourceKey" TEXT;
     ALTER TABLE "Speciality" ADD COLUMN IF NOT EXISTS "sourceFiles" TEXT NOT NULL DEFAULT '';
