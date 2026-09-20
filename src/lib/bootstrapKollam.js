@@ -29,9 +29,10 @@ const HIGHLIGHTS = [
   'Surgical ICU (SICU) — A three-bedded SICU providing advanced postoperative and critical care with continuous monitoring, specialised nursing, and expert medical supervision in a secure environment.',
 ].join('\n');
 
-// Professional stock photography, replaced from the admin's Photos area.
-const CARD_IMAGE =
-  'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80';
+// The commissioned watercolour elevation of the Kollam building, shipped with
+// the frontend. Absolute, because the admin portal serves from its own origin.
+const SITE_ASSETS = process.env.SITE_ASSETS_URL || 'https://frontend-lime-six-70.vercel.app';
+const CARD_IMAGE = `${SITE_ASSETS}/hospitals/kollam.webp`;
 const HERO_IMAGE =
   'https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=1920&q=80';
 
