@@ -12,7 +12,7 @@
 const prisma = require('./prisma');
 
 const SITE_ASSETS = process.env.SITE_ASSETS_URL || 'https://frontend-lime-six-70.vercel.app';
-const FLAG = 'bootstrap.elevations';
+const FLAG = 'bootstrap.elevations.v2';
 
 const ELEVATIONS = {
   Cherthala: 'cherthala',
@@ -24,6 +24,10 @@ const ELEVATIONS = {
 // Kept in step with the admin's own definition of a sample image.
 const STOCK = /images\.unsplash\.com|picsum\.photos|placehold\.(co|it)|via\.placeholder/i;
 
+// A field is ours to fill only while it is empty or still carrying the stock
+// photography that shipped with the design.
+const replaceable = (value) => !String(value || '').trim() || STOCK.test(value);
+
 async function bootstrapElevations(db = prisma) {
   if (await db.setting.findUnique({ where: { key: FLAG } })) return;
 
@@ -33,12 +37,16 @@ async function bootstrapElevations(db = prisma) {
       where: { name: { equals: name, mode: 'insensitive' } },
     });
     if (!loc) continue;
-    // Empty or still-stock only; an editor's own upload always wins.
-    if (loc.imageUrl && !STOCK.test(loc.imageUrl)) continue;
-    await db.location.update({
-      where: { id: loc.id },
-      data: { imageUrl: `${SITE_ASSETS}/hospitals/${file}.webp` },
-    });
+
+    // The card and the page banner are considered separately: v1 filled the
+    // card, so on an existing install only the banner is still stock.
+    const url = `${SITE_ASSETS}/hospitals/${file}.webp`;
+    const data = {};
+    if (replaceable(loc.imageUrl)) data.imageUrl = url;
+    if (replaceable(loc.heroImageUrl)) data.heroImageUrl = url;
+    if (!Object.keys(data).length) continue;
+
+    await db.location.update({ where: { id: loc.id }, data });
     updated++;
   }
   if (updated) console.log(`Set the building elevation on ${updated} centres`);
