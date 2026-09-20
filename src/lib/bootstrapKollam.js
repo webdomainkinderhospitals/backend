@@ -33,8 +33,7 @@ const HIGHLIGHTS = [
 // the frontend. Absolute, because the admin portal serves from its own origin.
 const SITE_ASSETS = process.env.SITE_ASSETS_URL || 'https://frontend-lime-six-70.vercel.app';
 const CARD_IMAGE = `${SITE_ASSETS}/hospitals/kollam.webp`;
-const HERO_IMAGE =
-  'https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=1920&q=80';
+const HERO_IMAGE = CARD_IMAGE;
 
 const LOCATION = {
   name: 'Kollam',
