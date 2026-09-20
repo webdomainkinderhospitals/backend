@@ -60,6 +60,7 @@ model Location {
   highlights String @default("") // one highlight per line
   website   String  @default("")
   websiteLabel String @default("")
+  bookingUrl String @default("") // centre's own booking link; blank = group WhatsApp
   international Boolean @default(false)
   sortOrder Int     @default(0)
   published Boolean @default(true)

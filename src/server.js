@@ -48,4 +48,7 @@ app.listen(port, () => {
   require('./lib/bootstrapAranmula')
     .bootstrapAranmula()
     .catch((e) => console.error('Aranmula bootstrap failed:', e.message));
+  require('./lib/bootstrapKollam')
+    .bootstrapKollam()
+    .catch((e) => console.error('Kollam bootstrap failed:', e.message));
 });

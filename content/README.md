@@ -34,3 +34,40 @@ Four new pages cover General & Laparoscopic Surgery, Obstetrics & Gynaecology, P
 Deploy the backend, open Admin → Content Library, import the four new drafts, then choose Kochi Care and Review & publish. The frontend links published pages from the Kochi hospital page and `/information`. No database schema change is needed.
 
 Patient-facing headings, lists and FAQs are retained. Keyword research, metadata recommendations and development notes are retained privately in `kochi-source-notes.json`, not sent to public endpoints. Source meta descriptions populate editable page excerpts. Requested source URLs are recorded in that private file; published pages use the existing `/information/:slug` routing. Phone placeholders and the unconfirmed “It costs nothing to ask” sentence are removed. Review notes identify clinical/service claims requiring hospital confirmation. No unverified clinician profiles or facility photographs are created.
+
+## Kinder Kollam — 20 September 2026
+
+`src/lib/bootstrapKollam.js` adds the Kollam centre from the supplied website
+tree: the hospital record (`kinderkollam.com`, 0474-2550000,
+contactus@kinderkollam.com, Randamkutty · Kilikollor PO, Since 2026), its four
+facilities, five specialities, nine doctors and its privacy policy page. It runs
+on API startup like the Aranmula bootstrap, is guarded by the
+`bootstrap.kollam` setting, and skips anything that already exists — an admin's
+edits are never overwritten and the hospital's visibility switch is never
+flipped back on.
+
+Unlike the import pack, these records arrive **published**, so Kollam appears on
+the website as soon as the API restarts. Everything is then editable in the
+admin: hospital details and facilities in **Hospitals**, departments and doctors
+in **Services & Doctors**, the privacy policy in **Content Library**. Hide the
+centre again at any time with the visibility switch on its card in **Hospitals**.
+
+Facilities are stored in the hospital's Highlights box, one per line as
+`Name — description`; the website prints the name in bold with its description
+beneath. Lines without a dash still render as plain ticks, so existing centres
+are unaffected.
+
+`Location.bookingUrl` is new: a centre's own appointment link
+(`https://mobapp.kinderhospitals.com` for Kollam), used by the Book Appointment
+buttons on that hospital's sub-site. Leave it empty and the group WhatsApp link
+is used, exactly as before. `prisma db push` adds the column; the additive
+`scripts/content-schema.sql` covers the non-Docker path.
+
+Doctor portraits are not seeded — upload each one under Services & Doctors.
+Names and qualifications are carried over as supplied, with spelling normalised
+to the house style used elsewhere in the database ("Gynaecology", "Laparoscopic
+Surgeon"). The supplied policy text leaves the contact address blank in three
+places; each is filled with the centre's published email. Confirm both before
+sign-off.
+
+Run `node --test tests/kollam-bootstrap.test.js` to verify.
