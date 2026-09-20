@@ -40,15 +40,7 @@ app.use((err, req, res, next) => {
 const port = process.env.PORT || 8080;
 app.listen(port, () => {
   console.log(`Kinder Hospitals API listening on :${port}`);
-  // File existing specialities under their corporate service groups and add
-  // any missing catalogue services. Idempotent; never blocks startup.
-  require('./lib/bootstrapSpecialities')
-    .bootstrapSpecialities()
-    .catch((e) => console.error('Speciality bootstrap failed:', e.message));
-  require('./lib/bootstrapAranmula')
-    .bootstrapAranmula()
-    .catch((e) => console.error('Aranmula bootstrap failed:', e.message));
-  require('./lib/bootstrapKollam')
-    .bootstrapKollam()
-    .catch((e) => console.error('Kollam bootstrap failed:', e.message));
+  // Content bootstraps: idempotent, and they wait for the database rather than
+  // racing a Neon endpoint that is still waking. Never blocks startup.
+  require('./lib/startupTasks').runStartupTasks();
 });
