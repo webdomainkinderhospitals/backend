@@ -141,6 +141,7 @@ model ContentPage {
   body String @default("")
   location String @default("")
   imageUrl String @default("")
+  galleryUrls String @default("")
   sortOrder Int @default(0)
   published Boolean @default(false)
 }

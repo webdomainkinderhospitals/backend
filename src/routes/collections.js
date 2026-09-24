@@ -13,7 +13,7 @@ const COLLECTIONS = {
   pages: {
     model: 'contentPage',
     orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }],
-    fields: ['title', 'slug', 'category', 'excerpt', 'body', 'location', 'imageUrl', 'sortOrder', 'published', 'reviewNotes'],
+    fields: ['title', 'slug', 'category', 'excerpt', 'body', 'location', 'imageUrl', 'galleryUrls', 'sortOrder', 'published', 'reviewNotes'],
     required: ['title', 'slug'],
   },
   specialities: {
