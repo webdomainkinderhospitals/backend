@@ -20,20 +20,20 @@ function database() {
 }
 
 test('supplied content covers every source, with unique keys and draft defaults', () => {
-  assert.equal(pack.records.length, 97);
-  assert.equal(new Set(pack.records.map((r) => r.data.sourceKey)).size, 97);
-  assert.equal(new Set(pack.records.filter((r) => r.collection === 'pages').map((r) => r.data.slug)).size, 53);
+  assert.equal(pack.records.length, 99);
+  assert.equal(new Set(pack.records.map((r) => r.data.sourceKey)).size, 99);
+  assert.equal(new Set(pack.records.filter((r) => r.collection === 'pages').map((r) => r.data.slug)).size, 55);
   assert(pack.records.every((r) => r.data.published === false));
   for (const source of pack.sources) assert(pack.records.some((r) => r.data.sourceFiles.includes(source)), source);
   assert.match(pack.unavailable[0].source, /Chairman/);
 });
 test('import is repeatable and preserves editorial changes', async () => {
   const db = database();
-  assert.equal((await importContent(db)).created, 97);
+  assert.equal((await importContent(db)).created, 99);
   db.doctor.rows[0].fullBio = 'Edited by hospital staff';
   const again = await importContent(db);
   assert.equal(again.created, 0);
-  assert.equal(again.preserved, 97);
+  assert.equal(again.preserved, 99);
   assert.equal(db.doctor.rows[0].fullBio, 'Edited by hospital staff');
   assert((await previewImport(db)).items.every((r) => r.action === 'preserve'));
 });
