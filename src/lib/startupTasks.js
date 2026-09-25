@@ -32,6 +32,7 @@ const TASKS = [
   ['Elevation', () => require('./bootstrapElevations').bootstrapElevations()],
   ['Promo banner', () => require('./bootstrapPromoBanners').bootstrapPromoBanners()],
   ['Kochi first', () => require('./bootstrapKochiFirst').bootstrapKochiFirst()],
+  ['Alappuzha clinic', () => require('./bootstrapAlappuzhaClinic').bootstrapAlappuzhaClinic()],
 ];
 
 // Never throws: a failed bootstrap is logged and the API keeps serving.
