@@ -61,6 +61,9 @@ model Location {
   website   String  @default("")
   websiteLabel String @default("")
   bookingUrl String @default("") // centre's own booking link; blank = group WhatsApp
+  promoImageUrl String @default("") // campaign banner under the contact strip; blank = hidden
+  promoLink String @default("") // optional click-through for that banner
+  promoAlt  String @default("") // what the banner says, for screen readers
   international Boolean @default(false)
   sortOrder Int     @default(0)
   published Boolean @default(true)

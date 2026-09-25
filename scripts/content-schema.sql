@@ -12,6 +12,9 @@ BEGIN
   END IF;
   IF to_regclass('"Location"') IS NOT NULL THEN
     ALTER TABLE "Location" ADD COLUMN IF NOT EXISTS "bookingUrl" TEXT NOT NULL DEFAULT '';
+    ALTER TABLE "Location" ADD COLUMN IF NOT EXISTS "promoImageUrl" TEXT NOT NULL DEFAULT '';
+    ALTER TABLE "Location" ADD COLUMN IF NOT EXISTS "promoLink" TEXT NOT NULL DEFAULT '';
+    ALTER TABLE "Location" ADD COLUMN IF NOT EXISTS "promoAlt" TEXT NOT NULL DEFAULT '';
   END IF;
   IF to_regclass('"Speciality"') IS NOT NULL THEN
     ALTER TABLE "Speciality" ADD COLUMN IF NOT EXISTS "sourceKey" TEXT;
