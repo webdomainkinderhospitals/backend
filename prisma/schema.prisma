@@ -64,6 +64,12 @@ model Location {
   promoImageUrl String @default("") // campaign banner under the contact strip; blank = hidden
   promoLink String @default("") // optional click-through for that banner
   promoAlt  String @default("") // what the banner says, for screen readers
+  promo2ImageUrl String @default("") // 2nd and 3rd banners rotate with the first
+  promo2Link String @default("")
+  promo2Alt  String @default("")
+  promo3ImageUrl String @default("")
+  promo3Link String @default("")
+  promo3Alt  String @default("")
   international Boolean @default(false)
   sortOrder Int     @default(0)
   published Boolean @default(true)
