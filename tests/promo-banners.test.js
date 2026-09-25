@@ -7,7 +7,7 @@ Module._load = function (request) {
   if (request === './prisma') return {};
   return load.apply(this, arguments);
 };
-const { bootstrapPromoBanners, FLAG } = require('../src/lib/bootstrapPromoBanners');
+const { bootstrapPromoBanners, FLAG, FLAG_V2 } = require('../src/lib/bootstrapPromoBanners');
 Module._load = load;
 
 function database(locations, settings = []) {
@@ -46,6 +46,28 @@ test('fills the homepage banner and the Kochi banner once', async () => {
   assert.equal(value(db, FLAG), 'done');
 });
 
+test('both posters rotate in both places: mother leads the homepage, father leads Kochi', async () => {
+  const db = database([{ id: 1, name: 'Kochi', promoImageUrl: '', promoAlt: '', promo2ImageUrl: '', promo2Alt: '' }]);
+  await bootstrapPromoBanners(db);
+  assert.match(value(db, 'homePromoImageUrl'), /mother\.jpg$/);
+  assert.match(value(db, 'homePromo2ImageUrl'), /father\.jpg$/);
+  assert.match(db._locations[0].promoImageUrl, /father\.jpg$/);
+  assert.match(db._locations[0].promo2ImageUrl, /mother\.jpg$/);
+  assert.equal(value(db, FLAG_V2), 'done');
+});
+
+test('an install that already ran v1 gets only the second banners', async () => {
+  const db = database(
+    [{ id: 1, name: 'Kochi', promoImageUrl: '', promoAlt: '', promo2ImageUrl: '', promo2Alt: '' }],
+    [{ key: FLAG, value: 'done' }]
+  );
+  await bootstrapPromoBanners(db);
+  assert.equal(value(db, 'homePromoImageUrl'), undefined);
+  assert.equal(db._locations[0].promoImageUrl, '');
+  assert.match(value(db, 'homePromo2ImageUrl'), /father\.jpg$/);
+  assert.match(db._locations[0].promo2ImageUrl, /mother\.jpg$/);
+});
+
 test('never overrides a banner set in the admin, nor runs twice', async () => {
   const db = database(
     [{ id: 1, name: 'Kochi', promoImageUrl: 'https://cdn/own.jpg', promoAlt: 'Own' }],
@@ -57,6 +79,7 @@ test('never overrides a banner set in the admin, nor runs twice', async () => {
 
   // A banner cleared after the first run stays cleared.
   db._locations[0].promoImageUrl = '';
+  db._locations[0].promo2ImageUrl = '';
   await bootstrapPromoBanners(db);
   assert.equal(db._locations[0].promoImageUrl, '');
 });
