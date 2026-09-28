@@ -62,7 +62,17 @@ model Location {
   websiteLabel String @default("")
   bookingUrl String @default("") // centre's own booking link; blank = group WhatsApp
   whatsapp  String  @default("") // number appointment requests go to; blank = group number
+  promoImageUrl String @default("") // campaign banner under the contact strip; blank = hidden
+  promoLink String @default("") // optional click-through for that banner
+  promoAlt  String @default("") // what the banner says, for screen readers
+  promo2ImageUrl String @default("") // 2nd and 3rd banners rotate with the first
+  promo2Link String @default("")
+  promo2Alt  String @default("")
+  promo3ImageUrl String @default("")
+  promo3Link String @default("")
+  promo3Alt  String @default("")
   international Boolean @default(false)
+  kind      String  @default("hospital") // "hospital" or "clinic" — clinics also get their own menu
   sortOrder Int     @default(0)
   published Boolean @default(true)
 }
@@ -142,6 +152,7 @@ model ContentPage {
   body String @default("")
   location String @default("")
   imageUrl String @default("")
+  galleryUrls String @default("")
   sortOrder Int @default(0)
   published Boolean @default(false)
 }

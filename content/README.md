@@ -1,5 +1,9 @@
 # Kinder website content import
 
+## Kochi pregnancy pages — 24 September 2026
+
+Two additional hidden drafts from the public Kinder Kochi Tharattazhaku and WOW MOM pages are in `kochi-pregnancy.json`. Import them in Admin → Content Library, review dated event claims and current schedules, clear review notes, then publish. Water Birth and Premium Birthing Centre use the existing Kochi Care drafts; the website highlights them after approval. A page's `galleryUrls` holds one HTTPS image URL per line and is editable in the admin. The additive SQL column and Prisma schema must be deployed before using the new backend/admin. The import preserves all existing editorial records.
+
 The supplied archive is mapped to 25 deduplicated doctor profiles, 19 specialities and 49 content pages. Six of the pages preserve the spreadsheet's package prices and inclusions. All imports start hidden. Original clinical descriptions, qualifications, package exclusions and amounts are retained; titles and paragraph spacing are normalised.
 
 ## Deployment
