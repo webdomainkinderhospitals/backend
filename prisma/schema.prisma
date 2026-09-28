@@ -61,6 +61,7 @@ model Location {
   website   String  @default("")
   websiteLabel String @default("")
   bookingUrl String @default("") // centre's own booking link; blank = group WhatsApp
+  whatsapp  String  @default("") // number appointment requests go to; blank = group number
   international Boolean @default(false)
   sortOrder Int     @default(0)
   published Boolean @default(true)

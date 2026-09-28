@@ -12,6 +12,7 @@ BEGIN
   END IF;
   IF to_regclass('"Location"') IS NOT NULL THEN
     ALTER TABLE "Location" ADD COLUMN IF NOT EXISTS "bookingUrl" TEXT NOT NULL DEFAULT '';
+    ALTER TABLE "Location" ADD COLUMN IF NOT EXISTS "whatsapp" TEXT NOT NULL DEFAULT '';
   END IF;
   IF to_regclass('"Speciality"') IS NOT NULL THEN
     ALTER TABLE "Speciality" ADD COLUMN IF NOT EXISTS "sourceKey" TEXT;
