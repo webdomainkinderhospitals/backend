@@ -48,11 +48,15 @@ model Location {
   city      String  @default("")
   country   String  @default("India")
   address   String  @default("")
+  officeAddress String @default("") // registered/office address, shown under the hospital address
   phone     String  @default("")
+  phone2    String  @default("") // second number, e.g. a mobile line
   email     String  @default("")
   mapUrl    String  @default("")
   imageUrl  String  @default("")
   since     String  @default("") // e.g. "Since 2011" / "International HQ"
+  accreditation String @default("") // e.g. "NABH Accredited" — shown in place of `since`
+  accreditationLogoUrl String @default("") // its emblem, shown beside the centre name
   slug      String  @default("") // URL of its page on the corporate site, e.g. "kochi"
   tagline   String  @default("")
   description String @default("")
