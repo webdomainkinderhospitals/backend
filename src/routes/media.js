@@ -4,9 +4,9 @@ const express = require('express');
 const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
-const crypto = require('crypto');
 const prisma = require('../lib/prisma');
 const { requireAuth } = require('../middleware/auth');
+const { storeFile } = require('../lib/storage');
 
 const router = express.Router();
 
@@ -17,33 +17,6 @@ const upload = multer({
   fileFilter: (req, file, cb) =>
     ALLOWED.includes(file.mimetype) ? cb(null, true) : cb(new Error('Only image files are allowed')),
 });
-
-function makeName(original) {
-  const ext = path.extname(original).toLowerCase() || '.jpg';
-  return `${Date.now()}-${crypto.randomBytes(6).toString('hex')}${ext}`;
-}
-
-async function storeFile(file, folder) {
-  const fileName = `${folder}/${makeName(file.originalname)}`;
-  if (process.env.GCS_BUCKET) {
-    const { Storage } = require('@google-cloud/storage');
-    const bucket = new Storage().bucket(process.env.GCS_BUCKET);
-    const blob = bucket.file(fileName);
-    await blob.save(file.buffer, {
-      contentType: file.mimetype,
-      metadata: { cacheControl: 'public, max-age=31536000, immutable' },
-    });
-    // Bucket must have public read (or be behind Cloudflare/CDN)
-    const base = process.env.GCS_PUBLIC_BASE || `https://storage.googleapis.com/${process.env.GCS_BUCKET}`;
-    return { fileName, url: `${base}/${fileName}` };
-  }
-  // Local dev fallback
-  const dir = path.join(__dirname, '..', '..', 'uploads', folder);
-  fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, path.basename(fileName)), file.buffer);
-  const base = process.env.PUBLIC_URL || `http://localhost:${process.env.PORT || 8080}`;
-  return { fileName, url: `${base}/uploads/${fileName}` };
-}
 
 router.get('/', requireAuth, async (req, res, next) => {
   try {

@@ -25,7 +25,7 @@ const COLLECTIONS = {
   locations: {
     model: 'location',
     orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }],
-    fields: ['name', 'city', 'country', 'address', 'phone', 'email', 'mapUrl', 'imageUrl', 'since', 'slug', 'tagline', 'description', 'heroImageUrl', 'highlights', 'website', 'websiteLabel', 'bookingUrl', 'whatsapp', 'promoImageUrl', 'promoLink', 'promoAlt', 'promo2ImageUrl', 'promo2Link', 'promo2Alt', 'promo3ImageUrl', 'promo3Link', 'promo3Alt', 'international', 'kind', 'sortOrder', 'published'],
+    fields: ['name', 'city', 'country', 'address', 'officeAddress', 'phone', 'phone2', 'email', 'mapUrl', 'imageUrl', 'since', 'accreditation', 'accreditationLogoUrl', 'slug', 'tagline', 'description', 'heroImageUrl', 'highlights', 'website', 'websiteLabel', 'bookingUrl', 'whatsapp', 'promoImageUrl', 'promoLink', 'promoAlt', 'promo2ImageUrl', 'promo2Link', 'promo2Alt', 'promo3ImageUrl', 'promo3Link', 'promo3Alt', 'international', 'kind', 'sortOrder', 'published'],
     required: ['name'],
   },
   doctors: {
