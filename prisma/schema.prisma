@@ -77,6 +77,7 @@ model Location {
   promo3Alt  String @default("")
   international Boolean @default(false)
   kind      String  @default("hospital") // "hospital" or "clinic" — clinics also get their own menu
+  parentHospital String @default("") // clinics: the hospital whose sub-site lists it, e.g. "Cherthala"
   sortOrder Int     @default(0)
   published Boolean @default(true)
 }
