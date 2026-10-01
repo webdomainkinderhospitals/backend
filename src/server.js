@@ -30,6 +30,7 @@ app.use('/api/content', contentRoutes);
 app.use('/api/settings', settingsRoutes);
 app.use('/api/media', mediaRoutes);
 app.use('/api/website-import', require('./routes/websiteImport'));
+app.use('/api/enquiries', require('./routes/enquiries').enquiryRouter());
 app.use('/api', collectionRoutes);
 
 app.use((err, req, res, next) => {
