@@ -160,3 +160,29 @@ model ContentPage {
   sortOrder Int @default(0)
   published Boolean @default(false)
 }
+
+// Appointment requests and enquiries sent from the website (doctor booking,
+// the header's "contact a hospital" call-back, the contact page). Worked from
+// the admin portal's Bookings & Enquiries page.
+model Enquiry {
+  id            Int      @id @default(autoincrement())
+  type          String   @default("appointment") // appointment | callback | enquiry | feedback
+  status        String   @default("new")         // new | contacted | confirmed | closed
+  hospital      String   @default("")
+  doctor        String   @default("")
+  speciality    String   @default("")
+  preferredDate String   @default("")
+  preferredTime String   @default("")
+  name          String
+  phone         String
+  email         String   @default("")
+  patientType   String   @default("")
+  subject       String   @default("")
+  message       String   @default("")
+  source        String   @default("")             // the page it was sent from
+  notes         String   @default("")             // staff notes, never public
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([status, createdAt])
+}
