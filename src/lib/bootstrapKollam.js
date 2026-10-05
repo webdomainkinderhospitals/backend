@@ -14,10 +14,10 @@ const TAGLINE = 'Where Every Tiny Heartbeat Is Cherished with Kindness';
 // The four paragraphs from the Kollam home page. One paragraph per line —
 // the hospital page renders each as its own paragraph.
 const DESCRIPTION = [
-  'At Kinder Hospital, we specialize in delivering exceptional, patient-centered care for women and children, with dedicated expertise in pregnancy, childbirth, and newborn health. Located in Kollam, our hospital combines advanced medical technology with compassionate care to ensure safety, comfort, and clinical excellence at every stage of motherhood.',
+  'At Kinder Hospitals, we specialize in delivering exceptional, patient-centered care for women and children, with dedicated expertise in pregnancy, childbirth, and newborn health. Located in Kollam, our hospital combines advanced medical technology with compassionate care to ensure safety, comfort, and clinical excellence at every stage of motherhood.',
   'Pregnancy is a life-changing journey filled with emotion, hope, and anticipation. Our experienced obstetricians, neonatologists, pediatricians, and skilled nursing team are committed to providing personalized attention—from preconception counseling and routine antenatal checkups to high-risk pregnancy management, safe delivery, and postnatal support.',
   'With modern infrastructure and comprehensive maternity and neonatal services, we ensure both mother and baby receive the highest standard of care under one roof.',
-  'At Kinder Hospital, Kollam, we create a warm and reassuring environment where families feel supported, informed, and confident. Through open communication and individualized care plans, we stand beside you—protecting and nurturing every precious heartbeat.',
+  'At Kinder Hospitals, Kollam, we create a warm and reassuring environment where families feel supported, informed, and confident. Through open communication and individualized care plans, we stand beside you—protecting and nurturing every precious heartbeat.',
 ].join('\n');
 
 // Facilities are stored one per line as "Name — description"; the website

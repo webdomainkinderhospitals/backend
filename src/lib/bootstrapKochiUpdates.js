@@ -27,7 +27,7 @@ const FLAG = 'bootstrap.kochiClientUpdates.v1';
 const SITE_ASSETS = process.env.SITE_ASSETS_URL || 'https://frontend-lime-six-70.vercel.app';
 
 const DIRECTIONS = 'https://www.google.com/maps/search/?api=1&query=' +
-  encodeURIComponent('Kinder Hospital, Metro Pillar P/345, Pathadipalam, Kalamassery, Kochi, Kerala 682033');
+  encodeURIComponent('Kinder Hospitals, Metro Pillar P/345, Pathadipalam, Kalamassery, Kochi, Kerala 682033');
 
 const LOCATION = {
   since: '',
@@ -108,7 +108,7 @@ const multispecialityList = DEPARTMENTS.filter(([g]) => g === MULTI).map(([, nam
 const NEW_PAGES = [
   {
     slug: 'kochi-multispeciality-services',
-    title: 'Multispeciality Services at Kinder Hospital, Kochi',
+    title: 'Multispeciality Services at Kinder Hospitals, Kochi',
     excerpt:
       'Comprehensive multispeciality, surgical and critical care under one roof — from orthopaedics and cardiology to general & laparoscopic surgery, backed by a well-equipped Surgical ICU.',
     sortOrder: 1,
@@ -128,13 +128,13 @@ const NEW_PAGES = [
   },
   {
     slug: 'kochi-ivf-fertility',
-    title: 'IVF & Fertility Care at Kinder Hospital, Kochi',
+    title: 'IVF & Fertility Care at Kinder Hospitals, Kochi',
     excerpt:
       'Fertility evaluation and treatment — IUI, IVF and ICSI — from a group with 15 years of proven expertise in IVF, with counselling and support at every step.',
     sortOrder: 3,
     body: [
       '## Overview',
-      'Kinder Hospitals has 15 years of proven expertise in IVF treatment. At Kinder Hospital, Kochi, our reproductive medicine team works alongside obstetrics, fetal medicine and a Level 3 NICU — so care continues from the first consultation through a safe pregnancy and birth.',
+      'Kinder Hospitals has 15 years of proven expertise in IVF treatment. At Kinder Hospitals, Kochi, our reproductive medicine team works alongside obstetrics, fetal medicine and a Level 3 NICU — so care continues from the first consultation through a safe pregnancy and birth.',
       '## Treatments',
       '- Intrauterine Insemination (IUI)\n- In Vitro Fertilisation (IVF)\n- Intracytoplasmic Sperm Injection (ICSI)\n- Sperm retrieval — PESA, TESA and TESE\n- Semen freezing\n- Frozen embryo transfer',
       '## Fertility evaluation',
@@ -153,7 +153,7 @@ const EXISTING = {
   'kochi-premium-birthing-centre': {
     category: KOCHI_CARE,
     sortOrder: 4,
-    retitle: ['Premium Birthing Centre at Kinder Hospital, Kochi', 'Premium Birthing Services at Kinder Hospital, Kochi'],
+    retitle: ['Premium Birthing Centre at Kinder Hospitals, Kochi', 'Premium Birthing Services at Kinder Hospitals, Kochi'],
   },
   'kochi-general-laparoscopic-surgery': { category: LINKED, sortOrder: 11 },
   'kochi-water-birthing-suite': { category: LINKED, sortOrder: 12 },

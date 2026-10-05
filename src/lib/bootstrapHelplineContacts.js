@@ -8,10 +8,10 @@ const FLAG = 'bootstrap.helplineContacts.v1';
 const KEY = 'helplineContacts';
 
 const CONTACTS = [
-  'Kinder Hospital Cherthala & Alappuzha | +91 94466 54500 | marketing@kinderhospital.in',
-  'Kinder Hospital Kochi | +91 97466 00600 | contactus@kinderkochi.com',
-  'Kinder Hospital Kollam | +91 79944 45542 | contactus@kinderkollam.com',
-  'Kinder Hospital Aranmula | +91 91884 01767 | marketing@kinderaranmula.com',
+  'Kinder Hospitals Cherthala & Alappuzha | +91 94466 54500 | marketing@kinderhospital.in',
+  'Kinder Hospitals Kochi | +91 97466 00600 | contactus@kinderkochi.com',
+  'Kinder Hospitals Kollam | +91 79944 45542 | contactus@kinderkollam.com',
+  'Kinder Hospitals Aranmula | +91 91884 01767 | marketing@kinderaranmula.com',
 ].join('\n');
 
 async function bootstrapHelplineContacts(db = prisma) {
