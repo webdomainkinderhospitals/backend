@@ -16,7 +16,7 @@ async function bootstrapClinicParents(db = prisma) {
     const parent = PARENTS[key];
     if (parent && !String(clinic.parentHospital || '').trim()) {
       await db.location.update({ where: { id: clinic.id }, data: { parentHospital: parent } });
-      console.log(`Listed Kinder ${clinic.name} under Kinder Hospital ${parent}`);
+      console.log(`Listed Kinder ${clinic.name} under Kinder Hospitals ${parent}`);
     }
   }
   await db.setting.create({ data: { key: FLAG, value: 'done' } });

@@ -69,7 +69,7 @@ test('staff need to be signed in to read or change requests', async () => {
   const token = jwt.sign({ id: 1 }, process.env.JWT_SECRET);
   try {
     await api.call('', { method: 'POST', body: booking });
-    await api.call('', { method: 'POST', body: { type: 'callback', hospital: 'Kinder Hospital Kollam', name: 'Ravi', phone: '+91 79944 45542' } });
+    await api.call('', { method: 'POST', body: { type: 'callback', hospital: 'Kinder Hospitals Kollam', name: 'Ravi', phone: '+91 79944 45542' } });
     assert.equal((await api.call('')).status, 401);
     assert.equal((await api.call('/1', { method: 'PATCH', body: { status: 'closed' } })).status, 401);
 

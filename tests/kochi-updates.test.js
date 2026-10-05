@@ -42,9 +42,9 @@ const live = () => database({
   ],
   contentPage: [
     { slug: 'kochi-general-laparoscopic-surgery', title: 'General & Laparoscopic Surgery in Kochi', category: 'Kochi Care', sortOrder: 0, location: 'Kochi', published: true },
-    { slug: 'kochi-obstetrics-gynaecology', title: 'Obstetrics & Gynaecology at Kinder Hospital, Kochi', category: 'Kochi Care', sortOrder: 0, location: 'Kochi', published: true },
-    { slug: 'kochi-premium-birthing-centre', title: 'Premium Birthing Centre at Kinder Hospital, Kochi', category: 'Kochi Care', sortOrder: 0, location: 'Kochi', published: true },
-    { slug: 'kochi-water-birthing-suite', title: 'Water Birth at Kinder Hospital, Kochi', category: 'Kochi Care', sortOrder: 0, location: 'Kochi', published: true },
+    { slug: 'kochi-obstetrics-gynaecology', title: 'Obstetrics & Gynaecology at Kinder Hospitals, Kochi', category: 'Kochi Care', sortOrder: 0, location: 'Kochi', published: true },
+    { slug: 'kochi-premium-birthing-centre', title: 'Premium Birthing Centre at Kinder Hospitals, Kochi', category: 'Kochi Care', sortOrder: 0, location: 'Kochi', published: true },
+    { slug: 'kochi-water-birthing-suite', title: 'Water Birth at Kinder Hospitals, Kochi', category: 'Kochi Care', sortOrder: 0, location: 'Kochi', published: true },
     { slug: 'kochi-tharattazhaku', title: 'Tharattazhaku', category: 'Kochi Care', sortOrder: 0, location: 'Kochi', published: true },
   ],
   doctor: [
@@ -101,7 +101,7 @@ test('the care cards become the five the hospital listed', async () => {
   assert.equal(bySlug['kochi-general-laparoscopic-surgery'].category, LINKED);
   assert.equal(bySlug['kochi-water-birthing-suite'].category, LINKED);
   assert.equal(bySlug['kochi-tharattazhaku'].category, 'Celebrate Pregnancy');
-  assert.equal(bySlug['kochi-premium-birthing-centre'].title, 'Premium Birthing Services at Kinder Hospital, Kochi');
+  assert.equal(bySlug['kochi-premium-birthing-centre'].title, 'Premium Birthing Services at Kinder Hospitals, Kochi');
   assert.match(bySlug['kochi-multispeciality-services'].body, /## Our departments/);
 });
 
