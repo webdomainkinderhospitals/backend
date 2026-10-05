@@ -107,3 +107,20 @@ test('Kochi documents import as four editable drafts without internal notes in p
   assert.equal(page.body, 'Hospital-reviewed content');
   assert.equal(page.published, true);
 });
+
+
+test('admin preview supplies editable maternity source templates without overwriting records', async () => {
+  const db = database();
+  await importContent(db);
+  const premium = db.contentPage.rows.find((p) => p.slug === 'kochi-premium-birthing-centre');
+  premium.body = 'Hospital edited text'; premium.published = true;
+  const preview = await previewImport(db);
+  const templates = preview.items.filter((p) => p.proposedPage);
+  assert.equal(templates.length, 4);
+  const source = templates.find((p) => p.proposedPage.slug === premium.slug).proposedPage;
+  for (const heading of ['Obstetrics and maternity services', 'Gynaecology services', 'LDRP', 'VBAC', 'Birthing Centre enquiries']) assert(source.body.includes(heading));
+  assert(source.galleryUrls.includes('birth2.jpg'));
+  assert.equal(premium.body, 'Hospital edited text');
+  assert.equal(premium.published, true);
+  assert.equal(source.published, false);
+});

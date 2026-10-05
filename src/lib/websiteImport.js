@@ -21,7 +21,8 @@ async function previewImport(db) {
     items.push({ collection: record.collection, title: record.data.title || record.data.name,
       location: record.data.location, notes: record.data.reviewNotes,
       proposedText: record.data.fullBio || record.data.fullDescription || record.data.body,
-      action: existing ? 'preserve' : 'create', existingId: existing?.id });
+      action: existing ? 'preserve' : 'create', existingId: existing?.id,
+      ...(['kochi-tharattazhaku', 'kochi-wow-mom', 'kochi-water-birthing-suite', 'kochi-premium-birthing-centre'].includes(record.data.slug) ? { proposedPage: record.data } : {}) });
   }
   return { version: pack.version, unavailable: pack.unavailable, items };
 }
