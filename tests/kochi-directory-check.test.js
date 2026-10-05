@@ -55,7 +55,7 @@ test('raw directory notes become a written profile; an edited profile is kept', 
   const sooraj = db.rows.find((d) => d.name === 'Dr. Sooraj Menon R');
   const manoj = db.rows.find((d) => d.name === 'Dr. Manoj M');
   assert.match(sooraj.fullBio, /^Dr\. Sooraj Menon R is an experienced cardiologist/);
-  assert.match(sooraj.fullBio, /### Education & training\n\n- MBBS — Government Medical College, Thrissur/);
+  assert.match(sooraj.fullBio, /### Education & training\n\n- DM \(Cardiology\) — Madras Medical College, Chennai/);
   assert.equal(manoj.fullBio, 'Written by the hospital in the admin.');
 });
 
