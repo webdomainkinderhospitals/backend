@@ -26,6 +26,7 @@ async function waitForDatabase({ attempts = 8, baseDelayMs = 1500 } = {}) {
 }
 
 const TASKS = [
+  ['Pregnancy highlights', () => require('./bootstrapPregnancyHighlights').bootstrapPregnancyHighlights()],
   ['Speciality', () => require('./bootstrapSpecialities').bootstrapSpecialities()],
   ['Aranmula', () => require('./bootstrapAranmula').bootstrapAranmula()],
   ['Kollam', () => require('./bootstrapKollam').bootstrapKollam()],

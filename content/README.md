@@ -75,3 +75,31 @@ places; each is filled with the centre's published email. Confirm both before
 sign-off.
 
 Run `node --test tests/kollam-bootstrap.test.js` to verify.
+
+## Homepage pregnancy highlights — 6 October 2026
+
+`bootstrapPregnancyHighlights` adds seven published, editable Content Library
+pages under **Celebrate Pregnancy** on the next backend startup: Spandanam,
+Tharattazhaku celebration, Mom-to-be, Antenatal Classes, Mom Mix, Water Birth,
+and A Welcome to Remember. Source pages are recorded on each CMS record.
+The frontend presents the five original event photographs as optimised WebP
+assets, a separate Water Birth panel and a welcome-home story. No dedicated
+water-suite photograph was present on the supplied water-birth page.
+
+Deploy the companion frontend first (which serves `/celebrate-pregnancy/*.webp`),
+then this backend. `SITE_ASSETS_URL` must point to the deployed frontend origin;
+it uses the existing project default when unset. No schema migration or admin
+release is required. Edit title, excerpt, body, image, order or visibility in
+Admin → Content Library → Celebrate Pregnancy. Existing homepage settings still
+control the section heading, hero image, buttons and visibility.
+
+This bootstrap uses a transaction and advisory lock. Existing slugs/source keys,
+including drafts, are preserved; it never recreates deleted entries after its
+completion flag is set. The corporate homepage includes both centres. Kochi
+shows only Kochi entries; Cherthala programmes retain their location labels.
+Historic events are described as past programmes, without promoting old prizes
+or registration dates as current offers. Existing clinical pages are unchanged.
+
+Validation: `node --test tests/pregnancy-highlights.test.js`. The in-memory
+transaction tests check edit preservation, repeat-start behaviour and rollback;
+a production database startup has not been exercised from the development environment.
