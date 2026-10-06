@@ -23,12 +23,12 @@ test('startup preserves existing drafts and edits, and does not recreate hidden/
   const edited = { ...PAGES[0], title: 'Hospital edit', published: false };
   const db = database([edited]);
   await bootstrapPregnancyHighlights(db);
-  assert.equal(db.pages.length, 7);
+  assert.equal(db.pages.length, 6);
   assert.deepEqual(db.pages[0], edited);
   assert.equal(db.settings[0].key, FLAG);
   db.pages.splice(1, 1);
   await bootstrapPregnancyHighlights(db);
-  assert.equal(db.pages.length, 6);
+  assert.equal(db.pages.length, 5);
   assert.deepEqual(db.pages[0], edited);
 });
 test('an interrupted import rolls back and can be retried', async () => {
@@ -41,5 +41,5 @@ test('an interrupted import rolls back and can be retried', async () => {
   assert.equal(db.settings.length, 0);
   db.tx.contentPage.create = create;
   await bootstrapPregnancyHighlights(db);
-  assert.equal(db.pages.length, 7);
+  assert.equal(db.pages.length, 6);
 });
