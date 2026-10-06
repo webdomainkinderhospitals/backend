@@ -1,5 +1,6 @@
 // Requested source content, seeded once as ordinary Admin Content Library pages.
 // Existing records (including drafts) and subsequent editorial changes are preserved.
+// Tharattazhaku is not added again: Kinder Kochi's own page already covers it.
 const FLAG = 'bootstrap.pregnancyHighlights.20261006';
 const SOURCE = 'https://kinderhospital.in/celebrate-your-pregnancy';
 const WATER_SOURCE = 'https://www.kinderkochi.com/water-birth';
@@ -8,9 +9,6 @@ const definitions = [
   ['spandanam', 'Spandanam · Music & Motherhood', 'Cherthala', 'spandanam',
     'A musical celebration that gives expectant mothers a stage to share their talent and joy.',
     'Spandanam brings mothers-to-be together through music at Kinder Cherthala. Past editions welcomed participants from across Kerala.\n\n## Join the celebration\n\nContact the Cherthala team for upcoming editions and registration details.'],
-  ['tharattazhaku', 'Tharattazhaku · Celebrate Your Confidence', 'Kochi', 'tharatazhakku',
-    'A fashion-show celebration of pregnancy, confidence and memorable moments with family.',
-    'Kinder Tharattazhaku celebrates expectant mothers on the runway. The source features the 2024 season; it is event history, not a current registration announcement.\n\n## Take part\n\nAsk Kinder Kochi about the next edition.'],
   ['mom-to-be', 'Mom-to-be · Baby Shower Celebrations', 'Cherthala', 'mom-to-be',
     'Celebrate the mother-to-be with a special ceremony, shared happiness and family moments.',
     'Crowning, sweet treats, hospital visits and activities bring families together to celebrate the approaching arrival.\n\n## Plan your visit\n\nAsk the Cherthala team about current baby shower programmes.'],

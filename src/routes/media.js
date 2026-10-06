@@ -1,4 +1,4 @@
-// Image uploads. Production: Google Cloud Storage (set GCS_BUCKET).
+// Image and video uploads. Production: Google Cloud Storage (set GCS_BUCKET).
 // Development fallback: local ./uploads folder served at /uploads.
 const express = require('express');
 const multer = require('multer');
@@ -10,13 +10,33 @@ const { storeFile } = require('../lib/storage');
 
 const router = express.Router();
 
-const ALLOWED = ['image/jpeg', 'image/png', 'image/webp', 'image/gif', 'image/svg+xml', 'image/avif'];
+const IMAGES = ['image/jpeg', 'image/png', 'image/webp', 'image/gif', 'image/svg+xml', 'image/avif'];
+// Videos for the Gallery. Cloud Run accepts requests up to 32 MB, so a video
+// may be up to 30 MB; a longer film is better added as a YouTube link.
+const VIDEOS = ['video/mp4', 'video/webm', 'video/quicktime'];
+const IMAGE_MAX = 10 * 1024 * 1024;
+const VIDEO_MAX = 30 * 1024 * 1024;
 const upload = multer({
   storage: multer.memoryStorage(),
-  limits: { fileSize: 10 * 1024 * 1024 }, // 10 MB
+  limits: { fileSize: VIDEO_MAX },
   fileFilter: (req, file, cb) =>
-    ALLOWED.includes(file.mimetype) ? cb(null, true) : cb(new Error('Only image files are allowed')),
+    IMAGES.includes(file.mimetype) || VIDEOS.includes(file.mimetype)
+      ? cb(null, true)
+      : cb(Object.assign(new Error('Only images (JPG, PNG, WebP) and videos (MP4, WebM, MOV) can be uploaded'), { status: 400 })),
 });
+// Multer's own limit error, in words the team can act on.
+function receive(req, res, next) {
+  upload.single('file')(req, res, (err) => {
+    if (err && err.code === 'LIMIT_FILE_SIZE') {
+      return res.status(413).json({ error: 'That file is larger than 30 MB. Shorten or compress the video, or add it as a YouTube link.' });
+    }
+    if (err) return res.status(err.status || 400).json({ error: err.message });
+    if (req.file && IMAGES.includes(req.file.mimetype) && req.file.size > IMAGE_MAX) {
+      return res.status(413).json({ error: 'Images can be up to 10 MB. Please use a smaller photo.' });
+    }
+    next();
+  });
+}
 
 router.get('/', requireAuth, async (req, res, next) => {
   try {
@@ -25,7 +45,7 @@ router.get('/', requireAuth, async (req, res, next) => {
   } catch (e) { next(e); }
 });
 
-router.post('/', requireAuth, upload.single('file'), async (req, res, next) => {
+router.post('/', requireAuth, receive, async (req, res, next) => {
   try {
     if (!req.file) return res.status(400).json({ error: 'No file uploaded (field name must be "file")' });
     const folder = String(req.body.folder || 'general').replace(/[^a-z0-9_-]/gi, '') || 'general';
