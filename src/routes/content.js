@@ -20,11 +20,15 @@ router.get('/', async (req, res, next) => {
         prisma.contentPage.findMany({ where: { published: true }, orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }] }),
       ]);
 
+    // The gallery is read on its own, so a database that has not yet gained
+    // the table (mid-deploy) still serves the rest of the site.
+    const gallery = await prisma.galleryItem.findMany({ where: { published: true }, orderBy: [{ sortOrder: 'asc' }, { id: 'desc' }] }).catch(() => []);
+
     const settings = {};
     for (const row of settingRows) settings[row.key] = row.value;
 
     res.set('Cache-Control', 'public, max-age=60'); // let Cloudflare cache it too
-    res.json({ settings, specialities: specialities.map(publicRecord), locations, doctors: doctors.map(publicRecord), testimonials, news, procedures, pages: pages.map(publicRecord) });
+    res.json({ settings, specialities: specialities.map(publicRecord), locations, doctors: doctors.map(publicRecord), testimonials, news, procedures, pages: pages.map(publicRecord), gallery });
   } catch (e) {
     next(e);
   }

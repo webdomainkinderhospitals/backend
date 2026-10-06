@@ -145,6 +145,23 @@ model Media {
   createdAt DateTime @default(now())
 }
 
+// Photos and videos for the website's Gallery and the home page's
+// "Moments at Kinder". kind: image | video (an uploaded file) | youtube.
+model GalleryItem {
+  id         Int      @id @default(autoincrement())
+  title      String
+  caption    String   @default("")
+  kind       String   @default("image")
+  mediaUrl   String   @default("") // the image, the video file, or the YouTube link
+  posterUrl  String   @default("") // a video's cover image
+  location   String   @default("") // "" = the whole group, else a hospital name
+  showOnHome Boolean  @default(true)
+  featured   Boolean  @default(false) // the large video on the home page
+  sortOrder  Int      @default(0)
+  published  Boolean  @default(true)
+  createdAt  DateTime @default(now())
+}
+
 model ContentPage {
   id Int @id @default(autoincrement())
   sourceKey String? @unique

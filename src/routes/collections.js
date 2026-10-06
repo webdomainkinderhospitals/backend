@@ -46,6 +46,12 @@ const COLLECTIONS = {
     fields: ['title', 'slug', 'category', 'excerpt', 'body', 'imageUrl', 'author', 'location', 'publishedAt', 'published'],
     required: ['title'],
   },
+  gallery: {
+    model: 'galleryItem',
+    orderBy: [{ sortOrder: 'asc' }, { id: 'desc' }],
+    fields: ['title', 'caption', 'kind', 'mediaUrl', 'posterUrl', 'location', 'showOnHome', 'featured', 'sortOrder', 'published'],
+    required: ['title', 'mediaUrl'],
+  },
   procedures: {
     model: 'procedure',
     orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }],
@@ -59,7 +65,8 @@ function pick(body, fields) {
   for (const f of fields) {
     if (body[f] === undefined) continue;
     if (f === 'sortOrder' || f === 'rating') data[f] = parseInt(body[f], 10) || 0;
-    else if (f === 'published' || f === 'international') data[f] = Boolean(body[f]);
+    else if (['published', 'international', 'showOnHome', 'featured'].includes(f)) data[f] = Boolean(body[f]);
+    else if (f === 'kind') data[f] = ['image', 'video', 'youtube'].includes(body[f]) ? body[f] : 'image';
     else if (f === 'publishedAt') data[f] = new Date(body[f]);
     else data[f] = String(body[f]);
   }
