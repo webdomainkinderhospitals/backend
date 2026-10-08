@@ -39,9 +39,18 @@ app.use((err, req, res, next) => {
 });
 
 const port = process.env.PORT || 8080;
-app.listen(port, () => {
-  console.log(`Kinder Hospitals API listening on :${port}`);
-  // Content bootstraps: idempotent, and they wait for the database rather than
-  // racing a Neon endpoint that is still waking. Never blocks startup.
-  require('./lib/startupTasks').runStartupTasks();
+// Content bootstraps run before the server starts taking traffic. Cloud Run
+// gives a container its full CPU only while it is starting up (or serving a
+// request); work begun after `listen` is throttled to almost nothing and can
+// stall, or be cut off when the instance scales down — which left the later
+// bootstraps (leadership, the Cherthala portraits) unapplied. They are
+// idempotent and mostly one quick check each, so this costs a few seconds.
+// If they take longer than START_BUDGET_MS the server starts anyway and they
+// finish in the background, so a slow database can never block a deploy.
+const START_BUDGET_MS = 90000;
+const started = Date.now();
+const bootstraps = require('./lib/startupTasks').runStartupTasks()
+  .then(() => console.log(`Startup bootstraps finished in ${((Date.now() - started) / 1000).toFixed(1)}s`));
+Promise.race([bootstraps, new Promise((resolve) => setTimeout(resolve, START_BUDGET_MS))]).then(() => {
+  app.listen(port, () => console.log(`Kinder Hospitals API listening on :${port}`));
 });
