@@ -53,6 +53,7 @@ const TASKS = [
   ['Leadership', () => require('./bootstrapLeadership').bootstrapLeadership()],
   ['Cherthala doctor portraits', () => require('./bootstrapCherthalaDoctorPhotos').bootstrapCherthalaDoctorPhotos()],
   ['Duplicate doctors', () => require('./bootstrapDuplicateDoctors').bootstrapDuplicateDoctors()],
+  ['Homepage numbers', () => require('./bootstrapHomeStats').bootstrapHomeStats()],
 ];
 
 // Never throws: a failed bootstrap is logged and the API keeps serving.
