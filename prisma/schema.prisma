@@ -117,6 +117,7 @@ model NewsPost {
   excerpt     String   @default("")
   body        String   @default("")
   imageUrl    String   @default("")
+  galleryUrls String   @default("") // more photos of the story, one URL per line
   author      String   @default("")
   location    String   @default("") // "" = all centres, else a Location name
   publishedAt DateTime @default(now())
