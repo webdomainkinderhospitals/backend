@@ -15,7 +15,7 @@ router.get('/', async (req, res, next) => {
         prisma.location.findMany({ where: { published: true }, orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }] }),
         prisma.doctor.findMany({ where: { published: true }, orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }] }),
         prisma.testimonial.findMany({ where: { published: true }, orderBy: { id: 'desc' } }),
-        prisma.newsPost.findMany({ where: { published: true }, orderBy: { publishedAt: 'desc' }, take: 12 }),
+        prisma.newsPost.findMany({ where: { published: true }, orderBy: { publishedAt: 'desc' }, take: 60 }),
         prisma.procedure.findMany({ where: { published: true }, orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }] }),
         prisma.contentPage.findMany({ where: { published: true }, orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }] }),
       ]);

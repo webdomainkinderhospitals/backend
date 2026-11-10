@@ -29,6 +29,9 @@ BEGIN
     ALTER TABLE "Location" ADD COLUMN IF NOT EXISTS "accreditationLogoUrl" TEXT NOT NULL DEFAULT '';
     ALTER TABLE "Location" ADD COLUMN IF NOT EXISTS "parentHospital" TEXT NOT NULL DEFAULT '';
   END IF;
+  IF to_regclass('"NewsPost"') IS NOT NULL THEN
+    ALTER TABLE "NewsPost" ADD COLUMN IF NOT EXISTS "galleryUrls" TEXT NOT NULL DEFAULT '';
+  END IF;
   IF to_regclass('"Speciality"') IS NOT NULL THEN
     ALTER TABLE "Speciality" ADD COLUMN IF NOT EXISTS "sourceKey" TEXT;
     ALTER TABLE "Speciality" ADD COLUMN IF NOT EXISTS "sourceFiles" TEXT NOT NULL DEFAULT '';

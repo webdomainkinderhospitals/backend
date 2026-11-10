@@ -43,7 +43,7 @@ const COLLECTIONS = {
   news: {
     model: 'newsPost',
     orderBy: [{ publishedAt: 'desc' }],
-    fields: ['title', 'slug', 'category', 'excerpt', 'body', 'imageUrl', 'author', 'location', 'publishedAt', 'published'],
+    fields: ['title', 'slug', 'category', 'excerpt', 'body', 'imageUrl', 'galleryUrls', 'author', 'location', 'publishedAt', 'published'],
     required: ['title'],
   },
   gallery: {
