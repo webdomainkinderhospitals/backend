@@ -55,6 +55,11 @@ test('publication rejects unresolved review notes, empty pages and invalid slugs
   assert.throws(() => validatePublication('pages', { slug: '../invalid' }), /Page address/);
   assert.doesNotThrow(() => validatePublication('pages', { slug: 'valid-page', published: true, body: 'Approved', reviewNotes: '' }));
 });
+test('a doctor already on the website can be edited while review notes remain', () => {
+  const live = { name: 'Dr A', published: true, reviewNotes: 'Previous photo (before the Oct 2026 studio portrait): https://old/a.jpg' };
+  assert.doesNotThrow(() => validatePublication('doctors', { ...live, imageUrl: 'https://new/a.jpg' }, live));
+  assert.throws(() => validatePublication('doctors', { ...live }, { ...live, published: false }), /review notes/);
+});
 test('shared doctors merge hospital assignments and flag folder conflicts', () => {
   const reshmy = pack.records.find((r) => r.collection === 'doctors' && /Reshmy/.test(r.data.name));
   assert.equal(reshmy.data.location, 'Cherthala, Alappuzha');

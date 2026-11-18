@@ -101,6 +101,7 @@ for (const [name, cfg] of Object.entries(COLLECTIONS)) {
       const data = pick(req.body, cfg.fields);
       await validatePublication(name, data);
       if (name === 'news' && !data.slug) data.slug = slugify(data.title) + '-' + Date.now();
+      if (name === 'doctors' && String(data.imageUrl || '').trim()) data.photoSetAt = new Date();
       res.status(201).json(await db().create({ data }));
     } catch (e) { next(e); }
   });
@@ -112,7 +113,12 @@ for (const [name, cfg] of Object.entries(COLLECTIONS)) {
       if (['pages', 'doctors', 'specialities'].includes(name)) {
         const current = await db().findUnique({ where: { id } });
         if (!current) return res.status(404).json({ error: 'Record not found' });
-        await validatePublication(name, { ...current, ...data });
+        await validatePublication(name, { ...current, ...data }, current);
+        // A photo chosen in the admin: the website shows it in place of the
+        // portraits it carries itself.
+        if (name === 'doctors' && 'imageUrl' in data && String(data.imageUrl || '') !== String(current.imageUrl || '')) {
+          data.photoSetAt = String(data.imageUrl || '').trim() ? new Date() : null;
+        }
       }
       res.json(await db().update({ where: { id }, data }));
     } catch (e) { next(e); }
