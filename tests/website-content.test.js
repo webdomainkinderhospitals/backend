@@ -2,7 +2,7 @@ const { test } = require('node:test');
 const assert = require('node:assert/strict');
 const pack = require('../src/lib/contentPack');
 const { previewImport, importContent } = require('../src/lib/websiteImport');
-const { publicRecord, validatePublication } = require('../src/lib/contentValidation');
+const { publicRecord, validatePublication, cleanHospitalOrder } = require('../src/lib/contentValidation');
 
 function database() {
   const db = { $executeRaw: async () => 1 };
@@ -54,6 +54,11 @@ test('publication rejects unresolved review notes, empty pages and invalid slugs
   assert.throws(() => validatePublication('pages', { slug: 'valid-page', published: true, body: '' }), /page content/);
   assert.throws(() => validatePublication('pages', { slug: '../invalid' }), /Page address/);
   assert.doesNotThrow(() => validatePublication('pages', { slug: 'valid-page', published: true, body: 'Approved', reviewNotes: '' }));
+});
+test('a doctor already on the website can be edited while review notes remain', () => {
+  const live = { name: 'Dr A', published: true, reviewNotes: 'Previous photo (before the Oct 2026 studio portrait): https://old/a.jpg' };
+  assert.doesNotThrow(() => validatePublication('doctors', { ...live, imageUrl: 'https://new/a.jpg' }, live));
+  assert.throws(() => validatePublication('doctors', { ...live }, { ...live, published: false }), /review notes/);
 });
 test('shared doctors merge hospital assignments and flag folder conflicts', () => {
   const reshmy = pack.records.find((r) => r.collection === 'doctors' && /Reshmy/.test(r.data.name));
@@ -123,4 +128,11 @@ test('admin preview supplies editable maternity source templates without overwri
   assert.equal(premium.body, 'Hospital edited text');
   assert.equal(premium.published, true);
   assert.equal(source.published, false);
+});
+
+test('a doctor\'s serial number at each hospital is kept as whole numbers from 1', () => {
+  assert.equal(cleanHospitalOrder({ Kochi: 1, Cherthala: '4', Kollam: '', Aranmula: 0, X: 'a' }), '{"Kochi":1,"Cherthala":4}');
+  assert.equal(cleanHospitalOrder('{"Kochi":2}'), '{"Kochi":2}');
+  assert.equal(cleanHospitalOrder('not json'), '');
+  assert.equal(cleanHospitalOrder({}), '');
 });
