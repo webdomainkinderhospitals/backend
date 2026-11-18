@@ -95,6 +95,7 @@ model Doctor {
   fullBio     String  @default("") // long profile text, shown on the doctor's page
   imageUrl    String  @default("")
   photoSetAt  DateTime? // when the photo was last chosen in the admin
+  hospitalOrder String @default("") // serial number at each hospital, JSON: {"Kochi":1,"Cherthala":4}
   sortOrder   Int     @default(0)
   published   Boolean @default(true)
 }

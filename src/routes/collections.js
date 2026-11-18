@@ -7,7 +7,7 @@ const prisma = require('../lib/prisma');
 const { requireAuth } = require('../middleware/auth');
 
 const router = express.Router();
-const { publicRecord, validatePublication } = require('../lib/contentValidation');
+const { publicRecord, validatePublication, cleanHospitalOrder } = require('../lib/contentValidation');
 
 const COLLECTIONS = {
   pages: {
@@ -31,7 +31,7 @@ const COLLECTIONS = {
   doctors: {
     model: 'doctor',
     orderBy: [{ sortOrder: 'asc' }, { id: 'asc' }],
-    fields: ['name', 'reviewNotes', 'designation', 'speciality', 'location', 'bio', 'fullBio', 'imageUrl', 'sortOrder', 'published'],
+    fields: ['name', 'reviewNotes', 'designation', 'speciality', 'location', 'bio', 'fullBio', 'imageUrl', 'hospitalOrder', 'sortOrder', 'published'],
     required: ['name'],
   },
   testimonials: {
@@ -99,6 +99,7 @@ for (const [name, cfg] of Object.entries(COLLECTIONS)) {
         if (!req.body?.[f]) return res.status(400).json({ error: `"${f}" is required` });
       }
       const data = pick(req.body, cfg.fields);
+      if (name === 'doctors' && 'hospitalOrder' in data) data.hospitalOrder = cleanHospitalOrder(data.hospitalOrder);
       await validatePublication(name, data);
       if (name === 'news' && !data.slug) data.slug = slugify(data.title) + '-' + Date.now();
       if (name === 'doctors' && String(data.imageUrl || '').trim()) data.photoSetAt = new Date();
@@ -110,6 +111,7 @@ for (const [name, cfg] of Object.entries(COLLECTIONS)) {
     try {
       const id = parseInt(req.params.id, 10);
       const data = pick(req.body, cfg.fields);
+      if (name === 'doctors' && 'hospitalOrder' in data) data.hospitalOrder = cleanHospitalOrder(data.hospitalOrder);
       if (['pages', 'doctors', 'specialities'].includes(name)) {
         const current = await db().findUnique({ where: { id } });
         if (!current) return res.status(404).json({ error: 'Record not found' });
