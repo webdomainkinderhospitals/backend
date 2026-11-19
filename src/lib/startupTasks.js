@@ -38,6 +38,7 @@ const TASKS = [
   ['Hero slides', () => require('./bootstrapHeroSlides').bootstrapHeroSlides()],
   ['Kochi updates', () => require('./bootstrapKochiUpdates').bootstrapKochiUpdates()],
   ['Kochi doctor photos', () => require('./bootstrapKochiDoctorPhotos').bootstrapKochiDoctorPhotos()],
+  ['Dr Ananthen profile', () => require('./bootstrapAnanthenProfile').bootstrapAnanthenProfile()],
   ['Brand philosophy', () => require('./bootstrapBrandPhilosophy').bootstrapBrandPhilosophy()],
   ['Home banner swap', () => require('./bootstrapHomeBannerSwap').bootstrapHomeBannerSwap()],
   ['Helpline contacts', () => require('./bootstrapHelplineContacts').bootstrapHelplineContacts()],
