@@ -40,7 +40,7 @@ const DOCS = [
   { name: "Mariea George", photo: "mariea-george.jpg", profile: true },
   { name: "Dr. Minu George", photo: "dr-minu-george.jpg", qualifications: "MBBS, MD, DM, Fellow of the European Board of Neurology" },
   { name: "Dr. Mithun Mathew", photo: "dr-mithun-mathew.jpg", profile: true },
-  { name: "Dr. Nasna Majeed", photo: "dr-nasna-majeed.jpg", profile: true, qualifications: "MBBS, DGO, DNB, FAMS, DAMS, FIH, MCCG" },
+  { name: "Dr. Nasna Majeed", photo: "dr-nasna-majeed.jpg", profile: true, qualifications: "MBBS, DGO, DNB, FMAS, DMAS, FIH, MCCG" },
   { name: "Dr. Nikhil V. Mathew", photo: "dr-nikhil-v-mathew.jpg", profile: true },
   { name: "Dr. Noorjahan P P", photo: "dr-noorjahan-p-p.jpg", profile: true },
   { name: "Dr. Praveen Kumar K S", photo: "dr-praveen-kumar-k-s.jpg", profile: true },

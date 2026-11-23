@@ -61,7 +61,7 @@ test('the profile from the document replaces the imported one, with the portrait
 test('qualifications the document adds are applied unless edited in the admin', async () => {
   const db = database([{ name: 'Dr. Nasna Majeed' }, { name: 'Dr. Shine Shukoor', bio: 'Edited in the admin' }]);
   await bootstrapKochiProfileDocs(db, { store });
-  assert.equal(db.rows[0].bio, 'MBBS, DGO, DNB, FAMS, DAMS, FIH, MCCG');
+  assert.equal(db.rows[0].bio, 'MBBS, DGO, DNB, FMAS, DMAS, FIH, MCCG');
   assert.equal(db.rows[1].bio, 'Edited in the admin');
 });
 
