@@ -77,12 +77,12 @@ const LOCATION = {
   description: V2_DESCRIPTION,
   highlights: V2_HIGHLIGHTS,
   address:
-    'St. Thomas Hospital campus, Malakkara – Kurichimuttom Road (SH 10), Aranmula, Pathanamthitta, Kerala 689532',
+    'St. Thomas Hospital campus, Malakkara – Kurichimuttom Road (SH 10), Aranmula, Kerala 689532',
   phone: '+91 468 231 7494',
   email: 'contactus@kinderhospital.in',
   website: 'https://kinderaranmula.com',
   websiteLabel: 'Visit kinderaranmula.com →',
-  since: "Women & Children's · Pathanamthitta",
+  since: "Women & Children's",
   imageUrl: CARD_IMAGE,
   heroImageUrl: HERO_IMAGE,
   international: false,
@@ -115,6 +115,52 @@ const DOCTORS = [
 ];
 
 const norm = (s) => String(s || '').trim().toLowerCase();
+
+const FLAG_V4 = 'bootstrap.aranmula.v4';
+
+// v4 — doctors the hospital asked to list at Aranmula (27 Nov 2026). A doctor
+// already in the database (at another hospital) gets Aranmula added to their
+// hospitals; one not yet in it is created at Aranmula. Dr Charlie Cherian
+// came without a speciality, so he is only added when already in the
+// database. The website does the same (Frontend lib/aranmula-doctors.mjs).
+const JOINING = [
+  { name: 'Dr. Chris Placid', speciality: 'Paediatrics', bio: 'MBBS, MD (Pediatrics), Fellowship in Neonatology' },
+  { name: 'Dr. Simi Thomas', speciality: 'Obstetrics & Gynaecology', bio: 'Fellowship in Minimal Access Surgery, Fellowship in Reproductive Medicine, Professional Diploma in Fetal Medicine' },
+  { name: 'Dr. Charlie Cherian', onlyIfListed: true },
+];
+
+// "Dr Simi Thomas" / "Dr. Simi Thomas K": the same first name, with every
+// word of the shorter name in the longer one.
+const nameWords = (name) => String(name || '').toLowerCase().replace(/\bdr\b\.?/g, ' ').replace(/[^a-z\s]/g, ' ').split(/\s+/).filter(Boolean);
+function sameDoctor(a, b) {
+  const x = nameWords(a), y = nameWords(b);
+  if (!x.length || !y.length || x[0] !== y[0]) return false;
+  if (x.join('') === y.join('')) return true;
+  if (x.length < 2 || y.length < 2) return false;
+  const [short, long] = x.length <= y.length ? [x, y] : [y, x];
+  return x.at(-1) === y.at(-1) || short.every((w) => long.includes(w));
+}
+const placesOf = (doc) => String(doc.location || '').split(',').map((s) => s.trim()).filter(Boolean);
+
+async function joinAranmulaDoctors(db = prisma) {
+  if (await db.setting.findUnique({ where: { key: FLAG_V4 } })) return;
+  const existing = await db.doctor.findMany();
+  let sort = existing.reduce((m, d) => Math.max(m, d.sortOrder || 0), 0);
+  for (const join of JOINING) {
+    const listed = existing.filter((d) => sameDoctor(join.name, d.name));
+    // a second doctor of the same name makes it a guess
+    if (new Set(listed.map((d) => norm(d.name))).size > 1) continue;
+    if (listed.some((d) => !placesOf(d).length || placesOf(d).some((p) => norm(p) === 'aranmula'))) continue;
+    if (listed.length) {
+      await db.doctor.update({ where: { id: listed[0].id }, data: { location: [...placesOf(listed[0]), 'Aranmula'].join(', ') } });
+    } else if (!join.onlyIfListed) {
+      await db.doctor.create({
+        data: { name: join.name, speciality: join.speciality, bio: join.bio, location: 'Aranmula', sortOrder: ++sort, published: true },
+      });
+    }
+  }
+  await db.setting.create({ data: { key: FLAG_V4, value: 'done' } });
+}
 
 async function ensureSpecialities() {
   const existing = await prisma.speciality.findMany({ where: { location: 'Aranmula' } });
@@ -182,6 +228,8 @@ async function bootstrapAranmula() {
     if (created) console.log(`Bootstrapped ${created} Aranmula doctors`);
     await prisma.setting.create({ data: { key: FLAG_V3, value: 'done' } });
   }
+
+  await joinAranmulaDoctors();
 }
 
-module.exports = { bootstrapAranmula };
+module.exports = { bootstrapAranmula, joinAranmulaDoctors, JOINING, FLAG_V4 };
